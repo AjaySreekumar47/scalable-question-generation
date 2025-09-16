@@ -291,4 +291,4 @@ submission/
 
 * **`requirements.txt`** 
   * Lists required dependencies (pymupdf, pdfplumber, ftfy, openai, tiktoken, numpy, pandas, scikit-learn, etc.).
-  * Ensures reproducibility in fresh environments
+  * Ensures reproducibility in fresh environments.

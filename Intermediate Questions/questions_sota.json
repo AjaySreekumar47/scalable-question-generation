@@ -1,0 +1,379 @@
+{
+  "assignment": "Scalable Question Generation System",
+  "generated_at": "2025-09-16T18:00:13.702395+00:00",
+  "models": {
+    "generation": "gpt-4o-mini",
+    "verifier": "gpt-4o-mini",
+    "embedding": "text-embedding-3-small"
+  },
+  "config": {
+    "chunk_word_pdf": 400,
+    "chunk_stride_pdf": 50,
+    "chunk_word_txt": 160,
+    "chunk_stride_txt": 30,
+    "max_words_per_segment": 25,
+    "llm_model_gen": "gpt-4o-mini",
+    "llm_model_verify": "gpt-4o-mini",
+    "embed_model": "text-embedding-3-small",
+    "n_questions_per_chunk": 2,
+    "max_chunks": 2,
+    "max_total_calls": null,
+    "max_seconds": null,
+    "max_retries": 3,
+    "backoff_base": 1.5,
+    "dedup_threshold": 0.9,
+    "dedup_llm_confirm": false,
+    "require_evidence": true,
+    "answerability_required": true,
+    "cache_path": "/content/mcq_cache.sqlite"
+  },
+  "inputs": [
+    {
+      "path": "/content/notes.pdf",
+      "sha256": "3e8ccc105aa489db1903b57c065261cc3f64131c4a80014f018dc5fcfeb0e7c7"
+    },
+    {
+      "path": "/content/transcript_1.txt",
+      "sha256": "8fe6f50a66d41e8a2914ac0d79f5024867e248a29a2990114a93e8bd62374a1c"
+    },
+    {
+      "path": "/content/transcript_2.txt",
+      "sha256": "8de6eb91295c2564d92b3f31d0cbff41ba913020673ff3fa7ea31a8d692dd613"
+    },
+    {
+      "path": "/content/transcript_3.txt",
+      "sha256": "605dc012b320759ef24de0821c904d5aa9d3817021ac4d98fe875d8020ae5b74"
+    },
+    {
+      "path": "/content/transcript_4.txt",
+      "sha256": "36558144854f6731b59b86708ecaa685fc20e7066d21cd4cfae8918682a784bf"
+    },
+    {
+      "path": "/content/transcript_5.txt",
+      "sha256": "8f54d752a6797c216d748c06f3ed993ef8d96ca3e0a5228b70a2004a7aabfb60"
+    }
+  ],
+  "counts": {
+    "documents": 6,
+    "chunks": 12,
+    "generated": 24,
+    "answerability_failed": 1,
+    "after_dedup": 22
+  },
+  "difficulty_distribution": {
+    "easy": 21,
+    "medium": 1
+  },
+  "runtime_seconds": 1.23,
+  "errors": {},
+  "questions": [
+    {
+      "question": "What is the significance of Euler's Formula in complex numbers?",
+      "choices": [
+        "It relates complex exponentials to trigonometric functions.",
+        "It defines the conjugate of complex numbers.",
+        "It describes the arithmetic with two complex numbers.",
+        "It explains the history of complex numbers."
+      ],
+      "correct_answer": "It relates complex exponentials to trigonometric functions.",
+      "evidence_span": "1.3.4 Euler's Formula - (Video)",
+      "difficulty": "easy",
+      "doc": "/content/notes.pdf",
+      "chunk_index": 0
+    },
+    {
+      "question": "Which of the following best describes the polar form of a complex number?",
+      "choices": [
+        "It expresses a complex number in terms of its real and imaginary parts.",
+        "It uses magnitude and angle for representation.",
+        "It shows the geometric interpretation of complex numbers.",
+        "It is a method for finding the nth roots of complex numbers."
+      ],
+      "correct_answer": "It uses magnitude and angle for representation.",
+      "evidence_span": "1.3.5 Polar form or Exponential form (Video)",
+      "difficulty": "easy",
+      "doc": "/content/notes.pdf",
+      "chunk_index": 0
+    },
+    {
+      "question": "What topic is covered in section 1.3.12 of the document?",
+      "choices": [
+        "nth roots of a complex number",
+        "Functions of a complex variable",
+        "Complex functions of a real variable",
+        "Integrals of complex functions"
+      ],
+      "correct_answer": "nth roots of a complex number",
+      "evidence_span": "1.3.12 nth roots of a complex number - (Video 1, Video 2, Python notebook)",
+      "difficulty": "easy",
+      "doc": "/content/notes.pdf",
+      "chunk_index": 1
+    },
+    {
+      "question": "Which section discusses the differences between Continuous-Time and Discrete-Time signals?",
+      "choices": [
+        "2.1 Introduction",
+        "2.2 Examples of signals",
+        "2.3 Continuous-Time(CT) and Discrete-Time(DT) Signals",
+        "1.5 Practice Problems"
+      ],
+      "correct_answer": "2.3 Continuous-Time(CT) and Discrete-Time(DT) Signals",
+      "evidence_span": "2.3 Continuous-Time(CT) and Discrete-Time(DT) Signals - (Video)",
+      "difficulty": "easy",
+      "doc": "/content/notes.pdf",
+      "chunk_index": 1
+    },
+    {
+      "question": "What is a key characteristic of a function of a complex variable?",
+      "choices": [
+        "It can take multiple values for a single input.",
+        "It takes a unique value for a given input.",
+        "It is always defined for real numbers only.",
+        "It must be continuous everywhere."
+      ],
+      "correct_answer": "It takes a unique value for a given input.",
+      "evidence_span": "for one value of z you cannot have two different values of f of z",
+      "difficulty": "easy",
+      "doc": "/content/transcript_1.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "Which of the following is an example of a function of a complex variable?",
+      "choices": [
+        "The sine of a real number.",
+        "The magnitude of the complex number z.",
+        "The sum of two real numbers.",
+        "The difference of two complex conjugates."
+      ],
+      "correct_answer": "The magnitude of the complex number z.",
+      "evidence_span": "the magnitude of the complex number z is a function of z",
+      "difficulty": "easy",
+      "doc": "/content/transcript_1.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "What is the magnitude of the complex number z = 2 + 3i?",
+      "choices": [
+        "Square root of 13",
+        "Square root of 5",
+        "Square root of 8",
+        "Square root of 10"
+      ],
+      "correct_answer": "Square root of 13",
+      "evidence_span": "this function is simply square root of 4 plus 9 which is square root of 13.",
+      "difficulty": "easy",
+      "doc": "/content/transcript_1.txt",
+      "chunk_index": 1
+    },
+    {
+      "question": "What is the argument (angle) of the complex number z = 2 + 3i?",
+      "choices": [
+        "Inverse tangent of 3/2",
+        "Inverse tangent of 2/3",
+        "Inverse tangent of 1/2",
+        "Inverse tangent of 1/3"
+      ],
+      "correct_answer": "Inverse tangent of 3/2",
+      "evidence_span": "the inverse tangent of 3 over 2.",
+      "difficulty": "easy",
+      "doc": "/content/transcript_1.txt",
+      "chunk_index": 1
+    },
+    {
+      "question": "What does Euler's formula relate to in the context of complex numbers?",
+      "choices": [
+        "The relationship between sine and cosine functions",
+        "The definition of imaginary numbers",
+        "The exponential function and trigonometric functions",
+        "The concept of limits in calculus"
+      ],
+      "correct_answer": "The exponential function and trigonometric functions",
+      "evidence_span": "this can be thought of as e to the j times theta",
+      "difficulty": "easy",
+      "doc": "/content/transcript_2.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "Why might the expression e to the j times theta be considered confusing?",
+      "choices": [
+        "It involves an imaginary unit",
+        "It is not used in practical applications",
+        "It lacks a clear geometric interpretation",
+        "It has no real-world examples"
+      ],
+      "correct_answer": "It involves an imaginary unit",
+      "evidence_span": "because what does it mean to raise e to a power which is complex",
+      "difficulty": "easy",
+      "doc": "/content/transcript_2.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "What challenge is presented when raising e to a complex power?",
+      "choices": [
+        "It is difficult to find the square root of e.",
+        "It lacks an operational meaning that is easy to explain.",
+        "It always results in a negative number.",
+        "It can only be computed using a calculator."
+      ],
+      "correct_answer": "It lacks an operational meaning that is easy to explain.",
+      "evidence_span": "there seems to be no operational meaning to this",
+      "difficulty": "easy",
+      "doc": "/content/transcript_2.txt",
+      "chunk_index": 1
+    },
+    {
+      "question": "When adding two complex numbers z₁ and z₂, which parts do you add together?",
+      "choices": [
+        "Only the imaginary parts",
+        "Only the real parts",
+        "Real parts and imaginary parts separately",
+        "Only the magnitudes of the polar representations"
+      ],
+      "correct_answer": "Real parts and imaginary parts separately",
+      "evidence_span": "you would simply add the real parts and you would simply add their imaginary part",
+      "difficulty": "easy",
+      "doc": "/content/transcript_3.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "What is the polar representation of a complex number?",
+      "choices": [
+        "It consists of just the real part",
+        "It consists of magnitude and angle",
+        "It is the Cartesian form with j",
+        "It cannot be represented in polar form"
+      ],
+      "correct_answer": "It consists of magnitude and angle",
+      "evidence_span": "z₂ is r₂ times e to the j theta 2",
+      "difficulty": "easy",
+      "doc": "/content/transcript_3.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "What is the result of adding two complex numbers z₁ and z₂?",
+      "choices": [
+        "The real part becomes a₁ + a₂ and the imaginary part becomes b₁ + b₂",
+        "The real part becomes a₁ * a₂ and the imaginary part becomes b₁ * b₂",
+        "Both real and imaginary parts are squared",
+        "The real part remains the same while the imaginary part is added"
+      ],
+      "correct_answer": "The real part becomes a₁ + a₂ and the imaginary part becomes b₁ + b₂",
+      "evidence_span": "you would simply add their imaginary part and so the real part of z₁ plus z₂ becomes k₁ plus b₁",
+      "difficulty": "easy",
+      "doc": "/content/transcript_3.txt",
+      "chunk_index": 1
+    },
+    {
+      "question": "Which statement accurately describes multiplying two complex numbers z₁ and z₂?",
+      "choices": [
+        "You can multiply the real parts and the imaginary parts separately",
+        "You can use the Cartesian form to multiply them and collect parts",
+        "The result will only be a real number",
+        "The imaginary parts are ignored during multiplication"
+      ],
+      "correct_answer": "You can use the Cartesian form to multiply them and collect parts",
+      "evidence_span": "well we can use the cartesian form and simply multiply these two complex numbers",
+      "difficulty": "easy",
+      "doc": "/content/transcript_3.txt",
+      "chunk_index": 1
+    },
+    {
+      "question": "What is the nature of the roots of a quadratic equation with real coefficients when the discriminant is negative?",
+      "choices": [
+        "They are both real numbers.",
+        "They are complex numbers that are not conjugates.",
+        "They are complex conjugates.",
+        "They are imaginary numbers."
+      ],
+      "correct_answer": "They are complex conjugates.",
+      "evidence_span": "you notice that they are complex conjugates.",
+      "difficulty": "easy",
+      "doc": "/content/transcript_4.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "In the quadratic equation x² - 2x + 5 = 0, what is the real part of the roots?",
+      "choices": [
+        "-2",
+        "1",
+        "2",
+        "0"
+      ],
+      "correct_answer": "1",
+      "evidence_span": "this is 1 plus j 2 and this is 1 minus 2 j",
+      "difficulty": "easy",
+      "doc": "/content/transcript_4.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "What property do the roots of a polynomial with real coefficients exhibit?",
+      "choices": [
+        "They are always real numbers.",
+        "They occur in complex conjugate pairs.",
+        "They are always integers.",
+        "They cannot be repeated."
+      ],
+      "correct_answer": "They occur in complex conjugate pairs.",
+      "evidence_span": "these two roots occur as conjugate pairs",
+      "difficulty": "easy",
+      "doc": "/content/transcript_4.txt",
+      "chunk_index": 1
+    },
+    {
+      "question": "What is true about the roots of the equation x cubed minus 4x squared plus 6x minus 4?",
+      "choices": [
+        "All roots are real and distinct.",
+        "At least one root is a complex number.",
+        "All roots are complex.",
+        "The roots cannot be calculated."
+      ],
+      "correct_answer": "At least one root is a complex number.",
+      "evidence_span": "the roots are 2 1 plus j and 1 minus j",
+      "difficulty": "medium",
+      "doc": "/content/transcript_4.txt",
+      "chunk_index": 1
+    },
+    {
+      "question": "What is the primary research area of the speaker in the text?",
+      "choices": [
+        "Computer Vision",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Data Mining"
+      ],
+      "correct_answer": "Machine Learning",
+      "evidence_span": "My research area is machine learning, reinforcement learning.",
+      "difficulty": "easy",
+      "doc": "/content/transcript_5.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "What topic was discussed in the last lecture before the current one?",
+      "choices": [
+        "Neural Networks",
+        "Fourier Transform for Basic Signal",
+        "Reinforcement Learning Techniques",
+        "RNN Architectures"
+      ],
+      "correct_answer": "Fourier Transform for Basic Signal",
+      "evidence_span": "In the last lecture. You were discussing Fourier transform for basic signal.",
+      "difficulty": "easy",
+      "doc": "/content/transcript_5.txt",
+      "chunk_index": 0
+    },
+    {
+      "question": "What is the primary purpose of the Fourier transform?",
+      "choices": [
+        "To analyze periodic signals",
+        "To transform non-periodic signals into the frequency domain",
+        "To approximate signals using polynomials",
+        "To convert time domain signals to time domain signals"
+      ],
+      "correct_answer": "To transform non-periodic signals into the frequency domain",
+      "evidence_span": "you use Fourier transform. Fourier series is, you can think for your series has a special case of Fourier transform.",
+      "difficulty": "easy",
+      "doc": "/content/transcript_5.txt",
+      "chunk_index": 1
+    }
+  ]
+}

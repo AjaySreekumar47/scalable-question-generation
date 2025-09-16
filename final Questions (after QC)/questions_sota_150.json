@@ -1,0 +1,2102 @@
+[
+  {
+    "question": "How can the DTFT of a cosine function be expressed?",
+    "choices": [
+      "As a sum of two complex exponentials with coefficients that are 1/2.",
+      "As a single complex exponential multiplied by a scaling factor.",
+      "As a sine function with an amplitude determined by its frequency.",
+      "As a linear combination of different frequency components only."
+    ],
+    "correct_answer": "As a sum of two complex exponentials with coefficients that are 1/2.",
+    "evidence_span": "cos(#0n) = 1 2ej!0n + 1 2e↓j!0n",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 152
+  },
+  {
+    "question": "What does Euler's formula express in terms of complex numbers?",
+    "choices": [
+      "The relationship between polar and rectangular forms",
+      "The sum of sine and cosine functions",
+      "The connection between exponential and trigonometric functions",
+      "The definition of imaginary numbers"
+    ],
+    "correct_answer": "The connection between exponential and trigonometric functions",
+    "evidence_span": "Euler's formula ejθ = cos θ + j sin θ (1.11)",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 16
+  },
+  {
+    "question": "When multiplying two complex numbers in rectangular form, what do the terms involving j represent?",
+    "choices": [
+      "They indicate the magnitude of the resulting complex number.",
+      "They are used to separate the real part from the imaginary part.",
+      "They are irrelevant and can be ignored in calculations.",
+      "They multiply the real parts together."
+    ],
+    "correct_answer": "They are used to separate the real part from the imaginary part.",
+    "evidence_span": "these two terms together form the real part of this.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_3.txt",
+    "chunk_index": 2
+  },
+  {
+    "question": "What is necessary to ensure the argument of the sinc function is correctly formatted?",
+    "choices": [
+      "The argument must be an integer",
+      "The argument must be divided by pi",
+      "The argument must be an exponential",
+      "The argument must be a polynomial"
+    ],
+    "correct_answer": "The argument must be divided by pi",
+    "evidence_span": "sine phi omega t₁ divided by pi divided by omega d₁.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 15
+  },
+  {
+    "question": "At what value does the sinc function equal one?",
+    "choices": [
+      "At t equals one",
+      "At t equals three",
+      "At t equals zero",
+      "At t equals two"
+    ],
+    "correct_answer": "At t equals zero",
+    "evidence_span": "Why does the value of sinc function one? When does this become? So? When does this become zero again? Is equal to one.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 14
+  },
+  {
+    "question": "What does it mean for a system to be time invariant?",
+    "choices": [
+      "The output changes with varying input signals.",
+      "The parameters of the system do not depend on time.",
+      "The system's internal parameters change with input.",
+      "The output is always zero regardless of input."
+    ],
+    "correct_answer": "The parameters of the system do not depend on time.",
+    "evidence_span": "a system is said to be time invariant if the parameters of the system or the input-output relationship defined by the system is not dependent on time.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 88
+  },
+  {
+    "question": "According to Parseval's relation, what is the relationship between the integral of the square of a signal and its Fourier transform?",
+    "choices": [
+      "The integral of |x[n]|^2 equals the integral of |X(ej!)|^2",
+      "The integral of |x[n]|^2 equals zero",
+      "The integral of |X(ej!)|^2 equals zero",
+      "The integral of |x[n]|^2 is half of the integral of |X(ej!)|^2"
+    ],
+    "correct_answer": "The integral of |x[n]|^2 equals the integral of |X(ej!)|^2",
+    "evidence_span": "|x[n]|2dt = 1 2⇡ Z 2π |X(ej!)|2d!",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 154
+  },
+  {
+    "question": "What does BIBO stability refer to in system properties?",
+    "choices": [
+      "The ability of a system to produce a bounded output for a bounded input",
+      "The system's response to unbounded inputs",
+      "The system's linearity under various conditions",
+      "The memory capacity of a system"
+    ],
+    "correct_answer": "The ability of a system to produce a bounded output for a bounded input",
+    "evidence_span": "3.4.1 Stability - Bounded Input Bounded Output (BIBO) Stability.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 6
+  },
+  {
+    "question": "What is the sum of the cube roots of unity according to the text?",
+    "choices": [
+      "One",
+      "Zero",
+      "Three",
+      "Two"
+    ],
+    "correct_answer": "Zero",
+    "evidence_span": "the sum of the cube roots of unity is zero.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 30
+  },
+  {
+    "question": "In the context of DT systems, what defines time invariance?",
+    "choices": [
+      "Output remains unchanged regardless of input shifts.",
+      "Input signals are always integer values.",
+      "A system shifts the input by an integer value n₀.",
+      "The output is dependent on the current time."
+    ],
+    "correct_answer": "A system shifts the input by an integer value n₀.",
+    "evidence_span": "we would define a system Sn₀ that shifts the input signal by an integer value n₀.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 89
+  },
+  {
+    "question": "What does the expression e to the j theta equal according to Euler's formula?",
+    "choices": [
+      "cosine theta + j times sine theta",
+      "j times cosine theta - sine theta",
+      "theta cube over 3 factorial",
+      "e to the theta times j"
+    ],
+    "correct_answer": "cosine theta + j times sine theta",
+    "evidence_span": "e to the j theta is equal to cosine theta plus j times sine theta",
+    "difficulty": "easy",
+    "doc": "/content/transcript_2.txt",
+    "chunk_index": 12
+  },
+  {
+    "question": "How is a complex number typically represented in a two-dimensional plane?",
+    "choices": [
+      "As a single point",
+      "As a line segment",
+      "As a circle",
+      "As a series of points"
+    ],
+    "correct_answer": "As a single point",
+    "evidence_span": "A complex number can be represented as a point in a 2-D plane called the complex plane.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 14
+  },
+  {
+    "question": "What does the term 'sinc function' refer to in the context of the inverse Fourier transform?",
+    "choices": [
+      "A function that describes any sine wave.",
+      "A function that is the Fourier transform of a rectangular pulse.",
+      "A function that is related to the amplitude of a wave.",
+      "A function that represents the phase of a signal."
+    ],
+    "correct_answer": "A function that is the Fourier transform of a rectangular pulse.",
+    "evidence_span": "this is where we started from and we computed our inverse Fourier transform. That is a sinc function.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 34
+  },
+  {
+    "question": "What is the relationship between e^(jθ) and e^(-jθ) with respect to cosine?",
+    "choices": [
+      "e^(jθ) + e^(-jθ) = 2 * sine(θ)",
+      "e^(jθ) + e^(-jθ) = 2 * cosine(θ)",
+      "e^(jθ) - e^(-jθ) = 2 * cosine(θ)",
+      "e^(jθ) - e^(-jθ) = 2 * sine(θ)"
+    ],
+    "correct_answer": "e^(jθ) + e^(-jθ) = 2 * cosine(θ)",
+    "evidence_span": "e to the j theta plus e to the negative j theta is 2 times cosine theta",
+    "difficulty": "easy",
+    "doc": "/content/transcript_2.txt",
+    "chunk_index": 5
+  },
+  {
+    "question": "What condition must be satisfied for a discrete-time sinusoid x[n] to be periodic?",
+    "choices": [
+      "#N = 2θm for integers m, N",
+      "#N = θm for integers m, N",
+      "A cos(#n + θ must equal A sin(#n + θ)",
+      "N must be a prime number"
+    ],
+    "correct_answer": "#N = 2θm for integers m, N",
+    "evidence_span": "For this to be same as x[n] = A cos(#n +θ), we need #N = 2θm.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 65
+  },
+  {
+    "question": "What value of omega makes the argument of the sinc function equal to one?",
+    "choices": [
+      "Pi divided by T₁",
+      "Two pi divided by T₁",
+      "Zero",
+      "Infinity"
+    ],
+    "correct_answer": "Pi divided by T₁",
+    "evidence_span": "When omega is equal to Pi divided by T₁, that sinc function is think of one that becomes zero.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 18
+  },
+  {
+    "question": "What is the relationship between the input and output of a discrete-time LTI system?",
+    "choices": [
+      "y[n] = x[n] * h[n]",
+      "y[n] = x[n] + h[n]",
+      "y[n] = x[n] ⇀ h[n]",
+      "y[n] = x[n] / h[n]"
+    ],
+    "correct_answer": "y[n] = x[n] ⇀ h[n]",
+    "evidence_span": "y[n] = x[n] ⇀h[n]. In the frequency domain, the action of the LTI system can be viewed as multiplying.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 155
+  },
+  {
+    "question": "Which series expansion is mentioned as the first term in the derivation?",
+    "choices": [
+      "Taylor series expansion of sine theta",
+      "Taylor series expansion of cosine theta",
+      "Power series of exponential functions",
+      "Fourier series of trigonometric functions"
+    ],
+    "correct_answer": "Taylor series expansion of cosine theta",
+    "evidence_span": "the first term is exactly the taylor series expansion of cosine theta",
+    "difficulty": "easy",
+    "doc": "/content/transcript_2.txt",
+    "chunk_index": 12
+  },
+  {
+    "question": "In the context of Parseval's theorem, what does |X(jω)|² represent?",
+    "choices": [
+      "The total signal amplitude",
+      "The energy density of x(t)",
+      "The frequency of the signal",
+      "The time duration of the signal"
+    ],
+    "correct_answer": "The energy density of x(t)",
+    "evidence_span": "that |X(jω)|² should be interpreted as the energy density of x(t).",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 130
+  },
+  {
+    "question": "Why can the Fourier transform of some signals be computed despite them not having finite energy?",
+    "choices": [
+      "They have a Fourier series representation.",
+      "They are defined for all t.",
+      "They do not have impulses.",
+      "They are generalized functions."
+    ],
+    "correct_answer": "They have a Fourier series representation.",
+    "evidence_span": "In this case, the Fourier transform has impulses and hence, it is a generalized function.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 134
+  },
+  {
+    "question": "What does the angle of the quotient z₁ over z₂ represent?",
+    "choices": [
+      "theta 1 plus theta 2",
+      "theta 1 minus theta 2",
+      "theta 1 times theta 2",
+      "theta 1 divided by theta 2"
+    ],
+    "correct_answer": "theta 1 minus theta 2",
+    "evidence_span": "the angle of z₁ over z₂ is theta 1 minus theta you",
+    "difficulty": "easy",
+    "doc": "/content/transcript_3.txt",
+    "chunk_index": 8
+  },
+  {
+    "question": "What is one of the main challenges in computing Fourier transforms for complicated signals?",
+    "choices": [
+      "The need for complex numbers.",
+      "The difficulty of integration.",
+      "The unavailability of software tools.",
+      "The lack of theoretical knowledge."
+    ],
+    "correct_answer": "The difficulty of integration.",
+    "evidence_span": "Fourier transform is completely about doing integration for complicated signals.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 36
+  },
+  {
+    "question": "What is the significance of the Fourier transform in the context of the given text?",
+    "choices": [
+      "It converts time-domain signals into frequency-domain representations.",
+      "It only applies to periodic signals.",
+      "It provides a method for solving differential equations.",
+      "It is irrelevant to integral computations."
+    ],
+    "correct_answer": "It converts time-domain signals into frequency-domain representations.",
+    "evidence_span": "That is the Fourier transform of x.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 38
+  },
+  {
+    "question": "How is the continuous time unit step function defined at t = 0?",
+    "choices": [
+      "u(0) = 0",
+      "u(0) = 1",
+      "u(0) = 1/2",
+      "u(0) = undefined"
+    ],
+    "correct_answer": "u(0) = 1/2",
+    "evidence_span": "if t = 0 1/2 if t = 0 if t < 0",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 67
+  },
+  {
+    "question": "What is often referred to as a special case of Euler's formula when theta is equal to pi?",
+    "choices": [
+      "Euler's identity",
+      "Euler's theorem",
+      "Pythagorean theorem",
+      "Complex number theorem"
+    ],
+    "correct_answer": "Euler's identity",
+    "evidence_span": "a special case of euler's formula when theta is equal to pi sometimes it's called as euler's identity",
+    "difficulty": "easy",
+    "doc": "/content/transcript_2.txt",
+    "chunk_index": 15
+  },
+  {
+    "question": "What property do the roots of a polynomial with real coefficients exhibit?",
+    "choices": [
+      "They are always real numbers.",
+      "They occur in complex conjugate pairs.",
+      "They are always integers.",
+      "They cannot be repeated."
+    ],
+    "correct_answer": "They occur in complex conjugate pairs.",
+    "evidence_span": "these two roots occur as conjugate pairs",
+    "difficulty": "easy",
+    "doc": "/content/transcript_4.txt",
+    "chunk_index": 1
+  },
+  {
+    "question": "Which of the following is an example of a function of a complex variable?",
+    "choices": [
+      "The sine of a real number.",
+      "The magnitude of the complex number z.",
+      "The sum of two real numbers.",
+      "The difference of two complex conjugates."
+    ],
+    "correct_answer": "The magnitude of the complex number z.",
+    "evidence_span": "the magnitude of the complex number z is a function of z",
+    "difficulty": "easy",
+    "doc": "/content/transcript_1.txt",
+    "chunk_index": 0
+  },
+  {
+    "question": "Which method is NOT mentioned for computing the DTFS coefficients?",
+    "choices": [
+      "Direct method using X[k] = 1/N Σ N=0 to N-1 x[n]e^(-jkω0n)",
+      "Method of inspection using Euler's formula.",
+      "Using numerical integration for time signals.",
+      "Reading off coefficients from the signal representation."
+    ],
+    "correct_answer": "Using numerical integration for time signals.",
+    "evidence_span": "There are two ways to compute X[k]: Direct method and Method of inspection.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 127
+  },
+  {
+    "question": "What is the role of quantization in the A/D conversion process?",
+    "choices": [
+      "To take samples of the continuous-time signal",
+      "To convert real numbers into a binary format",
+      "To enhance the quality of audio files",
+      "To create a continuous-time representation of the signal"
+    ],
+    "correct_answer": "To convert real numbers into a binary format",
+    "evidence_span": "Then, we go through the process of quantization where each real number is represented by 16 bits.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 36
+  },
+  {
+    "question": "What is the significance of Euler's identity?",
+    "choices": [
+      "It simplifies trigonometric calculations",
+      "It provides a relationship between complex exponentials and unity",
+      "It defines the unit circle in the complex plane",
+      "It expresses the relationship between Cartesian and polar forms"
+    ],
+    "correct_answer": "It provides a relationship between complex exponentials and unity",
+    "evidence_span": "ejε + 1 = 0 , which is known as Euler's identity.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 16
+  },
+  {
+    "question": "What is the Fourier transform of a signal that is a sine function?",
+    "choices": [
+      "A sinc function",
+      "A cosine function",
+      "A rectangular function",
+      "A delta function"
+    ],
+    "correct_answer": "A sinc function",
+    "evidence_span": "the Fourier transform of a single sinc function.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 43
+  },
+  {
+    "question": "What is the significance of understanding conjugates in the context of finite fields?",
+    "choices": [
+      "They are only relevant in number theory.",
+      "They simplify calculations in algebraic structures.",
+      "They help in understanding conjugates in finite fields.",
+      "They have no practical application in engineering."
+    ],
+    "correct_answer": "They help in understanding conjugates in finite fields.",
+    "evidence_span": "it might help you understand conjugates in finite fields a bit easier.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_4.txt",
+    "chunk_index": 7
+  },
+  {
+    "question": "What defines the convolution of two discrete-time signals?",
+    "choices": [
+      "The multiplication of their Fourier transforms",
+      "The integration of their product over a period",
+      "The summation of their products over all time indices",
+      "The difference of their values at specific time indices"
+    ],
+    "correct_answer": "The summation of their products over all time indices",
+    "evidence_span": "y[n] = ! k x[k]h[n -k]",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 102
+  },
+  {
+    "question": "What is the result when dividing both sides of the equation by 2j in the discussed context?",
+    "choices": [
+      "sine theta on the right hand side",
+      "cosine theta on the left hand side",
+      "e to the j theta on the right hand side",
+      "negative j theta on the left hand side"
+    ],
+    "correct_answer": "sine theta on the right hand side",
+    "evidence_span": "we get sine theta on the right hand side and we get one over two j",
+    "difficulty": "easy",
+    "doc": "/content/transcript_2.txt",
+    "chunk_index": 6
+  },
+  {
+    "question": "What does the step response of an LTI system represent?",
+    "choices": [
+      "The output when the input is a unit impulse",
+      "The output when the input is a unit-step",
+      "The response to a complex exponential input",
+      "The output when the input is a constant function"
+    ],
+    "correct_answer": "The output when the input is a unit-step",
+    "evidence_span": "The output of an LTI system when the input is x(t) = u(t) is called the step response.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 114
+  },
+  {
+    "question": "Why is it sufficient to sample music at 44.1 KHz for CDs?",
+    "choices": [
+      "Because it exceeds the Nyquist frequency for human hearing.",
+      "Because it captures all frequencies up to 20 KHz.",
+      "Because it allows for better sound quality than higher rates.",
+      "Because it matches the maximum sample rate of human ears."
+    ],
+    "correct_answer": "Because it exceeds the Nyquist frequency for human hearing.",
+    "evidence_span": "When music CDs are made, the continuous-time music waveform is sampled at 44.1 KHz...",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 163
+  },
+  {
+    "question": "Which of the following properties of convolution states that the order of signals does not affect the result?",
+    "choices": [
+      "Distributivity",
+      "Homogeneity",
+      "Commutativity",
+      "Identity"
+    ],
+    "correct_answer": "Commutativity",
+    "evidence_span": "Convolution is commutative, i.e. x[n] ⇀h[n] = h[n] ⇀x[n].",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 109
+  },
+  {
+    "question": "What is the Fourier transform of the delta function?",
+    "choices": [
+      "One",
+      "Zero",
+      "Infinity",
+      "A constant value"
+    ],
+    "correct_answer": "One",
+    "evidence_span": "what is its Fourier transform UP our delta function as the time domain signal. Word is its Fourier transform. One or so.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 2
+  },
+  {
+    "question": "What conclusion can be drawn about the cube roots of unity from the provided text?",
+    "choices": [
+      "The cube roots of unity always sum to one.",
+      "The cube roots of unity are complex numbers that form a triangle in the complex plane.",
+      "The sum of the cube roots of unity is zero.",
+      "All cube roots of unity are real numbers."
+    ],
+    "correct_answer": "The sum of the cube roots of unity is zero.",
+    "evidence_span": "Part c shows that the sum of the cube roots of unity is zero.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 29
+  },
+  {
+    "question": "What is the significance of using polar representations for complex numbers z₁ and z₂?",
+    "choices": [
+      "It simplifies complex number multiplication.",
+      "It allows for easy division of complex numbers.",
+      "It provides a way to graph complex numbers.",
+      "It eliminates the need for imaginary numbers."
+    ],
+    "correct_answer": "It allows for easy division of complex numbers.",
+    "evidence_span": "one way you can avoid it is to think of the polar representations for z₁ and z₂.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_3.txt",
+    "chunk_index": 6
+  },
+  {
+    "question": "What does the output of an LTI system represent when the input is a complex exponential of the form est?",
+    "choices": [
+      "It remains unchanged.",
+      "It is a scaled version of the input.",
+      "It is shifted in time.",
+      "It becomes a sinusoidal function."
+    ],
+    "correct_answer": "It is a scaled version of the input.",
+    "evidence_span": "the output is simply a scaled version of the input.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 115
+  },
+  {
+    "question": "In the context of H(ω) = 1 + jω, what does the magnitude |H(ω)| represent?",
+    "choices": [
+      "The real part of H(ω)",
+      "The phase shift of H(ω)",
+      "The distance from the origin in the complex plane",
+      "The rate of change of H(ω)"
+    ],
+    "correct_answer": "The distance from the origin in the complex plane",
+    "evidence_span": "|H(ω)| = ↓ 1 + ω2.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 26
+  },
+  {
+    "question": "What is the frequency response of an ideal low pass filter (LPF) with cut-off frequency #c?",
+    "choices": [
+      "1, 0 ↘|#| < #c 0, #c ↘|#| < θ",
+      "0, 0 ↘|#| < #c 1, #c ↘|#| < θ",
+      "1, #L ↘|#| < #H 0, #H ↘|#| < θ",
+      "0, 0 ↘|#| < #L 1, #L ↘|#| < #H"
+    ],
+    "correct_answer": "1, 0 ↘|#| < #c 0, #c ↘|#| < θ",
+    "evidence_span": "The frequency response of an ideal LPF with cut-o! frequency #c is given by HLPF (ej!) = . 1, 0 ↘|#| < #c 0, #c ↘|#| < θ.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 156
+  },
+  {
+    "question": "What is the significance of Euler's Formula in complex numbers?",
+    "choices": [
+      "It relates complex exponentials to trigonometric functions.",
+      "It defines the conjugate of complex numbers.",
+      "It describes the arithmetic with two complex numbers.",
+      "It explains the history of complex numbers."
+    ],
+    "correct_answer": "It relates complex exponentials to trigonometric functions.",
+    "evidence_span": "1.3.4 Euler's Formula - (Video)",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 0
+  },
+  {
+    "question": "What is the definition of an invertible system as described in the text?",
+    "choices": [
+      "A system where the output can be derived from the input.",
+      "A system that produces the same output for different inputs.",
+      "A system that can recreate the input from the output uniquely.",
+      "A system where the output is always a function of time."
+    ],
+    "correct_answer": "A system that can recreate the input from the output uniquely.",
+    "evidence_span": "A CT system H is said to be invertible if the input x(t) can be uniquely recovered.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 91
+  },
+  {
+    "question": "What is the expected time-domain signal when the frequency domain signal is a rectangular function?",
+    "choices": [
+      "A delta function",
+      "A sinc function",
+      "An exponential function",
+      "A step function"
+    ],
+    "correct_answer": "A sinc function",
+    "evidence_span": "the time domain signal corresponding to this frequency domain signal is going to be a sync function.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 29
+  },
+  {
+    "question": "Which type of signal is represented as a continuous function that has a constant value?",
+    "choices": [
+      "Unit Step Signal",
+      "Exponential Signal",
+      "Ramp Signal",
+      "Sinusoidal Signal"
+    ],
+    "correct_answer": "Unit Step Signal",
+    "evidence_span": "2.9.7 Unit Step Signal (Function) - (video)",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 4
+  },
+  {
+    "question": "What does Parseval's theorem indicate about the power distribution in a periodic CT signal?",
+    "choices": [
+      "The total power is concentrated in the fundamental frequency.",
+      "The total power is distributed across different harmonics.",
+      "Each harmonic has the same power contribution.",
+      "Power is independent of the frequency components."
+    ],
+    "correct_answer": "The total power is distributed across different harmonics.",
+    "evidence_span": "the total power in a CT periodic signal is distributed in the different harmonics.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 117
+  },
+  {
+    "question": "What does the output of the system represent when the input x(t) = e↓2tu(t) and h(t) = e↓tu(t)?",
+    "choices": [
+      "It represents the convolution of the input with the impulse response.",
+      "It represents the Fourier transform of the input.",
+      "It shows a simple multiplication of the two functions.",
+      "It indicates the stability of the system."
+    ],
+    "correct_answer": "It represents the convolution of the input with the impulse response.",
+    "evidence_span": "Y (jω) = X(jω)H(jω) = 2 + jω . 1 + jω.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 148
+  },
+  {
+    "question": "What characterizes a discrete-time (DT) signal?",
+    "choices": [
+      "It can be defined for every time in an interval.",
+      "It varies continuously over time.",
+      "It is defined only for discrete values of time.",
+      "It is represented by a film camera."
+    ],
+    "correct_answer": "It is defined only for discrete values of time.",
+    "evidence_span": "signals are defined only for discrete values of time.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 34
+  },
+  {
+    "question": "What challenge is mentioned regarding certain signals in relation to Fourier transforms?",
+    "choices": [
+      "Some signals are straightforward to compute.",
+      "All signals have a clear Fourier transform.",
+      "Some signals are difficult to compute.",
+      "Fourier transforms can only be applied to simple functions."
+    ],
+    "correct_answer": "Some signals are difficult to compute.",
+    "evidence_span": "Some signals very difficult to compute.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 35
+  },
+  {
+    "question": "When obtaining y(t) = x(→at →b), which operation is performed first according to the natural order?",
+    "choices": [
+      "Scale time by a",
+      "Shift right by b",
+      "Reflect about Y-axis",
+      "Shift left by b"
+    ],
+    "correct_answer": "Shift right by b",
+    "evidence_span": "The natural order would be shift right by b first.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 55
+  },
+  {
+    "question": "What is the effect of scaling the magnitude to one over square root of two T₁?",
+    "choices": [
+      "It reduces the frequency",
+      "It maintains the original signal shape",
+      "It alters the time domain representation",
+      "It increases the signal energy"
+    ],
+    "correct_answer": "It alters the time domain representation",
+    "evidence_span": "this essentially will give you how you can kind of stretch a signal in time domain.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 25
+  },
+  {
+    "question": "What is the nature of the series expansions for cosine and sine functions?",
+    "choices": [
+      "They are only valid for small angles.",
+      "They are derived from the Taylor series.",
+      "They represent only even powers of theta.",
+      "They converge only for integer values of theta."
+    ],
+    "correct_answer": "They are derived from the Taylor series.",
+    "evidence_span": "this serious expansion is the taylor series expansion for cosine theta around theta equal to 0.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_2.txt",
+    "chunk_index": 7
+  },
+  {
+    "question": "What defines an invertible system?",
+    "choices": [
+      "It is a system that implements reciprocals.",
+      "It allows for unique recovery of the input from the output.",
+      "It has a many-to-one mapping of input to output.",
+      "It depends only on the current input value."
+    ],
+    "correct_answer": "It allows for unique recovery of the input from the output.",
+    "evidence_span": "A CT system H is said to be invertible if the input x(t) can be uniquely recovered or determined from the output y(t).",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 92
+  },
+  {
+    "question": "Why is the concept of x of t being one from minus infinity to plus infinity considered unrealistic?",
+    "choices": [
+      "It suggests infinite energy",
+      "It implies a finite time duration",
+      "It does not allow for frequency variation",
+      "It requires a non-causal signal"
+    ],
+    "correct_answer": "It suggests infinite energy",
+    "evidence_span": "you have time unlimited signal. You know that, that is not realistic.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 4
+  },
+  {
+    "question": "In Problem 4, what type of mathematical operation is primarily being performed on the given functions?",
+    "choices": [
+      "Sketching",
+      "Inverse Fourier transform",
+      "Differentiation",
+      "Integration"
+    ],
+    "correct_answer": "Inverse Fourier transform",
+    "evidence_span": "Compute the inverse Fourier transform of each of the following:",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 157
+  },
+  {
+    "question": "What characterizes a system as time-invariant based on the provided examples?",
+    "choices": [
+      "The output does not change when the input is shifted in time.",
+      "The output is always equal to the input at any time.",
+      "The output varies based on the input's frequency.",
+      "The output can only be determined at specific time intervals."
+    ],
+    "correct_answer": "The output does not change when the input is shifted in time.",
+    "evidence_span": "Hence the system is not time-invariant.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 91
+  },
+  {
+    "question": "What does the impulse signal ε(t →t₀) model in signal processing?",
+    "choices": [
+      "A phenomenon that occurs continuously over time",
+      "A phenomenon that occurs only at the origin",
+      "A phenomenon that occurs for a small time around t₀",
+      "A phenomenon that is uniformly distributed over time"
+    ],
+    "correct_answer": "A phenomenon that occurs for a small time around t₀",
+    "evidence_span": "Such a signal can be used to model phenomena that occur only for a small time around t₀.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 75
+  },
+  {
+    "question": "What does Euler's formula primarily represent?",
+    "choices": [
+      "The relationship between exponential and logarithmic functions",
+      "A method for solving linear equations",
+      "A representation of the complex number cosine theta plus j times sine theta",
+      "The definition of imaginary numbers"
+    ],
+    "correct_answer": "A representation of the complex number cosine theta plus j times sine theta",
+    "evidence_span": "that is a representation of the complex number cosine theta plus j times sine theta",
+    "difficulty": "easy",
+    "doc": "/content/transcript_2.txt",
+    "chunk_index": 13
+  },
+  {
+    "question": "What condition must the impulse response h[n] satisfy for the LTI system to be considered memoryless?",
+    "choices": [
+      "h[n] must be zero for all n",
+      "h[n] must be of the form cε[n]",
+      "h[n] must be a constant value for all n",
+      "h[n] must only depend on past input values"
+    ],
+    "correct_answer": "h[n] must be of the form cε[n]",
+    "evidence_span": "the memoryless condition implies that h[k] = 0 for k ≠ 0.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 111
+  },
+  {
+    "question": "What happens to the DTFT X(ej!) when the frequency is increased by 2θ?",
+    "choices": [
+      "It remains the same",
+      "It becomes zero",
+      "It doubles",
+      "It becomes negative"
+    ],
+    "correct_answer": "It remains the same",
+    "evidence_span": "X(ej(!+2ε)) = X(ej!) Here, we use the fact that e↓j₂εn = 1 for any integer n.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 151
+  },
+  {
+    "question": "What happens to the conjugate of a real number according to the text?",
+    "choices": [
+      "It becomes an imaginary number.",
+      "It remains the same real number.",
+      "It changes to zero.",
+      "It becomes a negative number."
+    ],
+    "correct_answer": "It remains the same real number.",
+    "evidence_span": "the conjugate of a real number i need to get the same real number again",
+    "difficulty": "easy",
+    "doc": "/content/transcript_4.txt",
+    "chunk_index": 4
+  },
+  {
+    "question": "What is the significance of the complex number's magnitude in the context of polar form?",
+    "choices": [
+      "It can be negative.",
+      "It must always be a positive value.",
+      "It can be zero.",
+      "It is irrelevant."
+    ],
+    "correct_answer": "It must always be a positive value.",
+    "evidence_span": "the magnitude of a complex number r must be positive.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 18
+  },
+  {
+    "question": "Why might conjugates not be frequently encountered by undergraduates in electrical engineering?",
+    "choices": [
+      "They are not taught in any courses.",
+      "They are considered irrelevant to practical applications.",
+      "They are a curious fact not commonly emphasized.",
+      "They are only applicable in advanced theoretical physics."
+    ],
+    "correct_answer": "They are a curious fact not commonly emphasized.",
+    "evidence_span": "this itself is not something that you might really see a lot as an undergraduate in electrical engineering.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_4.txt",
+    "chunk_index": 7
+  },
+  {
+    "question": "What is the primary function of a system as described in the text?",
+    "choices": [
+      "To produce input signals",
+      "To transform an input signal into an output signal",
+      "To reduce noise in signals",
+      "To amplify output signals"
+    ],
+    "correct_answer": "To transform an input signal into an output signal",
+    "evidence_span": "A system can be thought of as a series of transformations that transform an input signal into an output signal.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 78
+  },
+  {
+    "question": "What is the primary reason ε(t) is considered a generalized function?",
+    "choices": [
+      "It is defined everywhere including t=0",
+      "It is not defined at t=0",
+      "It has a finite value at all points",
+      "It is a standard function used in calculus"
+    ],
+    "correct_answer": "It is not defined at t=0",
+    "evidence_span": "it is not defined at t = 0.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 74
+  },
+  {
+    "question": "What operation is performed to retrieve the time signal from its Fourier transform?",
+    "choices": [
+      "Integrating over the frequency component",
+      "Differentiating the frequency component",
+      "Integrating over the time domain",
+      "Taking the Laplace transform"
+    ],
+    "correct_answer": "Integrating over the frequency component",
+    "evidence_span": "And the other case you are integrating on the frequency component to get the time signal back.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 2
+  },
+  {
+    "question": "What does it mean for a signal to be bounded?",
+    "choices": [
+      "It has a finite duration.",
+      "Its magnitude does not exceed a certain bound.",
+      "It oscillates between two values.",
+      "It remains constant over time."
+    ],
+    "correct_answer": "Its magnitude does not exceed a certain bound.",
+    "evidence_span": "a signal is said to be bounded if the magnitude of the signal does not exceed a bound for all t.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 83
+  },
+  {
+    "question": "In the context of signals, what is commonly used as the independent variable?",
+    "choices": [
+      "Frequency",
+      "Space",
+      "Time",
+      "Voltage"
+    ],
+    "correct_answer": "Time",
+    "evidence_span": "the independent variable will be time and hence, the signal will describe some phenomenon or quantity that changes with time.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 33
+  },
+  {
+    "question": "What can be concluded about the magnitude of a conjugate-symmetric signal x(t)?",
+    "choices": [
+      "It is an odd signal.",
+      "It is a random signal.",
+      "It is an even signal.",
+      "It is a periodic signal."
+    ],
+    "correct_answer": "It is an even signal.",
+    "evidence_span": "its magnitude is an even signal and its phase is an odd signal.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 63
+  },
+  {
+    "question": "What does the expression y(t) = ∑ n Tp x(nTp) hp(t − nTp) represent in the context of LTI systems?",
+    "choices": [
+      "It represents the output of the system when the input is a continuous signal.",
+      "It indicates the impulse response of the system for discrete inputs.",
+      "It shows how the system responds to a rectangular pulse input.",
+      "It defines the relationship between the input and output in the frequency domain."
+    ],
+    "correct_answer": "It represents the output of the system when the input is a continuous signal.",
+    "evidence_span": "y(t) corresponding to x(t) is given by y(t) = ...",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 104
+  },
+  {
+    "question": "What challenge is presented when raising e to a complex power?",
+    "choices": [
+      "It is difficult to find the square root of e.",
+      "It lacks an operational meaning that is easy to explain.",
+      "It always results in a negative number.",
+      "It can only be computed using a calculator."
+    ],
+    "correct_answer": "It lacks an operational meaning that is easy to explain.",
+    "evidence_span": "there seems to be no operational meaning to this",
+    "difficulty": "easy",
+    "doc": "/content/transcript_2.txt",
+    "chunk_index": 1
+  },
+  {
+    "question": "Which form is generally easier for adding and subtracting complex numbers?",
+    "choices": [
+      "Polar form",
+      "Exponential form",
+      "Cartesian form",
+      "Conjugate form"
+    ],
+    "correct_answer": "Cartesian form",
+    "evidence_span": "Typically, adding and subtracting complex numbers will be easier when the Cartesian form is used.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 20
+  },
+  {
+    "question": "What operation is equivalent to differentiation for discrete-time signals?",
+    "choices": [
+      "Integration operator",
+      "Difference operator",
+      "Summation operator",
+      "Time scaling operator"
+    ],
+    "correct_answer": "Difference operator",
+    "evidence_span": "the equivalent operations are given by the difference operator",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 51
+  },
+  {
+    "question": "What is the primary goal of the system analysis described in the text?",
+    "choices": [
+      "To recover x(t) exactly",
+      "To analyze the output y(t)",
+      "To undo the effects of the channel",
+      "To control the input x(t)"
+    ],
+    "correct_answer": "To undo the effects of the channel",
+    "evidence_span": "we want to build a system that allows us to 'undo' the e!ects of the channel",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 80
+  },
+  {
+    "question": "Why are nth roots of a complex number not uniquely defined?",
+    "choices": [
+      "They are always zero.",
+      "They have multiple values for each integer n.",
+      "They cannot be calculated.",
+      "They are only defined for positive numbers."
+    ],
+    "correct_answer": "They have multiple values for each integer n.",
+    "evidence_span": "the nth root of a complex number is not uniquely defined and hence, is not a function.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 24
+  },
+  {
+    "question": "What is a key characteristic of the roots of a polynomial with real coefficients?",
+    "choices": [
+      "They can be all real numbers.",
+      "They must occur in complex conjugate pairs.",
+      "They can have imaginary parts only.",
+      "They are always rational numbers."
+    ],
+    "correct_answer": "They must occur in complex conjugate pairs.",
+    "evidence_span": "roots will always have to occur in complex conjugate pairs.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_4.txt",
+    "chunk_index": 2
+  },
+  {
+    "question": "What is the primary purpose of the synthesis equation in the context of Fourier series?",
+    "choices": [
+      "To recover the time domain signal from Fourier series coefficients.",
+      "To derive the Fourier series coefficients from a time domain signal.",
+      "To analyze the frequency components of a time domain signal.",
+      "To simplify complex signals into a sum of sine and cosine functions."
+    ],
+    "correct_answer": "To recover the time domain signal from Fourier series coefficients.",
+    "evidence_span": "the synthesis equation: x(t) = ↗  k=↓↗ X[k]ejkω0t.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 123
+  },
+  {
+    "question": "What does it mean for a discrete-time (DT) system to be additive?",
+    "choices": [
+      "The output is the sum of the inputs.",
+      "The output is multiplied by a constant.",
+      "The output is the input squared.",
+      "The output is independent of the input."
+    ],
+    "correct_answer": "The output is the sum of the inputs.",
+    "evidence_span": "A DT system is additive if - H{x₁[n] + x₂[n]} = H{x₁[n]} + H{x₂[n]}.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 86
+  },
+  {
+    "question": "What is the primary function of a filter in signal processing?",
+    "choices": [
+      "To amplify all frequency components equally",
+      "To selectively pass some frequency components and remove others",
+      "To convert analog signals to digital signals",
+      "To increase the bandwidth of a signal"
+    ],
+    "correct_answer": "To selectively pass some frequency components and remove others",
+    "evidence_span": "A filter is a system that selectively passes some frequency components and removes other frequency components of the input signal.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 150
+  },
+  {
+    "question": "What characterizes the signal x(t) mentioned in the text?",
+    "choices": [
+      "It is a constant value over time.",
+      "It is a sinusoidal function.",
+      "It is a rectangular signal defined in a specific range.",
+      "It varies randomly over time."
+    ],
+    "correct_answer": "It is a rectangular signal defined in a specific range.",
+    "evidence_span": "this is exactly the rectangular signal that we have been discussing.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 21
+  },
+  {
+    "question": "What characterizes a periodic signal?",
+    "choices": [
+      "It has a finite number of values.",
+      "It repeats a pattern indefinitely.",
+      "It has zero energy.",
+      "It is always continuous."
+    ],
+    "correct_answer": "It repeats a pattern indefinitely.",
+    "evidence_span": "a periodic signal is a signal where a pattern repeats indefinitely.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 47
+  },
+  {
+    "question": "What does the expression e power j omega t represent in terms of trigonometric functions?",
+    "choices": [
+      "Cosine and tangent functions",
+      "Sine and cosine functions",
+      "Only sine functions",
+      "Only cosine functions"
+    ],
+    "correct_answer": "Sine and cosine functions",
+    "evidence_span": "E power j omega t is sine omega t plus j times cos Omega t.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 11
+  },
+  {
+    "question": "What is the result of multiplying two complex numbers in polar form regarding their magnitudes?",
+    "choices": [
+      "The product of their angles",
+      "The sum of their magnitudes",
+      "The product of their magnitudes",
+      "The difference of their angles"
+    ],
+    "correct_answer": "The product of their magnitudes",
+    "evidence_span": "the magnitude of z₁ times z₂ is nothing but the product of r₁ and r₂",
+    "difficulty": "easy",
+    "doc": "/content/transcript_3.txt",
+    "chunk_index": 3
+  },
+  {
+    "question": "What is a key characteristic of the series expansion for sine and cosine functions?",
+    "choices": [
+      "They only include even powers of theta.",
+      "They include odd powers of theta for sine and even for cosine.",
+      "They have only negative coefficients.",
+      "They are limited to only linear terms."
+    ],
+    "correct_answer": "They include odd powers of theta for sine and even for cosine.",
+    "evidence_span": "you see all the odd powers of theta in sine and all the even powers of theta in cosine.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_2.txt",
+    "chunk_index": 8
+  },
+  {
+    "question": "What does the method of inspection allow when computing Fourier Series coefficients?",
+    "choices": [
+      "To directly evaluate the integral for any signal",
+      "To see linear combinations in certain signals without integration",
+      "To always result in complex coefficients",
+      "To ignore the fundamental period of the signal"
+    ],
+    "correct_answer": "To see linear combinations in certain signals without integration",
+    "evidence_span": "sometimes we don't have to evaluate the integral and we can 'see' that x(t) is a linear combination of complex exponentials.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 120
+  },
+  {
+    "question": "What condition must hold for two continuous-time signals to be considered the same?",
+    "choices": [
+      "They must be equal for all t.",
+      "Their energy difference must be zero.",
+      "They must have the same frequency.",
+      "They must be periodic with the same period."
+    ],
+    "correct_answer": "Their energy difference must be zero.",
+    "evidence_span": "we will say that two CT signals are the same if the energy of their difference is zero.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 47
+  },
+  {
+    "question": "What is indicated about the signal as T₁ approaches zero?",
+    "choices": [
+      "The magnitude approaches infinity.",
+      "The frequency becomes constant.",
+      "The signal becomes periodic.",
+      "The amplitude decreases linearly."
+    ],
+    "correct_answer": "The magnitude approaches infinity.",
+    "evidence_span": "The magnitude approaches infinity, the spread approaches zero.",
+    "difficulty": "easy",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 26
+  },
+  {
+    "question": "Which property of LTI systems indicates that the output response does not depend on past or future inputs?",
+    "choices": [
+      "Memoryless property",
+      "Causality",
+      "Stability",
+      "Invertibility"
+    ],
+    "correct_answer": "Memoryless property",
+    "evidence_span": "4.14.1 Memoryless property.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 8
+  },
+  {
+    "question": "What is the preferred order for transforming a signal x(t) into y(t) = x(t - b) using scaling by a?",
+    "choices": [
+      "First scale by a, then shift right by b",
+      "First shift right by b, then scale by a",
+      "Scale and shift can be done in any order",
+      "First shift left by b, then scale by a"
+    ],
+    "correct_answer": "First shift right by b, then scale by a",
+    "evidence_span": "the preferred order is to first shift by b to the right and then scale by a.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 55
+  },
+  {
+    "question": "What does the integration property indicate about the Fourier transform of a time-integrated signal?",
+    "choices": [
+      "It becomes zero for all frequencies.",
+      "It introduces a term dependent on X(j0).",
+      "It results in a frequency scaling.",
+      "It behaves like a time-shifted signal."
+    ],
+    "correct_answer": "It introduces a term dependent on X(j0).",
+    "evidence_span": "The second term comes from the fact that...y(t) becomes a constant a as t ⇑↑.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 144
+  },
+  {
+    "question": "How is the expression transformed into the form of a sync function?",
+    "choices": [
+      "By ensuring the numerator and denominator match.",
+      "By eliminating the sine term completely.",
+      "By changing the limits of integration.",
+      "By factoring out common terms."
+    ],
+    "correct_answer": "By ensuring the numerator and denominator match.",
+    "evidence_span": "I need to make sure that the numerator and the denominator matches.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 31
+  },
+  {
+    "question": "What is the output of a linear time invariant (LTI) system when an arbitrary discrete-time input signal is applied?",
+    "choices": [
+      "The output is the same as the input signal.",
+      "The output is the convolution of the input signal with the system's impulse response.",
+      "The output is the derivative of the input signal.",
+      "The output is the integral of the input signal."
+    ],
+    "correct_answer": "The output is the convolution of the input signal with the system's impulse response.",
+    "evidence_span": "if an arbitrary DT signal x[n] is input to a system with impulse response h[n], the output will be y[n] = x[n] ⇀h[n].",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 99
+  },
+  {
+    "question": "In the context of discrete-time complex exponentials, what is the significance of the periodicity condition ϱk+N[n] = ϱk[n]?",
+    "choices": [
+      "It implies that all frequencies are distinct.",
+      "It shows that only N frequencies exist.",
+      "It means that N terms are never sufficient.",
+      "It demonstrates the uniqueness of DT signals."
+    ],
+    "correct_answer": "It shows that only N frequencies exist.",
+    "evidence_span": "there are only N distinct frequencies of the form 2ε N k corresponding to k = 0, . . . , N →1.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 126
+  },
+  {
+    "question": "What is the significance of the analysis equation in relation to the synthesis equation?",
+    "choices": [
+      "It defines how to calculate the average value of x(t).",
+      "It shows how to synthesize x(t) from X[k].",
+      "It establishes the relationship between x(t) and its frequency components.",
+      "It provides the coefficients for the linear combinations of real signals."
+    ],
+    "correct_answer": "It establishes the relationship between x(t) and its frequency components.",
+    "evidence_span": "this equation is called the analysis equation. To prove this, let us first show an important result concerning complex exponentials.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 119
+  },
+  {
+    "question": "Which of the following systems is an example of a system with memory?",
+    "choices": [
+      "y(t) = 2x(t + 1) - 3x(t)",
+      "y[n] = 1/3(x[n] + x[n - 1] + x[n - 2])",
+      "y(t) = (x(t))^3",
+      "y[n] = y[n - 1] + x[n]"
+    ],
+    "correct_answer": "y[n] = y[n - 1] + x[n]",
+    "evidence_span": "this would require having to bu!er x(t →1) and x(t →2) and hence will require memory.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 93
+  },
+  {
+    "question": "In the context of exponential Fourier series, how are the coefficients X[k] related to the trigonometric coefficients Bk and Ak?",
+    "choices": [
+      "X[k] are simply the real parts of Bk.",
+      "X[k] are the Fourier series coefficients of x(t).",
+      "X[k] are equal to Ak for k > 0.",
+      "X[k] are unrelated to Bk and Ak."
+    ],
+    "correct_answer": "X[k] are the Fourier series coefficients of x(t).",
+    "evidence_span": "these will be called the Fourier series coefficients of x(t).",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 117
+  },
+  {
+    "question": "What is the relationship between the Fourier transforms of the two signals mentioned?",
+    "choices": [
+      "They cancel each other out",
+      "They are multiplied",
+      "They are added together",
+      "They are subtracted"
+    ],
+    "correct_answer": "They are added together",
+    "evidence_span": "the Fourier transform of this signal is the Fourier transform of the first signal plus Fourier transform of the second signal.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 42
+  },
+  {
+    "question": "What is the significance of the initial conditions in determining the output of a DT system?",
+    "choices": [
+      "Initial conditions have no effect on the output.",
+      "They only affect the output for negative time indices.",
+      "They determine the output for the first few time indices.",
+      "They are irrelevant in the analysis of linear systems."
+    ],
+    "correct_answer": "They determine the output for the first few time indices.",
+    "evidence_span": "we step through n starting from the provided initial conditions to compute y[n] for n = 0, 1, 2.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 98
+  },
+  {
+    "question": "What does the convolution-multiplication property imply about LTI systems?",
+    "choices": [
+      "LTI systems always output the same signal regardless of input",
+      "LTI systems can be analyzed in both time and frequency domains",
+      "LTI systems do not depend on the frequency of signals",
+      "LTI systems only operate on real signals"
+    ],
+    "correct_answer": "LTI systems can be analyzed in both time and frequency domains",
+    "evidence_span": "It tells us that when x(t) is input to an LTI system... we can equivalently think of multiplying X(jω) by H(jω).",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 141
+  },
+  {
+    "question": "If r₁ is a root of one equation, what can be inferred about r₁'s relation to the other equation?",
+    "choices": [
+      "r₁ is the only root.",
+      "r₁ is a real number.",
+      "r₁ conjugate is also a root.",
+      "r₁ cannot be a root."
+    ],
+    "correct_answer": "r₁ conjugate is also a root.",
+    "evidence_span": "if r₁ is the root of this equation r₁ conjugate is also a root.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_4.txt",
+    "chunk_index": 6
+  },
+  {
+    "question": "What is the output of an LTI system with impulse response h(t) to a complex exponential input?",
+    "choices": [
+      "It is always zero",
+      "It is a scaled version of the input",
+      "It is independent of the impulse response",
+      "It is the convolution of the impulse response and input"
+    ],
+    "correct_answer": "It is a scaled version of the input",
+    "evidence_span": "The output of the LTI system is given by y(t) = H(s)est.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 114
+  },
+  {
+    "question": "Why might dividing complex numbers directly in Cartesian form be challenging?",
+    "choices": [
+      "It results in a non-unique solution.",
+      "It complicates finding the real and imaginary parts.",
+      "Complex numbers cannot be divided directly.",
+      "The process is too time-consuming."
+    ],
+    "correct_answer": "It complicates finding the real and imaginary parts.",
+    "evidence_span": "it's not obvious how to get the real part and the imaginary part from this",
+    "difficulty": "medium",
+    "doc": "/content/transcript_3.txt",
+    "chunk_index": 4
+  },
+  {
+    "question": "How is the frequency response H(e^jω) of a system determined from its difference equation?",
+    "choices": [
+      "By taking the Fourier transform of the impulse response h[n]",
+      "By substituting z[n] in the difference equation",
+      "By rearranging the difference equation into convolution form",
+      "By directly applying the Z-transform to the input x[n]"
+    ],
+    "correct_answer": "By taking the Fourier transform of the impulse response h[n]",
+    "evidence_span": "Using the Fourier transform and the inverse Fourier transform, compute each of the following: (a) The frequency response of the system, H(ej!).",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 158
+  },
+  {
+    "question": "What complicates the computation of the Fourier transform for the signal described?",
+    "choices": [
+      "The signal is not a standard rectangular signal.",
+      "The signal is defined for a wider interval than expected.",
+      "The signal contains overlapping frequencies.",
+      "The Fourier transform is not applicable to the given signal."
+    ],
+    "correct_answer": "The signal is not a standard rectangular signal.",
+    "evidence_span": "it is not as nice rectangular signal.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 39
+  },
+  {
+    "question": "What determines whether the signal x(t) = e^(st) is bounded or unbounded as t approaches infinity?",
+    "choices": [
+      "The imaginary part of s",
+      "The magnitude of x(t)",
+      "The real part of s",
+      "The phase of x(t)"
+    ],
+    "correct_answer": "The real part of s",
+    "evidence_span": "Thus, the real part of s determines whether the signal x(t) is bounded or unbounded as t ⇑↑.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 66
+  },
+  {
+    "question": "What distinguishes the system described in Example 3.3.2 from the one in Example 3.3.1?",
+    "choices": [
+      "Example 3.3.2 does not use feedback, while Example 3.3.1 does",
+      "Example 3.3.2 has a different input-output relationship",
+      "Example 3.3.2 corresponds to a feedback system, while Example 3.3.1 is an open loop system",
+      "Example 3.3.2 computes output based on past inputs only"
+    ],
+    "correct_answer": "Example 3.3.2 corresponds to a feedback system, while Example 3.3.1 is an open loop system",
+    "evidence_span": "this system corresponds to having feedback whereas the previous system corresponds to an open loop system.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 82
+  },
+  {
+    "question": "What is the relationship between the ramp function and the unit step function in continuous time?",
+    "choices": [
+      "rampt(t) = ∫ u(φ)dφ",
+      "rampt(t) = u(t) + t",
+      "rampt(t) = u(t) * t",
+      "rampt(t) = ∫ u(φ)dφ"
+    ],
+    "correct_answer": "rampt(t) = ∫ u(φ)dφ",
+    "evidence_span": "The ramp signal can be expressed in the form of unit step signals as show below- rampt(t) = ∫ u(φ)dφ.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 76
+  },
+  {
+    "question": "How does scaling the rectangular signal affect its Fourier transform?",
+    "choices": [
+      "It maintains the same frequency characteristics.",
+      "It increases the frequency response bandwidth.",
+      "It decreases the overall signal energy.",
+      "It preserves the time-domain signal shape."
+    ],
+    "correct_answer": "It maintains the same frequency characteristics.",
+    "evidence_span": "Notice that x(t) has unit energy for any chosen value of T₁.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 132
+  },
+  {
+    "question": "Which of the following statements about zero energy signals is true?",
+    "choices": [
+      "Only the zero signal has zero energy in both DT and CT signals.",
+      "Any signal that is non-zero at some points must have non-zero energy.",
+      "A CT signal can have zero energy even if it is non-zero at some points.",
+      "All DT signals with finite values have non-zero energy."
+    ],
+    "correct_answer": "A CT signal can have zero energy even if it is non-zero at some points.",
+    "evidence_span": "the energy of this signal is indeed zero.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 46
+  },
+  {
+    "question": "How can complex signals be represented mathematically?",
+    "choices": [
+      "As a product of two real functions",
+      "As a sum of two real functions",
+      "As a difference of two imaginary functions",
+      "As a ratio of two complex numbers"
+    ],
+    "correct_answer": "As a sum of two real functions",
+    "evidence_span": "x(t) = xR(t) + jxI(t) where xR(t) and xI(t) are two real functions of t.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 38
+  },
+  {
+    "question": "What is the effect of time scaling on a signal in the context of the Continuous-Time Fourier Transform (CTFT)?",
+    "choices": [
+      "It compresses the frequency axis.",
+      "It expands the time axis.",
+      "It narrows the time domain signal.",
+      "It decreases the amplitude of the signal."
+    ],
+    "correct_answer": "It narrows the time domain signal.",
+    "evidence_span": "the time domain signal becomes narrower, the frequency axis is expanded.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 139
+  },
+  {
+    "question": "What common mistake is highlighted when applying transformations to piecewise defined signals?",
+    "choices": [
+      "Ignoring the function's expression",
+      "Not adjusting the interval ranges",
+      "Applying transformations to constants",
+      "Misinterpreting the time variable"
+    ],
+    "correct_answer": "Not adjusting the interval ranges",
+    "evidence_span": "a common mistake is to apply the transformation to the expression for the function without applying the transformation to the t in the specification of the interval ranges.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 58
+  },
+  {
+    "question": "What is the significance of the argument of the sin function becoming one in relation to the sinc function?",
+    "choices": [
+      "It indicates when the sinc function reaches its maximum.",
+      "It shows the frequency of the sine wave.",
+      "It determines the zeros of the sinc function.",
+      "It signifies the period of the sine wave."
+    ],
+    "correct_answer": "It indicates when the sinc function reaches its maximum.",
+    "evidence_span": "So zeros happens when sinc function is one.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 34
+  },
+  {
+    "question": "How does the magnitude of the Fourier transform change when scaling a rectangular signal to unit energy?",
+    "choices": [
+      "It increases proportionally.",
+      "It remains the same as before.",
+      "It is scaled by one over square root of two T₁.",
+      "It becomes zero."
+    ],
+    "correct_answer": "It is scaled by one over square root of two T₁.",
+    "evidence_span": "if the magnitude is scaled to one over square root of two T₁, then the magnitude is scale here also.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 24
+  },
+  {
+    "question": "What happens to a time-domain signal when its duration, T₁, increases?",
+    "choices": [
+      "The signal becomes narrower in time",
+      "The frequency-domain representation becomes wider",
+      "The signal becomes wider in time",
+      "The energy of the signal increases"
+    ],
+    "correct_answer": "The signal becomes wider in time",
+    "evidence_span": "increasing T₁ makes the time domain signal wider whereas the Fourier transform becomes narrower.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 133
+  },
+  {
+    "question": "How does Euler's formula aid in understanding the division of complex numbers?",
+    "choices": [
+      "It simplifies the arithmetic of magnitudes only.",
+      "It shows that angles behave similarly to real numbers.",
+      "It introduces a new way to calculate magnitudes.",
+      "It eliminates the need for polar representation."
+    ],
+    "correct_answer": "It shows that angles behave similarly to real numbers.",
+    "evidence_span": "they follow exactly the same arithmetic as e raised to some real numbers.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_3.txt",
+    "chunk_index": 7
+  },
+  {
+    "question": "What is the result of multiplying an even signal by an odd signal?",
+    "choices": [
+      "Even signal",
+      "Odd signal",
+      "Neither even nor odd",
+      "Both even and odd"
+    ],
+    "correct_answer": "Odd signal",
+    "evidence_span": "Even signal ⇓odd signal = odd signal.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 62
+  },
+  {
+    "question": "What happens to the Fourier series coefficients as the fundamental period Tf increases?",
+    "choices": [
+      "They become discrete and fixed",
+      "They tend to a continuous function",
+      "They become zero",
+      "They only apply to periodic signals"
+    ],
+    "correct_answer": "They tend to a continuous function",
+    "evidence_span": "when Tf ⇑↑, ωf ⇑0 and X[kωf] becomes a continuous function of ω.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 129
+  },
+  {
+    "question": "Why can a signal defined as non-zero at only one instant have zero energy?",
+    "choices": [
+      "Because energy calculations only consider average values over time.",
+      "Because it is a set of measure zero in mathematics.",
+      "Because all signals must have some duration to have energy.",
+      "Because disturbances at single instants are perceived by humans."
+    ],
+    "correct_answer": "Because it is a set of measure zero in mathematics.",
+    "evidence_span": "in mathematics, we say that this is a set of measure zero.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 46
+  },
+  {
+    "question": "How does the discrete time unit step function differ from the continuous time unit step function?",
+    "choices": [
+      "It has more discontinuities.",
+      "It is defined differently at n = 0.",
+      "It is only applicable for negative values of n.",
+      "It cannot represent signals."
+    ],
+    "correct_answer": "It is defined differently at n = 0.",
+    "evidence_span": "there is no issue of discontinuity at n = 0 and hence, U[0] is defined to 1.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 68
+  },
+  {
+    "question": "How does the transformation y[n] = x[an] affect the time axis when a > 1?",
+    "choices": [
+      "It extends the time axis with added zeros",
+      "It loses some signal values due to shrinking",
+      "It maintains all original signal values",
+      "It creates a duplicate of the original signal"
+    ],
+    "correct_answer": "It loses some signal values due to shrinking",
+    "evidence_span": "the transformation loses information.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 53
+  },
+  {
+    "question": "How is a real periodic signal expressed in terms of its fundamental frequency in the context of Fourier series?",
+    "choices": [
+      "As a sum of only cosine functions.",
+      "As a sum of sinusoids and cosinusoids with harmonic frequencies.",
+      "As a product of the fundamental frequency and the time period.",
+      "As a series of complex exponentials only."
+    ],
+    "correct_answer": "As a sum of sinusoids and cosinusoids with harmonic frequencies.",
+    "evidence_span": "can be written as linear combinations of sinusoids and cosinusoids whose frequencies are kω0.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 116
+  },
+  {
+    "question": "What is the relationship between the magnitude |H(ω)| and the values of ω for which H(ω) = 0?",
+    "choices": [
+      "|H(ω)| is zero when ω is an even multiple of π",
+      "|H(ω)| is zero when ω is an odd multiple of π/2",
+      "|H(ω)| is always non-zero",
+      "|H(ω)| is zero when ω is any integer multiple of π"
+    ],
+    "correct_answer": "|H(ω)| is zero when ω is an odd multiple of π/2",
+    "evidence_span": "These are given by odd multiples of θ/2, i.e., ω = (2i + 1)θ/2 for any integer i.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 27
+  },
+  {
+    "question": "How can the total area under the curve of a signal x(t) be computed using its Fourier transform?",
+    "choices": [
+      "By integrating x(t) over all time.",
+      "By evaluating X(jω) at ω = 0.",
+      "By differentiating X(jω) with respect to ω.",
+      "By multiplying x(t) by a time-limited window."
+    ],
+    "correct_answer": "By evaluating X(jω) at ω = 0.",
+    "evidence_span": "X(jω) = x(t)dt is simply the Fourier transform X(jω) evaluated at ω = 0.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 143
+  },
+  {
+    "question": "What is the significance of the value of omega when plotting the sinc function from the given rectangular signal?",
+    "choices": [
+      "It determines the amplitude of the signal.",
+      "It indicates when the sinc function touches zero.",
+      "It affects the frequency of the signal.",
+      "It dictates the duration of the signal."
+    ],
+    "correct_answer": "It indicates when the sinc function touches zero.",
+    "evidence_span": "we need to exactly specify when does it touches zero.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 17
+  },
+  {
+    "question": "Why can the conjugate be removed from the coefficients in the given context?",
+    "choices": [
+      "Because they are not necessary for solving the equation.",
+      "Because the coefficients are all real numbers.",
+      "Because they are the same as the coefficients themselves.",
+      "Because removing them simplifies the equation."
+    ],
+    "correct_answer": "Because they are the same as the coefficients themselves.",
+    "evidence_span": "same as the coefficients themselves so i can remove the conjugate from these coefficients",
+    "difficulty": "medium",
+    "doc": "/content/transcript_4.txt",
+    "chunk_index": 5
+  },
+  {
+    "question": "What does the time invariance property imply when convolving x(t) with h(t)?",
+    "choices": [
+      "x(t) ⇀h(t →t₀) = y(t →t₀)",
+      "x(t →t₀) ⇀h(t) = y(t)",
+      "x(t) ⇀h(t) → y(t)",
+      "x(t →t₀) ⇀h(t) = y(t →t₀)"
+    ],
+    "correct_answer": "x(t →t₀) ⇀h(t) = y(t →t₀)",
+    "evidence_span": "x(t) ⇀h(t) = y(t). Then, x(t →t₀) ⇀h(t) = y(t →t₀)",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 110
+  },
+  {
+    "question": "What does the continuous-time Fourier transform (CTFT) of a rectangular signal indicate about its frequency characteristics?",
+    "choices": [
+      "It produces a delta function in the frequency domain.",
+      "It results in a sinc function in the frequency domain.",
+      "It leads to a constant value for all frequencies.",
+      "It generates a sinusoidal signal in the frequency domain."
+    ],
+    "correct_answer": "It results in a sinc function in the frequency domain.",
+    "evidence_span": "X(jω) = 2sin(ωT₁)/ω = 2T₁sinc(ωT₁)",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 132
+  },
+  {
+    "question": "What is the result of the Fourier transform for a rectangular signal defined between -T₁ and T₁?",
+    "choices": [
+      "2T₁ sin(ωT₁)/(π)",
+      "T₁ sinc(ωT₁)",
+      "2T₁ sinc(ωT₁)/π",
+      "T₁ sin(ω)/(π)"
+    ],
+    "correct_answer": "2T₁ sinc(ωT₁)/π",
+    "evidence_span": "the Fourier transform is to T₁ sinc Omega t₁ divided by pi.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 16
+  },
+  {
+    "question": "In what scenario might non-causal systems be considered useful?",
+    "choices": [
+      "When dealing with time-dependent signals.",
+      "In image processing for reconstructing lost parts.",
+      "In systems that require real-time processing.",
+      "When the input signal is continuous."
+    ],
+    "correct_answer": "In image processing for reconstructing lost parts.",
+    "evidence_span": "we wish to reconstruct a lost part of an image.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 94
+  },
+  {
+    "question": "How can one determine the echo profile of a room using the impulse response concept?",
+    "choices": [
+      "By analyzing continuous wave signals",
+      "By observing the echoes of a clap",
+      "By measuring the temperature of the room",
+      "By using a frequency analyzer"
+    ],
+    "correct_answer": "By observing the echoes of a clap",
+    "evidence_span": "A person clapping their hand is the same as creating an input signal that is ε(t) or ε[n] and the echo profile that we observe is the impulse response of the room.",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 97
+  },
+  {
+    "question": "Which of the following conditions is necessary for point-wise convergence of xN(t) to x(t)?",
+    "choices": [
+      "x(t) must be periodic and bounded.",
+      "x(t) must be absolutely integrable over any period.",
+      "x(t) must have finite discontinuities.",
+      "x(t) must converge to zero at infinity."
+    ],
+    "correct_answer": "x(t) must be absolutely integrable over any period.",
+    "evidence_span": "x(t) must be absolutely integrable;",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 124
+  },
+  {
+    "question": "What is the intuitive approach to computing the Fourier transform of the sum of two signals?",
+    "choices": [
+      "Using Laplace transforms.",
+      "Employing integral properties of Fourier transforms.",
+      "Relying on differentiation.",
+      "Applying the Parseval's theorem."
+    ],
+    "correct_answer": "Employing integral properties of Fourier transforms.",
+    "evidence_span": "Intuition should directly come from your experience in doing integral.",
+    "difficulty": "medium",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 37
+  },
+  {
+    "question": "What is the integral of e power minus j Omega t with respect to t?",
+    "choices": [
+      "1 over j Omega e power minus j omega t",
+      "1 over minus j Omega e power minus j omega t",
+      "1 over j Omega e power j omega t",
+      "1 over minus j Omega e power j omega t"
+    ],
+    "correct_answer": "1 over minus j Omega e power minus j omega t",
+    "evidence_span": "Integral of e power minus j omega t is 1 hour minus J omega e power minus j omega t.",
+    "difficulty": "hard",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 10
+  },
+  {
+    "question": "Why is the discrete-time sinusoid x[n] = A cos(6n) not periodic?",
+    "choices": [
+      "6N = 2θm does not yield integer N",
+      "6N = 2θm always yields integer N",
+      "A cos(6n) is always periodic",
+      "It does not have a defined amplitude"
+    ],
+    "correct_answer": "6N = 2θm does not yield integer N",
+    "evidence_span": "6N = 2θm ⇒θ = 3N m ⇒Not periodic.",
+    "difficulty": "hard",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 65
+  },
+  {
+    "question": "What is the frequency response H(ejω) associated with the given impulse response h[n] = (1/3)nu[n] + g[n]?",
+    "choices": [
+      "H(ejω) = 12 + 5e^(-jω) / (12 - 7e^(-jω) + e^(-j2ω))",
+      "H(ejω) = 1 / (1 - (1/3)e^(-jω))",
+      "H(ejω) = 1 + 2e^(-jω)",
+      "H(ejω) = e^(-jω) / (1 - e^(-jω))"
+    ],
+    "correct_answer": "H(ejω) = 12 + 5e^(-jω) / (12 - 7e^(-jω) + e^(-j2ω))",
+    "evidence_span": "the frequency response of the system is given by H(ej!) = →12 + 5e↓j!",
+    "difficulty": "hard",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 159
+  },
+  {
+    "question": "What distinguishes the synthesis of a continuous-time (CT) signal from a discrete-time (DT) signal in terms of Fourier series representation?",
+    "choices": [
+      "CT signals require only a finite number of terms.",
+      "DT signals require infinitely many complex exponentials.",
+      "CT signals require infinitely many complex exponentials.",
+      "DT signals can have varying frequencies."
+    ],
+    "correct_answer": "CT signals require infinitely many complex exponentials.",
+    "evidence_span": "while we may need to sum infinitely many complex exponentials to synthesize a CT signal.",
+    "difficulty": "hard",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 126
+  },
+  {
+    "question": "How is instantaneous power defined for a continuous-time complex signal x(t)?",
+    "choices": [
+      "Px(t) := |x(t)|",
+      "Px(t) := |x(t)|^2/R",
+      "Px(t) := |x(t)|^2",
+      "Px(t) := |x(t)|^2 + R"
+    ],
+    "correct_answer": "Px(t) := |x(t)|^2",
+    "evidence_span": "the instantaneous power of the signal x(t) at time t as |x(t)|2",
+    "difficulty": "hard",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 41
+  },
+  {
+    "question": "Why is sinc function used for interpolation of bandlimited signals?",
+    "choices": [
+      "It creates a linear approximation of the signal.",
+      "It perfectly reconstructs the original signal.",
+      "It minimizes the sampling rate.",
+      "It averages the samples over time."
+    ],
+    "correct_answer": "It perfectly reconstructs the original signal.",
+    "evidence_span": "the correct way to interpolate between the samples is to use a sinc function.",
+    "difficulty": "hard",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 165
+  },
+  {
+    "question": "What is the effect of time shifting on the DTFT of a signal x[n]?",
+    "choices": [
+      "It multiplies the DTFT by a complex exponential.",
+      "It shifts the frequency components of the DTFT.",
+      "It reverses the signal in time.",
+      "It adds a constant to the signal."
+    ],
+    "correct_answer": "It multiplies the DTFT by a complex exponential.",
+    "evidence_span": "5.3.3 Time Shifting x[n -n₀] e-j!n₀X(ej!)",
+    "difficulty": "hard",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 153
+  },
+  {
+    "question": "What happens to the Fourier transform of a delta function as time approaches zero?",
+    "choices": [
+      "It becomes a flat signal.",
+      "It becomes a sinc function.",
+      "It becomes a rectangular signal.",
+      "It diverges to infinity."
+    ],
+    "correct_answer": "It becomes a flat signal.",
+    "evidence_span": "This will become a flat signals.",
+    "difficulty": "hard",
+    "doc": "/content/transcript_5.txt",
+    "chunk_index": 27
+  },
+  {
+    "question": "Which statement about the symmetry of real signals is correct?",
+    "choices": [
+      "Real and even signals have a Fourier transform that is purely imaginary.",
+      "Real and odd signals have a Fourier transform that is real and even.",
+      "The Fourier transform of real signals is always symmetric around the origin.",
+      "Real and odd signals have a Fourier transform that is purely imaginary and odd."
+    ],
+    "correct_answer": "Real and odd signals have a Fourier transform that is purely imaginary and odd.",
+    "evidence_span": "x(t) real and odd X(j!) purely imaginary and odd",
+    "difficulty": "hard",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 136
+  },
+  {
+    "question": "What is required to conclusively prove that a system has a certain property?",
+    "choices": [
+      "One example of failure for the property",
+      "Multiple examples showing success for the property",
+      "A mathematical proof for all x(t)",
+      "An intuitive understanding of the system"
+    ],
+    "correct_answer": "A mathematical proof for all x(t)",
+    "evidence_span": "it does not mean that it will hold for every x(t), which is typically what you need to prove that a property holds.",
+    "difficulty": "hard",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 96
+  },
+  {
+    "question": "What can be concluded about the output of an LTI system when the input is a cosine signal?",
+    "choices": [
+      "The output will have frequencies not present in the input.",
+      "The output will be a linear combination of sine and cosine signals of the same frequency.",
+      "The output will be a single sine wave at a different frequency.",
+      "The output will have the same frequency as the input but with different amplitude."
+    ],
+    "correct_answer": "The output will be a linear combination of sine and cosine signals of the same frequency.",
+    "evidence_span": "the output can be expressed as a cos(ω0t) + b sin(ω0t).",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 116
+  },
+  {
+    "question": "How are the polynomials X(z) and H(z) related to the convolution of x[n] and h[n]?",
+    "choices": [
+      "They are independent of the convolution",
+      "They represent the Fourier transforms of the signals",
+      "Their product gives the Z-transform of the output",
+      "They represent the Laplace transforms of the signals"
+    ],
+    "correct_answer": "Their product gives the Z-transform of the output",
+    "evidence_span": "Now, let Y (z) := ∑k=−∞^∞y[n]zn = X(z)H(z).",
+    "difficulty": "medium",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 100
+  },
+  {
+    "question": "What is a necessary condition for an LTI system to be stable?",
+    "choices": [
+      "The impulse response must be zero for all k > 0.",
+      "The impulse response must be bounded.",
+      "Every input must produce an unbounded output.",
+      "The impulse response must be a constant value."
+    ],
+    "correct_answer": "The impulse response must be bounded.",
+    "evidence_span": "if ↗ n=↓↗|h[n] is finite (or bounded) then the LTI system is stable.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 112
+  },
+  {
+    "question": "Which of the following properties indicates that the output of a system depends only on the current input?",
+    "choices": [
+      "Causality",
+      "Invertibility",
+      "Memoryless systems",
+      "Time Invariance"
+    ],
+    "correct_answer": "Memoryless systems",
+    "evidence_span": "3.4.5 Memoryless systems and systems with memory.",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 6
+  },
+  {
+    "question": "What is the equivalent impulse response when two LTI systems with impulse responses h₁[n] and h₂[n] are connected in parallel?",
+    "choices": [
+      "heq[n] = h₁[n] + h₂[n]",
+      "heq[n] = h₁[n] ? h₂[n]",
+      "heq[n] = h₁[n] - h₂[n]",
+      "heq[n] = h₁[n] * h₂[n]"
+    ],
+    "correct_answer": "heq[n] = h₁[n] + h₂[n]",
+    "evidence_span": "it is equivalent to have passed the input x[n] through an equivalent LTI system with impulse response heq[n] = h₁[n] + h₂[n].",
+    "difficulty": "easy",
+    "doc": "/content/notes.pdf",
+    "chunk_index": 110
+  }
+]

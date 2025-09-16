@@ -1,0 +1,3010 @@
+{
+  "assignment": "Scalable Question Generation System",
+  "generated_at": "2025-09-16T03:04:42.310031Z",
+  "num_questions": 231,
+  "questions": [
+    {
+      "question": "Which of the following concepts is essential for understanding the geometric interpretation of complex numbers?",
+      "choices": [
+        "Magnitude and Phase Representation",
+        "Trigonometric Identities",
+        "Geometric Series",
+        "Functions of a Real Variable"
+      ],
+      "correct_answer": "Magnitude and Phase Representation",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 0
+    },
+    {
+      "question": "Which of the following properties is NOT a characteristic of Linear Time Invariant (LTI) systems?",
+      "choices": [
+        "Stability",
+        "Linearity",
+        "Time Invariance",
+        "Non-causality"
+      ],
+      "correct_answer": "Non-causality",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 1
+    },
+    {
+      "question": "Which property of an LTI system ensures that the output depends only on the current input and not on past inputs?",
+      "choices": [
+        "Causality",
+        "Stability",
+        "Memoryless property",
+        "Invertibility"
+      ],
+      "correct_answer": "Memoryless property",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 2
+    },
+    {
+      "question": "Which of the following trigonometric identities represents the relationship between the sine and cosine of a sum of two angles?",
+      "choices": [
+        "sin(ϖ ± ϱ) = sin ϖ cos ϱ ± cos ϖ sin ϱ",
+        "tan(ϖ ± ϱ) = sin ϖ cos ϱ",
+        "cos(ϖ ± ϱ) = sin ϖ ± cos ϱ",
+        "sin(ϖ) + cos(ϱ) = 1"
+      ],
+      "correct_answer": "sin(ϖ ± ϱ) = sin ϖ cos ϱ ± cos ϖ sin ϱ",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 3
+    },
+    {
+      "question": "What historical context led to the introduction of complex numbers?",
+      "choices": [
+        "Complex numbers were invented to solve quadratic equations.",
+        "The roots of cubic equations prompted the introduction of complex numbers.",
+        "Complex numbers were developed to explain real numbers in higher dimensions.",
+        "Mathematicians needed complex numbers to simplify algebraic operations."
+      ],
+      "correct_answer": "The roots of cubic equations prompted the introduction of complex numbers.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 4
+    },
+    {
+      "question": "In the context of complex numbers, what does the magnitude 'r' represent?",
+      "choices": [
+        "The angle made by the vector with the positive X-axis",
+        "The length of the vector in the complex plane",
+        "The imaginary part of the complex number",
+        "The X-coordinate of the complex number"
+      ],
+      "correct_answer": "The length of the vector in the complex plane",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 5
+    },
+    {
+      "question": "What is the significance of adding or subtracting ϑ when calculating the angle of a complex number in the form x + jy?",
+      "choices": [
+        "It ensures the angle is always positive.",
+        "It keeps the angle within the range (−ϑ, ϑ].",
+        "It converts the angle from radians to degrees.",
+        "It simplifies the calculation of tan⁻¹(y/x)."
+      ],
+      "correct_answer": "It keeps the angle within the range (−ϑ, ϑ].",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 6
+    },
+    {
+      "question": "Which of the following statements accurately describes the relationship between Cartesian and polar forms of complex numbers?",
+      "choices": [
+        "A complex number can only be represented in one form at a time, either Cartesian or polar.",
+        "The polar form of a complex number always has a negative magnitude.",
+        "Both Cartesian form (x + jy) and polar form (rejϑ) can represent the same complex number.",
+        "The angle in polar form is always derived from the Cartesian coordinates directly."
+      ],
+      "correct_answer": "Both Cartesian form (x + jy) and polar form (rejϑ) can represent the same complex number.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 7
+    },
+    {
+      "question": "In the context of complex numbers, what does the variable 'r' represent when a complex number is expressed in polar form as z = rejϑ?",
+      "choices": [
+        "The angle of the complex number in radians",
+        "The imaginary part of the complex number",
+        "The magnitude of the complex number",
+        "The real part of the complex number"
+      ],
+      "correct_answer": "The magnitude of the complex number",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 8
+    },
+    {
+      "question": "When computing the complex conjugate of a complex number z = x + jy, what transformation is applied to the imaginary part?",
+      "choices": [
+        "Replace j with -j",
+        "Replace j with j",
+        "Leave j unchanged",
+        "Replace j with 0"
+      ],
+      "correct_answer": "Replace j with -j",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 9
+    },
+    {
+      "question": "What is the result of multiplying a complex number z with its conjugate z↔?",
+      "choices": [
+        "It results in a complex number with imaginary parts only.",
+        "It always results in |z|^2, which is a real number.",
+        "It results in a complex number with real parts only.",
+        "It results in zero."
+      ],
+      "correct_answer": "It always results in |z|^2, which is a real number.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 10
+    },
+    {
+      "question": "What geometric operations correspond to multiplying a complex number by another complex number?",
+      "choices": [
+        "Scaling the magnitude of the first complex number and rotating it by the angle of the second complex number counter-clockwise.",
+        "Adding the two complex numbers together and then reflecting the result across the origin.",
+        "Subtracting the angle of the second complex number from the magnitude of the first complex number.",
+        "Dividing the first complex number by the magnitude of the second and rotating the result clockwise."
+      ],
+      "correct_answer": "Scaling the magnitude of the first complex number and rotating it by the angle of the second complex number counter-clockwise.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 11
+    },
+    {
+      "question": "What is a key property of complex numbers according to the fundamental theorem of algebra?",
+      "choices": [
+        "Every complex number has a real inverse.",
+        "Every degree-n polynomial with complex coefficients has exactly n complex roots, counted with multiplicity.",
+        "Complex numbers can only be added or subtracted.",
+        "The set of complex numbers does not form a field."
+      ],
+      "correct_answer": "Every degree-n polynomial with complex coefficients has exactly n complex roots, counted with multiplicity.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 12
+    },
+    {
+      "question": "What does the fundamental theorem of algebra state regarding nth degree equations?",
+      "choices": [
+        "An nth degree equation has exactly n distinct real roots.",
+        "An nth degree equation has exactly n (possibly complex and possibly repeated) roots.",
+        "An nth degree equation has at least one real root.",
+        "An nth degree equation can have an infinite number of roots."
+      ],
+      "correct_answer": "An nth degree equation has exactly n (possibly complex and possibly repeated) roots.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 13
+    },
+    {
+      "question": "What is the significance of setting k = 0 when dealing with the logarithm of a complex number ln z?",
+      "choices": [
+        "It defines the principal value of ln z, making it a function.",
+        "It allows for multiple values of ln z to be considered.",
+        "It creates a unique nth root for all complex numbers.",
+        "It ensures that the logarithm is always a real number."
+      ],
+      "correct_answer": "It defines the principal value of ln z, making it a function.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 14
+    },
+    {
+      "question": "When dealing with a complex function x(t), which of the following is true regarding the plotting of its components?",
+      "choices": [
+        "We can plot either the real part and imaginary part separately or the magnitude and argument separately, requiring two plots in total.",
+        "We can only plot the magnitude of the function as it provides all necessary information about x(t).",
+        "The real part and imaginary part can be plotted on the same graph without confusion.",
+        "Plotting the complex function x(t) does not require any separation of its components."
+      ],
+      "correct_answer": "We can plot either the real part and imaginary part separately or the magnitude and argument separately, requiring two plots in total.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 15
+    },
+    {
+      "question": "What can be inferred about the behavior of the function x(t) = e^(st) as t approaches infinity based on the real part of s?",
+      "choices": [
+        "If the real part of s is positive, x(t) remains bounded as t increases.",
+        "If the real part of s is negative, x(t) becomes undefined as t increases.",
+        "If the real part of s is negative, x(t) tends to zero as t increases.",
+        "The behavior of x(t) is independent of the real part of s."
+      ],
+      "correct_answer": "If the real part of s is negative, x(t) tends to zero as t increases.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 16
+    },
+    {
+      "question": "For the function H(ω) = ejω + ej3ω, what is the condition for H(ω) to equal zero?",
+      "choices": [
+        "H(ω) = 0 when 2 cos(ω) = 0",
+        "H(ω) = 0 when ω is an even multiple of π",
+        "H(ω) = 0 when cos(ω) = 1",
+        "H(ω) = 0 for all ω"
+      ],
+      "correct_answer": "H(ω) = 0 when 2 cos(ω) = 0",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 17
+    },
+    {
+      "question": "When integrating a complex function of a real variable, how can the integral be evaluated according to the provided text?",
+      "choices": [
+        "The integral can be evaluated by separately integrating the real and imaginary parts of the function.",
+        "The integral can be evaluated without separating into real and imaginary parts by treating 'j' as a constant.",
+        "The integral can only be evaluated using numerical methods.",
+        "The integral can only be evaluated by using the integration by parts method."
+      ],
+      "correct_answer": "The integral can be evaluated without separating into real and imaginary parts by treating 'j' as a constant.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 18
+    },
+    {
+      "question": "What is the advantage of using complex functions to evaluate the integral of e^at cos(bt) as described in the text?",
+      "choices": [
+        "It eliminates the need for integration by parts and simplifies the evaluation process.",
+        "It allows for direct computation of the integral without considering the real part.",
+        "It provides a numerical approximation without any analytical calculations.",
+        "It makes the integral more complicated and harder to solve."
+      ],
+      "correct_answer": "It eliminates the need for integration by parts and simplifies the evaluation process.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 19
+    },
+    {
+      "question": "What is the significance of z1, z2, and z3 in relation to cube roots of unity?",
+      "choices": [
+        "They are the solutions to the equation z^3 = 1.",
+        "They represent the sum of all positive integers.",
+        "They indicate the angles of the unit circle in radians.",
+        "They are solely imaginary numbers."
+      ],
+      "correct_answer": "They are the solutions to the equation z^3 = 1.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 20
+    },
+    {
+      "question": "In the context of summing a geometric series, what does the notation 'N' typically represent?",
+      "choices": [
+        "The first term of the series",
+        "The common ratio of the series",
+        "The total number of terms in the series",
+        "The index of summation"
+      ],
+      "correct_answer": "The total number of terms in the series",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 21
+    },
+    {
+      "question": "In the context of geometric series, what is the significance of identifying the first term 'a' and common ratio 'r' when working with complex numbers?",
+      "choices": [
+        "Identifying 'a' and 'r' is irrelevant for complex numbers as all sums behave the same regardless of their values.",
+        "Correct identification of 'a' and 'r' allows for the proper application of geometric series formulas, which remain valid for complex numbers.",
+        "The values of 'a' and 'r' must always be real for geometric series to apply, hence complex numbers cannot be used.",
+        "Geometric series can only be computed when both 'a' and 'r' are integers, otherwise the series is undefined."
+      ],
+      "correct_answer": "Correct identification of 'a' and 'r' allows for the proper application of geometric series formulas, which remain valid for complex numbers.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 22
+    },
+    {
+      "question": "In the context of signals, what does the term 'signal' refer to?",
+      "choices": [
+        "A fixed numerical value that does not change over time",
+        "A function of an independent variable that carries information or describes a physical phenomenon",
+        "A random sequence of numbers with no specific meaning",
+        "An unchanging characteristic of a physical system"
+      ],
+      "correct_answer": "A function of an independent variable that carries information or describes a physical phenomenon",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 23
+    },
+    {
+      "question": "Which of the following best describes the difference between continuous-time (CT) and discrete-time (DT) signals?",
+      "choices": [
+        "CT signals are defined only at specific instances of time, while DT signals can vary continuously over time.",
+        "DT signals can take any value in a given interval, while CT signals are defined only for integer time values.",
+        "CT signals can vary continuously and are defined for every point in a time interval, while DT signals are defined only for discrete instances of time.",
+        "Both CT and DT signals are defined for every point in a time interval but use different notations."
+      ],
+      "correct_answer": "CT signals can vary continuously and are defined for every point in a time interval, while DT signals are defined only for discrete instances of time.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 24
+    },
+    {
+      "question": "What is the main purpose of sampling in signal processing?",
+      "choices": [
+        "To convert a discrete-time signal into a continuous-time signal",
+        "To keep all values of a continuous-time signal for accurate representation",
+        "To enable processing of continuous-time signals on digital computers",
+        "To eliminate the need for digital computers in signal analysis"
+      ],
+      "correct_answer": "To enable processing of continuous-time signals on digital computers",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 25
+    },
+    {
+      "question": "What is the primary purpose of sampling in signal processing?",
+      "choices": [
+        "To convert a discrete-time signal into a continuous-time signal.",
+        "To allow continuous-time signals to be processed by digital computers.",
+        "To eliminate the need for quantization in digital audio.",
+        "To increase the size of audio files for better quality."
+      ],
+      "correct_answer": "To allow continuous-time signals to be processed by digital computers.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 26
+    },
+    {
+      "question": "Which statement correctly describes the difference between the signals x1(t), x2(t), and x3(t)?",
+      "choices": [
+        "x1(t) is defined for all values of t, while x2(t) is defined only for t ≥ 0 and x3(t) is undefined for t < 0.",
+        "x1(t) is zero for t < 0, x2(t) takes the form sin(2ϑt) for all t, and x3(t) is constant for all t.",
+        "x1(t) is a constant signal, x2(t) is the same as x1(t), and x3(t) is a linear function for all t.",
+        "All three signals x1(t), x2(t), and x3(t) are defined for t ≥ 0 and equal to sin(2ϑt)."
+      ],
+      "correct_answer": "x1(t) is defined for all values of t, while x2(t) is defined only for t ≥ 0 and x3(t) is undefined for t < 0.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 27
+    },
+    {
+      "question": "In the context of signals, what is the primary reason for using piecewise descriptions?",
+      "choices": [
+        "To simplify complex signals into single equations",
+        "To provide different mathematical descriptions for different ranges of values",
+        "To ensure all signals can be represented by a single formula",
+        "To eliminate the need for graphical representations"
+      ],
+      "correct_answer": "To provide different mathematical descriptions for different ranges of values",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 28
+    },
+    {
+      "question": "Why are complex signals considered convenient in engineering and mathematics?",
+      "choices": [
+        "They allow for the direct measurement of real quantities without abstraction.",
+        "They provide a natural and convenient system for tracking two quantities together.",
+        "They are the only way to represent scalar quantities in nature.",
+        "They simplify the study of single-variable functions."
+      ],
+      "correct_answer": "They provide a natural and convenient system for tracking two quantities together.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 29
+    },
+    {
+      "question": "Why is it often more convenient to represent parameters like gain and phase together in a complex function when analyzing an RC circuit?",
+      "choices": [
+        "Because it simplifies the mathematical representation and analysis of the circuit's behavior.",
+        "Because complex functions cannot represent gain and phase separately.",
+        "Because it makes the circuit analysis more complicated and less intuitive.",
+        "Because gain and phase are always constant across different frequencies."
+      ],
+      "correct_answer": "Because it simplifies the mathematical representation and analysis of the circuit's behavior.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 30
+    },
+    {
+      "question": "In the context of wireless communication, what is the primary role of the receiver when processing distorted signals s(t)?",
+      "choices": [
+        "To recover the complex signal xI(t) + jxQ(t) from s(t)",
+        "To amplify the signal s(t) to improve transmission distance",
+        "To convert the complex signal into a purely real signal",
+        "To determine the frequency fc of the incoming signal"
+      ],
+      "correct_answer": "To recover the complex signal xI(t) + jxQ(t) from s(t)",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 31
+    },
+    {
+      "question": "What distinguishes an energy signal from a power signal according to the definitions provided?",
+      "choices": [
+        "An energy signal has a finite energy Ex, while a power signal has finite average power Px.",
+        "An energy signal is always periodic, while a power signal is not.",
+        "An energy signal can only be a real signal, while a power signal can be complex.",
+        "An energy signal does not exist in the continuous time domain, while a power signal does."
+      ],
+      "correct_answer": "An energy signal has a finite energy Ex, while a power signal has finite average power Px.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 32
+    },
+    {
+      "question": "In the context of signals, which statement correctly defines an energy signal?",
+      "choices": [
+        "An energy signal has a finite energy value over time and does not exist for all time.",
+        "An energy signal has a power value that is finite and non-zero.",
+        "An energy signal has infinite energy and exists for all time.",
+        "An energy signal has zero energy and is defined only for negative time."
+      ],
+      "correct_answer": "An energy signal has a finite energy value over time and does not exist for all time.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 33
+    },
+    {
+      "question": "What does the energy of a discrete-time signal x[n] represent in terms of linear algebra?",
+      "choices": [
+        "The sum of all signal values over time",
+        "The square of the length of the vector formed by the signal values",
+        "The average power of the signal over time",
+        "The integral of the signal values squared"
+      ],
+      "correct_answer": "The square of the length of the vector formed by the signal values",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 34
+    },
+    {
+      "question": "When choosing between two waveforms for transmission, what is the primary consideration for maximizing battery life and reducing interference?",
+      "choices": [
+        "Select the waveform with the higher instantaneous power.",
+        "Choose the waveform that has lower energy.",
+        "Opt for the waveform that has more complex patterns.",
+        "Select the waveform with the higher frequency."
+      ],
+      "correct_answer": "Choose the waveform that has lower energy.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 35
+    },
+    {
+      "question": "How can one determine which of two control algorithms gives a better approximation to a desired path x(t)?",
+      "choices": [
+        "By calculating the error signals e1(t) and e2(t) and comparing their energies.",
+        "By assessing the complexity of each algorithm's code.",
+        "By measuring the speed at which each algorithm executes.",
+        "By analyzing the types of sensors used in each control algorithm."
+      ],
+      "correct_answer": "By calculating the error signals e1(t) and e2(t) and comparing their energies.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 36
+    },
+    {
+      "question": "Under what condition are two continuous-time (CT) signals considered the same?",
+      "choices": [
+        "When their values are identical for all time t",
+        "When the area under their difference over time is zero",
+        "When their energy is identical for all time t",
+        "When they have the same fundamental time period"
+      ],
+      "correct_answer": "When the area under their difference over time is zero",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 37
+    },
+    {
+      "question": "What is the fundamental time period of a discrete-time (DT) signal defined as periodic?",
+      "choices": [
+        "It can be any positive real number.",
+        "It must be a positive (non-zero) integer.",
+        "It can only be a negative integer.",
+        "It is always equal to 1."
+      ],
+      "correct_answer": "It must be a positive (non-zero) integer.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 38
+    },
+    {
+      "question": "Which of the following statements is true regarding periodic discrete-time (DT) signals?",
+      "choices": [
+        "A DT complex exponential signal is periodic only if the frequency is a rational multiple of 2π.",
+        "All periodic signals have finite energy.",
+        "A DT sinusoid is periodic only if its amplitude is rational.",
+        "Any periodic signal can be classified as an energy signal."
+      ],
+      "correct_answer": "A DT complex exponential signal is periodic only if the frequency is a rational multiple of 2π.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 39
+    },
+    {
+      "question": "What does the operation of amplitude scaling on a signal x(t) result in?",
+      "choices": [
+        "A shifted version of the input signal x(t)",
+        "A time-reversed version of the input signal x(t)",
+        "A scaled version of the input signal x(t) given by y(t) = c x(t)",
+        "A derivative of the input signal x(t)"
+      ],
+      "correct_answer": "A scaled version of the input signal x(t) given by y(t) = c x(t)",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 40
+    },
+    {
+      "question": "What is the primary difference between continuous time (CT) signals and discrete time (DT) signals in terms of differentiation and integration?",
+      "choices": [
+        "Differentiation and integration are well-defined operations for both CT and DT signals.",
+        "Differentiation and integration are not well-defined for DT signals; instead, the difference operator and summation operator are used.",
+        "CT signals can only be differentiated, while DT signals can only be integrated.",
+        "DT signals can be differentiated using the same methods as CT signals."
+      ],
+      "correct_answer": "Differentiation and integration are not well-defined for DT signals; instead, the difference operator and summation operator are used.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 41
+    },
+    {
+      "question": "What happens to a continuous-time signal x(t) when it is time-scaled by a factor a > 1?",
+      "choices": [
+        "The signal is expanded along the time axis, making it slower.",
+        "The signal is compressed along the time axis, making it faster.",
+        "The signal is inverted about the Y-axis.",
+        "The signal remains unchanged."
+      ],
+      "correct_answer": "The signal is compressed along the time axis, making it faster.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 42
+    },
+    {
+      "question": "What happens to a discrete-time signal y[n] when it is defined as y[n] = x[n/2] for odd values of n?",
+      "choices": [
+        "y[n] is well-defined for all integer values of n.",
+        "y[n] takes the value of x[n/2] for odd n.",
+        "y[n] is set to zero for odd values of n.",
+        "y[n] equals x[n] for all n."
+      ],
+      "correct_answer": "y[n] is set to zero for odd values of n.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 43
+    },
+    {
+      "question": "In cellular communication systems, what is the primary reason the signal received at the handset is a linear combination of time shifted versions of the transmitted signal?",
+      "choices": [
+        "The signal travels through multiple paths with varying lengths, resulting in different delays.",
+        "The handset amplifies the signal, causing distortion.",
+        "The base station transmits multiple frequencies simultaneously.",
+        "The signal is modulated in such a way that it combines several frequencies."
+      ],
+      "correct_answer": "The signal travels through multiple paths with varying lengths, resulting in different delays.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 44
+    },
+    {
+      "question": "Which of the following sequences of operations is the natural order to obtain the signal y(t) = x(→at →b)?",
+      "choices": [
+        "First scale the signal by a, then shift it right by b, and finally reflect about the Y-axis.",
+        "First shift the signal to the right by b, then scale it by a, and finally reflect about the Y-axis.",
+        "First reflect the signal about the Y-axis, then scale the signal by a, and finally shift it right by b.",
+        "First shift the signal to the left by b, then scale it, and finally reflect it about the Y-axis."
+      ],
+      "correct_answer": "First shift the signal to the right by b, then scale it by a, and finally reflect about the Y-axis.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 45
+    },
+    {
+      "question": "What does scaling the time axis by a factor of 'a' correspond to in the transformation of the signal x(t)?",
+      "choices": [
+        "Replacing t by at",
+        "Replacing t by t + a",
+        "Replacing the entire argument x(t) by ax(t)",
+        "Replacing t by a + t"
+      ],
+      "correct_answer": "Replacing t by at",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 46
+    },
+    {
+      "question": "What is the effect of the transformation y(t) = x(2t - 4) on the signal x(t)?",
+      "choices": [
+        "It scales the signal by a factor of 2 and shifts it to the right by 4 units.",
+        "It shifts the signal to the left by 4 units and scales it by a factor of 2.",
+        "It scales the signal by a factor of 2 and shifts it to the left by 4 units.",
+        "It shifts the signal to the right by 4 units and scales it by a factor of 2."
+      ],
+      "correct_answer": "It scales the signal by a factor of 2 and shifts it to the right by 4 units.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 47
+    },
+    {
+      "question": "For the signal x(t) defined such that x(t) = 0 when t < 3, what is the value of t for which the derived signal x(2 →t) is guaranteed to be zero?",
+      "choices": [
+        "For t > 1 the signal is zero",
+        "For t > 2 the signal is zero",
+        "For t > 3 the signal is zero",
+        "For t > 9 the signal is zero"
+      ],
+      "correct_answer": "For t > 2 the signal is zero",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 48
+    },
+    {
+      "question": "In the context of the signal x(t) as defined in the text, how does the transformation x(→t) affect the piecewise definition of the signal?",
+      "choices": [
+        "It replaces t with →t and modifies the intervals accordingly.",
+        "It leaves the definition of the signal unchanged.",
+        "It only affects the values of x(t) when t = 0.",
+        "It changes the function but does not affect the intervals."
+      ],
+      "correct_answer": "It replaces t with →t and modifies the intervals accordingly.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 49
+    },
+    {
+      "question": "Which of the following statements about even and odd signals is TRUE?",
+      "choices": [
+        "An even signal is symmetric about the X-axis.",
+        "An odd signal can be represented as the sum of two even signals.",
+        "Every real signal can be expressed as the sum of an even part and an odd part.",
+        "An even signal is defined as x(t) = -x(-t)."
+      ],
+      "correct_answer": "Every real signal can be expressed as the sum of an even part and an odd part.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 50
+    },
+    {
+      "question": "What is the primary characteristic that distinguishes even and odd signals in signal decomposition?",
+      "choices": [
+        "An even signal is symmetric about the y-axis, while an odd signal is symmetric about the origin.",
+        "An even signal has a frequency component of zero, while an odd signal does not.",
+        "An even signal can only be a constant value, while an odd signal must vary.",
+        "An even signal is always positive, while an odd signal can be negative."
+      ],
+      "correct_answer": "An even signal is symmetric about the y-axis, while an odd signal is symmetric about the origin.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 51
+    },
+    {
+      "question": "What can be inferred about the real and imaginary parts of a conjugate-symmetric signal x(t)?",
+      "choices": [
+        "The real part is odd and the imaginary part is even.",
+        "Both the real and imaginary parts are odd.",
+        "The real part is even and the imaginary part is odd.",
+        "Both the real and imaginary parts are even."
+      ],
+      "correct_answer": "The real part is even and the imaginary part is odd.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 52
+    },
+    {
+      "question": "Which of the following statements is true regarding a conjugate-symmetric signal x(t)?",
+      "choices": [
+        "Its real part is an even signal, its imaginary part is an even signal.",
+        "Its real part is an odd signal, its imaginary part is an even signal.",
+        "Its real part is an even signal, its imaginary part is an odd signal.",
+        "Its real part is an odd signal, its imaginary part is an odd signal."
+      ],
+      "correct_answer": "Its real part is an even signal, its imaginary part is an odd signal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 53
+    },
+    {
+      "question": "In the context of the given text, what does the term 'exponential signal' refer to?",
+      "choices": [
+        "A signal that increases at a constant rate over time.",
+        "A signal that increases based on a fixed interest rate in a bank.",
+        "A signal that increases exponentially due to a mathematical relationship involving e.",
+        "A signal that remains constant regardless of time."
+      ],
+      "correct_answer": "A signal that increases exponentially due to a mathematical relationship involving e.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 54
+    },
+    {
+      "question": "What condition must be satisfied for a discrete-time sinusoid to be periodic?",
+      "choices": [
+        "The frequency # must be a rational multiple of π.",
+        "The phase shift ϖ must be equal to zero.",
+        "The amplitude A must be greater than one.",
+        "The sampling time Ts must be equal to the fundamental period."
+      ],
+      "correct_answer": "The frequency # must be a rational multiple of π.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 55
+    },
+    {
+      "question": "What determines whether the complex exponential signal x(t) = e^(st) is bounded or unbounded as time t increases?",
+      "choices": [
+        "The imaginary part of s",
+        "The real part of s",
+        "The phase of x(t)",
+        "The frequency ω"
+      ],
+      "correct_answer": "The real part of s",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 56
+    },
+    {
+      "question": "What does the voltage across a capacitor in an LRC circuit depend on over time?",
+      "choices": [
+        "The initial voltage and the resistance, capacitance, and frequency of the circuit.",
+        "Only the initial voltage at time 0.",
+        "The resistance of the circuit alone.",
+        "The capacitance alone, regardless of any other factors."
+      ],
+      "correct_answer": "The initial voltage and the resistance, capacitance, and frequency of the circuit.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 57
+    },
+    {
+      "question": "What effect does multiplying a signal x(t) by the unit step function u(t - t0) have on the signal?",
+      "choices": [
+        "It makes the signal zero for all t less than t0 and preserves the original signal for t greater than or equal to t0.",
+        "It inverts the signal x(t) for all values of t.",
+        "It shifts the entire signal to the left by t0 units.",
+        "It scales the signal x(t) by a factor of t0."
+      ],
+      "correct_answer": "It makes the signal zero for all t less than t0 and preserves the original signal for t greater than or equal to t0.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 58
+    },
+    {
+      "question": "What is the primary characteristic of a rectangular signal as described in the text?",
+      "choices": [
+        "It describes phenomena that are active over an infinite time window.",
+        "It can be expressed using piecewise functions.",
+        "It is always zero outside of its defined interval.",
+        "It can only take on binary values."
+      ],
+      "correct_answer": "It can be expressed using piecewise functions.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 59
+    },
+    {
+      "question": "What is the primary role of the sinc function in signal processing as described in the text?",
+      "choices": [
+        "To define a unit impulse function that models phenomena at a single point in time.",
+        "To express sinusoidal signals in terms of the sinc function for analysis.",
+        "To provide a method for sampling continuous signals without distortion.",
+        "To represent discrete-time signals as continuous functions."
+      ],
+      "correct_answer": "To express sinusoidal signals in terms of the sinc function for analysis.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 60
+    },
+    {
+      "question": "What does the sifting property of the discrete-time impulse or Kronecker delta signal state?",
+      "choices": [
+        "x[n]ε[n → n0] = x[n0]ε[n → n0]",
+        "x[n]ε[n] = x[n0]ε[n]",
+        "x[n] = x[n0]ε[n → n0]",
+        "x[n]ε[n] = x[n]ε[n → n0]"
+      ],
+      "correct_answer": "x[n]ε[n → n0] = x[n0]ε[n → n0]",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 61
+    },
+    {
+      "question": "What key aspect does the Dirac-delta function capture in the context of a golf ball being hit by a club?",
+      "choices": [
+        "The force is zero everywhere except at the moment of impact.",
+        "The momentum of the ball remains constant after impact.",
+        "The area under the force-time curve must be non-zero despite the force acting for an infinitesimally small time.",
+        "The force acts on the ball for a finite amount of time."
+      ],
+      "correct_answer": "The area under the force-time curve must be non-zero despite the force acting for an infinitesimally small time.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 62
+    },
+    {
+      "question": "What is the primary property that the continuous-time impulse function ε(t) must satisfy in relation to any signal x(t)?",
+      "choices": [
+        "ε(t) must be non-zero for all values of t.",
+        "ε(t)x(t) must equal x(0)ε(t).",
+        "The area under the ε(t) curve must be zero.",
+        "ε(t) must be a continuous function for all values of t."
+      ],
+      "correct_answer": "ε(t)x(t) must equal x(0)ε(t).",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 63
+    },
+    {
+      "question": "What is the significance of the impulse function ε(t) as described in the text?",
+      "choices": [
+        "It is a function defined for all values in its domain.",
+        "It represents a signal that is zero everywhere except at t = 0.",
+        "It is a generalized function that models phenomena occurring only for a small time around t0.",
+        "It is a continuous function that is always equal to 1."
+      ],
+      "correct_answer": "It is a generalized function that models phenomena occurring only for a small time around t0.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 64
+    },
+    {
+      "question": "What does the terminology 'an impulse occurring at time t0' refer to in the context of the Dirac delta function?",
+      "choices": [
+        "The signal ε(t →t0) which models phenomena around t0",
+        "The area under the curve of ε(t)",
+        "The amplitude of the signal ε(t)",
+        "The integration of a signal over time t"
+      ],
+      "correct_answer": "The signal ε(t →t0) which models phenomena around t0",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 65
+    },
+    {
+      "question": "What is the significance of the ramp function expressed in terms of unit step signals?",
+      "choices": [
+        "It shows that the ramp function is the integral of the unit step function.",
+        "It demonstrates that the ramp function can only be defined for negative values.",
+        "It indicates that the ramp function is a continuous function without any discontinuities.",
+        "It proves that the ramp function cannot be expressed in terms of any other functions."
+      ],
+      "correct_answer": "It shows that the ramp function is the integral of the unit step function.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 66
+    },
+    {
+      "question": "What does the unit step function represent in the context of discontinuous functions?",
+      "choices": [
+        "It can be derived from the limit of a continuous function.",
+        "It shows how to take derivatives of continuous functions only.",
+        "It acts as a model for discontinuities in signals.",
+        "It can only be used for functions defined at all points."
+      ],
+      "correct_answer": "It acts as a model for discontinuities in signals.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 67
+    },
+    {
+      "question": "What does the operator H represent in the context of systems?",
+      "choices": [
+        "The input signal x(t) being processed",
+        "The output signal y(t) after transformation",
+        "The transformation performed by the system on input signals",
+        "The mathematical relationship between input and output signals"
+      ],
+      "correct_answer": "The transformation performed by the system on input signals",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 68
+    },
+    {
+      "question": "What is the primary goal of receiver processing in a wireless communication system?",
+      "choices": [
+        "To amplify the transmitted signal x(t) before it is sent through the channel.",
+        "To model the physical process of signal propagation in the wireless channel.",
+        "To recover a good approximation of the transmitted signal x(t) from the distorted output y(t).",
+        "To analyze the distortion introduced by the wireless channel."
+      ],
+      "correct_answer": "To recover a good approximation of the transmitted signal x(t) from the distorted output y(t).",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 69
+    },
+    {
+      "question": "In the context of the autonomous vehicle model described, what does the term x(t) represent?",
+      "choices": [
+        "The velocity of the car at time t",
+        "The position of the car as a function of time",
+        "The force applied to the gas pedal as a function of time",
+        "The coefficient of friction acting on the car"
+      ],
+      "correct_answer": "The force applied to the gas pedal as a function of time",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 70
+    },
+    {
+      "question": "In the context of an autonomous driving system, what is the primary purpose of measuring the car's position and velocity at time t?",
+      "choices": [
+        "To change the car's trajectory to match the desired trajectory by adjusting the input x(t)",
+        "To ensure the car does not exceed speed limits under any circumstances",
+        "To calculate the fuel efficiency of the vehicle during the drive",
+        "To provide entertainment options for the passengers while driving"
+      ],
+      "correct_answer": "To change the car's trajectory to match the desired trajectory by adjusting the input x(t)",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 71
+    },
+    {
+      "question": "What characterizes the relationship between input and output in a non-linear system, as described in the context of convolutional neural networks?",
+      "choices": [
+        "The output is a direct linear transformation of the input.",
+        "The system applies convolution to the input signal in a linear manner.",
+        "The system's output can vary unpredictably based on the input signal.",
+        "The output is a weighted sum of past outputs and current inputs."
+      ],
+      "correct_answer": "The system's output can vary unpredictably based on the input signal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 72
+    },
+    {
+      "question": "What is the primary criterion for a continuous-time (CT) signal to be considered bounded?",
+      "choices": [
+        "The signal must be non-zero only between specific time instants.",
+        "The signal's amplitude must always lie between a defined maximum and minimum value.",
+        "The signal must have a finite duration.",
+        "The signal must be periodic in nature."
+      ],
+      "correct_answer": "The signal's amplitude must always lie between a defined maximum and minimum value.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 73
+    },
+    {
+      "question": "Which of the following statements accurately describes the relationship between bounded input signals and system stability?",
+      "choices": [
+        "A bounded input signal will always produce a bounded output signal in a stable system.",
+        "An unstable system can produce a bounded output signal from a bounded input signal.",
+        "A stable system guarantees that all input signals will be bounded.",
+        "A system can be considered stable if it produces an unbounded output from a bounded input signal."
+      ],
+      "correct_answer": "A bounded input signal will always produce a bounded output signal in a stable system.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 74
+    },
+    {
+      "question": "Which property of a system indicates that the output due to a sum of inputs equals the sum of the outputs from each individual input?",
+      "choices": [
+        "Homogeneity",
+        "Continuity",
+        "Additivity",
+        "Stability"
+      ],
+      "correct_answer": "Additivity",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 75
+    },
+    {
+      "question": "Which of the following statements accurately describes the conditions for a system to be considered linear?",
+      "choices": [
+        "A system is linear if it is both additive and homogeneous.",
+        "A system is linear if it is either additive or homogeneous.",
+        "A system is linear if it only satisfies the additive property.",
+        "A system is linear if it only satisfies the homogeneous property."
+      ],
+      "correct_answer": "A system is linear if it is both additive and homogeneous.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 76
+    },
+    {
+      "question": "Which of the following statements best describes a linear system?",
+      "choices": [
+        "A linear system produces outputs that can be expressed as a linear combination of its inputs.",
+        "A linear system outputs the same response regardless of the input signal.",
+        "A linear system can only process single input signals at a time.",
+        "A linear system always produces outputs that are proportional to the square of the input."
+      ],
+      "correct_answer": "A linear system produces outputs that can be expressed as a linear combination of its inputs.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 77
+    },
+    {
+      "question": "What defines a time-invariant system according to the text?",
+      "choices": [
+        "The internal parameters of the system change with time.",
+        "The input-output relationship of the system depends on the input signal.",
+        "The internal parameters of the system do not change with time.",
+        "The system behaves differently at different times based on external conditions."
+      ],
+      "correct_answer": "The internal parameters of the system do not change with time.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 78
+    },
+    {
+      "question": "Which of the following statements best describes a time-invariant system?",
+      "choices": [
+        "The output signal does not change when the input signal is shifted by a certain amount.",
+        "The output signal changes in amplitude when the input signal is shifted.",
+        "The output signal becomes distorted when the input signal is shifted.",
+        "The system requires different transformations for different input signals."
+      ],
+      "correct_answer": "The output signal does not change when the input signal is shifted by a certain amount.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 79
+    },
+    {
+      "question": "Why is the system defined by y(t) = 1/t x(t) considered time-variant?",
+      "choices": [
+        "Because the output depends on the current time variable t.",
+        "Because the system only modifies the amplitude of the input signal.",
+        "Because the input signal x(t) remains unchanged over time.",
+        "Because the output is a linear transformation of the input signal."
+      ],
+      "correct_answer": "Because the output depends on the current time variable t.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 80
+    },
+    {
+      "question": "What does it mean for a continuous-time (CT) system to be invertible?",
+      "choices": [
+        "The system can uniquely recover the input signal from the output signal.",
+        "The system maps multiple input signals to a single output signal.",
+        "The output signal can be derived from the input signal through a reciprocal transformation.",
+        "The system only operates correctly for non-negative time inputs."
+      ],
+      "correct_answer": "The system can uniquely recover the input signal from the output signal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 81
+    },
+    {
+      "question": "What characterizes an invertible system in the context of signal processing?",
+      "choices": [
+        "The system maps every input signal to a unique output signal.",
+        "The system can produce outputs from multiple distinct inputs.",
+        "The system implements reciprocals of the form y(t) = x(t).",
+        "The system output depends on past input values."
+      ],
+      "correct_answer": "The system maps every input signal to a unique output signal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 82
+    },
+    {
+      "question": "Which of the following statements correctly describes a non-causal system?",
+      "choices": [
+        "A system where the output depends only on current and past input values.",
+        "A system where the output depends on future input values.",
+        "A system that produces an output without any input.",
+        "A system that is not affected by past input values."
+      ],
+      "correct_answer": "A system where the output depends on future input values.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 83
+    },
+    {
+      "question": "Why might non-causal systems be relevant in certain applications?",
+      "choices": [
+        "They can only process signals that are time-dependent.",
+        "They can be used to create physically unrealizable systems.",
+        "They are useful in image processing to reconstruct lost parts of an image.",
+        "They always produce outputs that depend solely on past input values."
+      ],
+      "correct_answer": "They are useful in image processing to reconstruct lost parts of an image.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 84
+    },
+    {
+      "question": "What is a key characteristic of non-causal systems as described in the text?",
+      "choices": [
+        "They can only operate in real-time without delays.",
+        "They require signals to be processed in the order they are received.",
+        "They can be physically realizable if a delay is allowed.",
+        "They produce outputs that are always immediate and predictable."
+      ],
+      "correct_answer": "They can be physically realizable if a delay is allowed.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 85
+    },
+    {
+      "question": "What does the impulse response of a Linear Time Invariant (LTI) system represent?",
+      "choices": [
+        "The system's output when the input is a unit impulse signal.",
+        "The system's output when the input is a constant signal.",
+        "The average output of the system over time.",
+        "The relationship between the input and output signals for all time instances."
+      ],
+      "correct_answer": "The system's output when the input is a unit impulse signal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 86
+    },
+    {
+      "question": "Why is the impulse response important for modeling LTI systems in environments like a lecture hall?",
+      "choices": [
+        "It allows us to understand how any input signal will be transformed based on the room's acoustics.",
+        "It directly measures the volume of the speaker's voice.",
+        "It provides a way to eliminate all echoes from the environment.",
+        "It describes the frequency response of the speaker's equipment."
+      ],
+      "correct_answer": "It allows us to understand how any input signal will be transformed based on the room's acoustics.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 87
+    },
+    {
+      "question": "Why is the impulse response of a linear time invariant (LTI) system important?",
+      "choices": [
+        "It provides a way to compute the output for any input signal.",
+        "It is only relevant for continuous-time systems, not discrete-time systems.",
+        "It is useful only for systems with a finite number of states.",
+        "It determines the stability of the system in the frequency domain."
+      ],
+      "correct_answer": "It provides a way to compute the output for any input signal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 88
+    },
+    {
+      "question": "What does the equation y[n] = x[n] ⇀ h[n] represent in the context of discrete-time signals?",
+      "choices": [
+        "The output of an LTI system as a convolution of the input signal and the impulse response.",
+        "The input signal transformed by the Laplace transform.",
+        "The Fourier transform of the output signal.",
+        "The derivative of the input signal with respect to time."
+      ],
+      "correct_answer": "The output of an LTI system as a convolution of the input signal and the impulse response.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 89
+    },
+    {
+      "question": "What does the convolution of two discrete-time signals x[n] and h[n] represent in the context of polynomial multiplication?",
+      "choices": [
+        "The convolution represents the direct multiplication of the two signals in the time domain.",
+        "The convolution represents the summation of the coefficients of the two signals.",
+        "The convolution represents the coefficients of the polynomial obtained by multiplying their associated polynomials.",
+        "The convolution represents the integration of the signals over time."
+      ],
+      "correct_answer": "The convolution represents the coefficients of the polynomial obtained by multiplying their associated polynomials.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 90
+    },
+    {
+      "question": "What is the first step in computing the convolution sum y[n] of two signals x[n] and h[n]?",
+      "choices": [
+        "Flip h[k] about the Y-axis to obtain the signal h[→k]",
+        "Think of x[n] and h[n] as signals x[k] and h[k] respectively, i.e., with the independent variable being k instead of n",
+        "Shift the signal h[→k] by n units to the right to obtain the signal h[n →k]",
+        "Compute y[n] by summing the values of wn[k] for all values of k"
+      ],
+      "correct_answer": "Think of x[n] and h[n] as signals x[k] and h[k] respectively, i.e., with the independent variable being k instead of n",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 91
+    },
+    {
+      "question": "In the context of discrete-time convolution, what does the expression y[n] = x[n] * h[n] represent?",
+      "choices": [
+        "The output of the system when x[n] is convolved with h[n]",
+        "The input signal processed by the system",
+        "The impulse response of the system",
+        "The Fourier transform of the signal x[n]"
+      ],
+      "correct_answer": "The output of the system when x[n] is convolved with h[n]",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 92
+    },
+    {
+      "question": "What is the value of y[n] when n is less than 0 according to the provided text?",
+      "choices": [
+        "y[n] = 0",
+        "y[n] = n",
+        "y[n] = βn",
+        "y[n] = 1↓ςn+1"
+      ],
+      "correct_answer": "y[n] = 0",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 93
+    },
+    {
+      "question": "What does the convolution integral y(t) = x(t) ∞ h(t) represent in the context of a continuous-time linear time-invariant (LTI) system?",
+      "choices": [
+        "The output signal is the sum of the input signal and the impulse response.",
+        "The output signal is a weighted average of the input signal based on the system's impulse response.",
+        "The output signal is the product of the input signal and the impulse response.",
+        "The output signal is the integral of the input signal and the impulse response over time."
+      ],
+      "correct_answer": "The output signal is a weighted average of the input signal based on the system's impulse response.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 94
+    },
+    {
+      "question": "What is the primary purpose of convolution in signal processing?",
+      "choices": [
+        "To combine two signals to produce a third signal that represents how one signal modifies the other",
+        "To filter out noise from a signal without changing its frequency content",
+        "To directly sum two signals to create a new signal",
+        "To convert a signal from the time domain to the frequency domain"
+      ],
+      "correct_answer": "To combine two signals to produce a third signal that represents how one signal modifies the other",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 95
+    },
+    {
+      "question": "In the context of linear time-invariant systems, what is the behavior of the output signal y(t) when t < 0 based on the convolution of x(t) and h(t) as described in the text?",
+      "choices": [
+        "y(t) = e^(-t)u(t)",
+        "y(t) = 0",
+        "y(t) = e^(-t)(1 - e^(-1))",
+        "y(t) = e^t[u(t) - u(t - 1)]"
+      ],
+      "correct_answer": "y(t) = 0",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 96
+    },
+    {
+      "question": "What is the behavior of the output signal y(t) for t < -1 in the given system?",
+      "choices": [
+        "y(t) = 0",
+        "y(t) = e^t",
+        "y(t) = 1 - e^t",
+        "y(t) = e^(-t) - 1"
+      ],
+      "correct_answer": "y(t) = 0",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 97
+    },
+    {
+      "question": "What is the relationship between the density function of Z = X + Y and the convolution integral as described in the text?",
+      "choices": [
+        "The density function of Z is the sum of the density functions of X and Y.",
+        "The density function of Z is computed using the convolution integral of fX(x) and fY(y).",
+        "The density function of Z is independent of the individual distributions of X and Y.",
+        "The density function of Z is the product of the density functions of X and Y."
+      ],
+      "correct_answer": "The density function of Z is computed using the convolution integral of fX(x) and fY(y).",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 98
+    },
+    {
+      "question": "Which property of convolution allows you to convolve two signals in either order?",
+      "choices": [
+        "Homogeneity",
+        "Distributivity",
+        "Commutativity",
+        "Associativity"
+      ],
+      "correct_answer": "Commutativity",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 99
+    },
+    {
+      "question": "What does the time invariance property of an LTI system imply about the output when the input is shifted in time?",
+      "choices": [
+        "The output will also be shifted by the same amount of time.",
+        "The output will be modified in amplitude but not in time.",
+        "The output will become periodic regardless of the input.",
+        "The output will be zero for all time shifts."
+      ],
+      "correct_answer": "The output will also be shifted by the same amount of time.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 100
+    },
+    {
+      "question": "Which of the following statements is true regarding the impulse response of a Linear Time Invariant (LTI) system?",
+      "choices": [
+        "A system is memoryless if its impulse response h[n] is of the form cε[n].",
+        "A system is causal if its impulse response h[n] has non-zero values for k > 0.",
+        "An LTI system is stable if the impulse response h[n] is unbounded.",
+        "A memoryless system's output y[n] depends on previous inputs x[n → k] for k ≠ 0."
+      ],
+      "correct_answer": "A system is memoryless if its impulse response h[n] is of the form cε[n].",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 101
+    },
+    {
+      "question": "What condition must be satisfied for an LTI system to be considered stable?",
+      "choices": [
+        "The impulse response h[n] must be finite or bounded.",
+        "The output must always equal the input.",
+        "The system must have an inverse that is also LTI.",
+        "The input must be unbounded."
+      ],
+      "correct_answer": "The impulse response h[n] must be finite or bounded.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 102
+    },
+    {
+      "question": "Under what condition is an LTI system with impulse response h[n] considered invertible?",
+      "choices": [
+        "If there exists an impulse response hinv[n] such that h[n] ∞ hinv[n] = ε[n]",
+        "If the impulse response h[n] is non-zero for all n",
+        "If h[n] is continuous and differentiable everywhere",
+        "If the output y[n] is equal to the input x[n]"
+      ],
+      "correct_answer": "If there exists an impulse response hinv[n] such that h[n] ∞ hinv[n] = ε[n]",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 103
+    },
+    {
+      "question": "What is the significance of complex exponentials in the context of LTI systems?",
+      "choices": [
+        "Complex exponentials are treated as independent signals that do not influence the output of the system.",
+        "Complex exponentials are eigen functions of LTI systems, leading to the output being a scaled version of the input.",
+        "Complex exponentials behave like impulse responses in LTI systems, altering the input signal significantly.",
+        "Complex exponentials only apply to discrete-time systems and do not affect continuous-time systems."
+      ],
+      "correct_answer": "Complex exponentials are eigen functions of LTI systems, leading to the output being a scaled version of the input.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 104
+    },
+    {
+      "question": "What is the significance of complex exponentials in the context of LTI systems?",
+      "choices": [
+        "They serve as eigen functions, allowing the output to be a scaled version of the input.",
+        "They are the only functions that can be used as inputs to an LTI system.",
+        "They create new frequencies in the output that are not present in the input.",
+        "They are always non-periodic and cannot be analyzed in the frequency domain."
+      ],
+      "correct_answer": "They serve as eigen functions, allowing the output to be a scaled version of the input.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 105
+    },
+    {
+      "question": "What is the significance of the angular frequency ω in the context of complex exponentials?",
+      "choices": [
+        "It defines the time period of the signal.",
+        "It represents the frequency of the complex exponential in radians/s.",
+        "It indicates the amplitude of the signal.",
+        "It is always a positive value regardless of the signal."
+      ],
+      "correct_answer": "It represents the frequency of the complex exponential in radians/s.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 106
+    },
+    {
+      "question": "What does the Fourier series coefficient X[k] represent in the context of a continuous-time periodic signal x(t)?",
+      "choices": [
+        "The total power contained in the signal x(t)",
+        "The amount of a certain harmonic or frequency present in the signal x(t)",
+        "The fundamental frequency of the signal x(t)",
+        "The duration of the signal x(t)"
+      ],
+      "correct_answer": "The amount of a certain harmonic or frequency present in the signal x(t)",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 107
+    },
+    {
+      "question": "What does the coefficient |X[k]|² in the context of Fourier Series represent?",
+      "choices": [
+        "The amount of power contained in the kth harmonic",
+        "The frequency of the kth harmonic",
+        "The amplitude of the signal x(t)",
+        "The phase shift of the kth harmonic"
+      ],
+      "correct_answer": "The amount of power contained in the kth harmonic",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 108
+    },
+    {
+      "question": "What does the Fourier Series coefficient X[k] represent when k = 0?",
+      "choices": [
+        "The average value of x(t) over a period, known as the DC component.",
+        "The peak value of the signal x(t) over one period.",
+        "The first harmonic component of the signal x(t).",
+        "The instantaneous value of x(t) at time t = 0."
+      ],
+      "correct_answer": "The average value of x(t) over a period, known as the DC component.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 109
+    },
+    {
+      "question": "What is the expression for the Fourier series coefficients X[k] of the periodic signal x(t) with fundamental time period T and defined piecewise as x(t) = 1 for |t| < T1 and x(t) = 0 for T1 < |t| < T/2?",
+      "choices": [
+        "X[k] = 2T1/T sinc(kω0T1)",
+        "X[k] = T1/T sinc(kω0T)",
+        "X[k] = 2T1/T sin(kω0T1)",
+        "X[k] = 2 sin(kω0T1)/Tkω0"
+      ],
+      "correct_answer": "X[k] = 2T1/T sinc(kω0T1)",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 110
+    },
+    {
+      "question": "In the context of the Continuous-Time Fourier Series (CTFS) representation, how is the fundamental frequency ω0 determined from the time period T?",
+      "choices": [
+        "ω0 = 2π/T",
+        "ω0 = T/2",
+        "ω0 = 2/T",
+        "ω0 = 1/T"
+      ],
+      "correct_answer": "ω0 = 2π/T",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 111
+    },
+    {
+      "question": "What is the significance of the Fourier series coefficients X[k] in the context of signal analysis?",
+      "choices": [
+        "They represent the amplitude and phase of the signal's frequency components.",
+        "They indicate the time-domain representation of the signal directly.",
+        "They are used solely for calculating the power of the signal.",
+        "They determine the bandwidth of the signal without any further calculations."
+      ],
+      "correct_answer": "They represent the amplitude and phase of the signal's frequency components.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 112
+    },
+    {
+      "question": "What does the equation x(t) = ∑_{k=-∞}^{∞} X[k]e^{jkω_0t} represent in the context of Fourier series?",
+      "choices": [
+        "It represents the synthesis equation for reconstructing a time-domain signal from its frequency-domain coefficients.",
+        "It denotes the time-domain signal's frequency spectrum.",
+        "It indicates the relationship between time and frequency in signal processing.",
+        "It illustrates the concept of signal modulation in communication systems."
+      ],
+      "correct_answer": "It represents the synthesis equation for reconstructing a time-domain signal from its frequency-domain coefficients.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 113
+    },
+    {
+      "question": "What does it mean for a signal series to converge in squared error according to the text?",
+      "choices": [
+        "The error signal EN approaches infinity as N increases.",
+        "The truncated signal xN(t) matches x(t) point-wise for all values of t.",
+        "The integral of the squared difference between x(t) and xN(t) approaches zero as N increases.",
+        "The series of signals diverges and does not settle to any particular function."
+      ],
+      "correct_answer": "The integral of the squared difference between x(t) and xN(t) approaches zero as N increases.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 114
+    },
+    {
+      "question": "What is the major difference between the Continuous-Time Fourier Series (CTFS) and the Discrete-Time Fourier Series (DTFS) representations?",
+      "choices": [
+        "CTFS requires summing infinitely many terms while DTFS only requires N terms.",
+        "DTFS is applicable only to continuous signals, while CTFS is for discrete signals.",
+        "Both CTFS and DTFS require the same number of terms for representation.",
+        "CTFS can only represent non-periodic signals, while DTFS can represent both periodic and non-periodic signals."
+      ],
+      "correct_answer": "CTFS requires summing infinitely many terms while DTFS only requires N terms.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 115
+    },
+    {
+      "question": "What is the significance of the integer N in the context of discrete-time complex exponentials?",
+      "choices": [
+        "N represents the total number of distinct discrete-time complex exponentials corresponding to different frequencies.",
+        "N denotes the maximum frequency that can be represented using discrete-time complex exponentials.",
+        "N is the minimum number of coefficients required to represent any discrete-time signal.",
+        "N indicates the length of the periodic signal x[n] in terms of continuous time."
+      ],
+      "correct_answer": "N represents the total number of distinct discrete-time complex exponentials corresponding to different frequencies.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 116
+    },
+    {
+      "question": "In the context of Discrete-Time Fourier Series (DTFS), what does Parseval's relation imply about the power of a discrete-time signal?",
+      "choices": [
+        "The power can only be computed in the time domain.",
+        "The power can only be computed in the frequency domain.",
+        "The power can be computed in both the time and frequency domains.",
+        "The power cannot be computed using DTFS coefficients."
+      ],
+      "correct_answer": "The power can be computed in both the time and frequency domains.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 117
+    },
+    {
+      "question": "What does the continuous-time Fourier transform represent for a non-periodic signal x(t)?",
+      "choices": [
+        "It expresses the signal as a linear combination of complex exponentials.",
+        "It provides a discrete representation of the signal.",
+        "It only applies to periodic signals.",
+        "It transforms the signal into the time domain."
+      ],
+      "correct_answer": "It expresses the signal as a linear combination of complex exponentials.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 118
+    },
+    {
+      "question": "What is the relationship between Tf and ωf in the context of the Fourier transform as described in the text?",
+      "choices": [
+        "As Tf increases, ωf decreases, leading to a continuous function of ω.",
+        "As Tf increases, ωf increases, leading to a discrete function of ω.",
+        "As Tf decreases, ωf decreases, resulting in a periodic signal representation.",
+        "As Tf remains constant, ωf fluctuates, affecting the magnitude spectrum."
+      ],
+      "correct_answer": "As Tf increases, ωf decreases, leading to a continuous function of ω.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 119
+    },
+    {
+      "question": "What does Parseval's theorem indicate about the relationship between a signal and its Fourier transform?",
+      "choices": [
+        "The total energy in the signal is concentrated at a single frequency.",
+        "The total energy in the signal is distributed among different frequency components.",
+        "The Fourier transform of a signal can only be defined for periodic signals.",
+        "The energy density of a signal is independent of its frequency components."
+      ],
+      "correct_answer": "The total energy in the signal is distributed among different frequency components.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 120
+    },
+    {
+      "question": "What is the Fourier transform of the continuous-time delta function x(t) = ε(t)?",
+      "choices": [
+        "X(jω) = 1",
+        "X(jω) = 2ϑε(ω)",
+        "X(jω) = 2T1sinc(ωT1)",
+        "X(jω) = 0"
+      ],
+      "correct_answer": "X(jω) = 1",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 121
+    },
+    {
+      "question": "What effect does increasing T1 have on the rectangular signal x(t) in the context of its Fourier transform X(jω)?",
+      "choices": [
+        "It makes the time domain signal narrower and the frequency domain signal wider.",
+        "It makes the time domain signal wider and the frequency domain signal narrower and taller.",
+        "It has no effect on either the time domain signal or the frequency domain signal.",
+        "It makes both the time domain and frequency domain signals taller."
+      ],
+      "correct_answer": "It makes the time domain signal wider and the frequency domain signal narrower and taller.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 122
+    },
+    {
+      "question": "What is the significance of the Fourier transform for periodic signals that do not have finite energy?",
+      "choices": [
+        "The Fourier transform cannot be computed for any periodic signals.",
+        "The Fourier transform has impulses and is considered a generalized function.",
+        "The Fourier transform is identical to the Fourier series for all periodic signals.",
+        "The Fourier transform only applies to signals with finite energy."
+      ],
+      "correct_answer": "The Fourier transform has impulses and is considered a generalized function.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 123
+    },
+    {
+      "question": "What is the fundamental frequency of the signal x(t) = cos(ω0t)?",
+      "choices": [
+        "ω0",
+        "2ω0",
+        "ω0/2",
+        "0"
+      ],
+      "correct_answer": "ω0",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 124
+    },
+    {
+      "question": "Which property of the Fourier Transform describes the effect of shifting a signal in time?",
+      "choices": [
+        "Time Reversal: x(−t) X(−j!)",
+        "Time Shifting: x(t −t0) e−j!t0X(j!)",
+        "Frequency Shifting: ej!0tx(t) X(j(! −!0))",
+        "Conjugation: x∗(t) X∗(−j!)"
+      ],
+      "correct_answer": "Time Shifting: x(t −t0) e−j!t0X(j!)",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 125
+    },
+    {
+      "question": "What is the effect of time shifting on the magnitude of the Fourier transform of a signal?",
+      "choices": [
+        "Time shifting changes the magnitude of the Fourier transform.",
+        "Time shifting does not affect the magnitude of the Fourier transform.",
+        "Time shifting inverts the magnitude of the Fourier transform.",
+        "Time shifting amplifies the magnitude of the Fourier transform."
+      ],
+      "correct_answer": "Time shifting does not affect the magnitude of the Fourier transform.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 126
+    },
+    {
+      "question": "What does the time shift property of the Fourier transform imply about the magnitude and phase of a signal's Fourier transform?",
+      "choices": [
+        "Shifting a signal in time changes both the magnitude and phase of its Fourier transform.",
+        "Shifting a signal in time does not change the magnitude of its Fourier transform but adds a phase that changes linearly with frequency.",
+        "The magnitude of the Fourier transform becomes zero when a signal is shifted in time.",
+        "Shifting a signal in time has no effect on its Fourier transform."
+      ],
+      "correct_answer": "Shifting a signal in time does not change the magnitude of its Fourier transform but adds a phase that changes linearly with frequency.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 127
+    },
+    {
+      "question": "What is the effect of time scaling on a signal in the context of the Continuous-Time Fourier Transform (CTFT)?",
+      "choices": [
+        "It changes the amplitude of the signal without affecting its frequency characteristics.",
+        "It alters the frequency of the signal without changing its amplitude.",
+        "It compresses or expands the time duration of the signal and alters its frequency characteristics accordingly.",
+        "It has no effect on the signal's frequency or amplitude."
+      ],
+      "correct_answer": "It compresses or expands the time duration of the signal and alters its frequency characteristics accordingly.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 128
+    },
+    {
+      "question": "Why does a YouTube video played at 2x speed sound shriller?",
+      "choices": [
+        "The time domain signal becomes narrower, expanding the frequency axis and increasing high frequency components.",
+        "The signal is compressed, which reduces the overall energy of the sound.",
+        "The video processing alters the pitch of the audio without changing the speed.",
+        "The audio is filtered to remove low frequencies, making it sound clearer."
+      ],
+      "correct_answer": "The time domain signal becomes narrower, expanding the frequency axis and increasing high frequency components.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 129
+    },
+    {
+      "question": "In the context of the Continuous-Time Fourier Transform, what relationship does the Fourier transform of the real part of a signal x(t) have with its components?",
+      "choices": [
+        "The Fourier transform of the real part of x(t) corresponds to the conjugate-symmetric part of X(jω).",
+        "The Fourier transform of the real part of x(t) is equal to j times the imaginary part of X(jω).",
+        "The Fourier transform of the real part of x(t) is identical to the anti-symmetric part of X(jω).",
+        "The Fourier transform of the real part of x(t) corresponds to the strictly imaginary part of X(jω)."
+      ],
+      "correct_answer": "The Fourier transform of the real part of x(t) corresponds to the conjugate-symmetric part of X(jω).",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 130
+    },
+    {
+      "question": "What does the function H(jω) represent in the context of an LTI system?",
+      "choices": [
+        "It represents the impulse response of the system.",
+        "It represents the input signal to the system.",
+        "It represents the gain provided by the system at a frequency of ω.",
+        "It represents the output signal of the system."
+      ],
+      "correct_answer": "It represents the gain provided by the system at a frequency of ω.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 131
+    },
+    {
+      "question": "What is the effect of multiplying a signal x(t) by a rectangular window function y(t) = rect(t/2T0)?",
+      "choices": [
+        "It makes x(t) time-limited.",
+        "It makes x(t) band-limited.",
+        "It has no effect on x(t).",
+        "It causes distortion in the time domain."
+      ],
+      "correct_answer": "It makes x(t) time-limited.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 132
+    },
+    {
+      "question": "What does the differentiation property in the Continuous-Time Fourier Transform imply about the relationship between a signal x(t) and its Fourier transform X(jω)?",
+      "choices": [
+        "The derivative of x(t) corresponds to multiplying X(jω) by jω.",
+        "The Fourier transform of x(t) is independent of any differentiation.",
+        "Differentiation in the time domain does not affect the frequency domain representation.",
+        "The Fourier transform of a constant signal is zero."
+      ],
+      "correct_answer": "The derivative of x(t) corresponds to multiplying X(jω) by jω.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 133
+    },
+    {
+      "question": "What does Parseval's theorem imply about the computation of the energy of a signal?",
+      "choices": [
+        "The energy of a signal can only be computed in the time domain.",
+        "The energy of a signal can be computed in either the time domain or the frequency domain, depending on which is easier.",
+        "The energy of a signal is always easier to compute in the frequency domain.",
+        "The energy of a signal cannot be computed using its Fourier transform."
+      ],
+      "correct_answer": "The energy of a signal can be computed in either the time domain or the frequency domain, depending on which is easier.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 134
+    },
+    {
+      "question": "What is the significance of complex exponentials in the context of LTI systems?",
+      "choices": [
+        "They are eigenfunctions of LTI systems, meaning their output is a scaled version of the input.",
+        "They represent the only type of function that can be processed by LTI systems.",
+        "They yield outputs that are always zero regardless of the input.",
+        "They require additional transformations to be processed by LTI systems."
+      ],
+      "correct_answer": "They are eigenfunctions of LTI systems, meaning their output is a scaled version of the input.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 135
+    },
+    {
+      "question": "What is the primary method described for computing the inverse Fourier transform of a rational function?",
+      "choices": [
+        "Use Laplace transforms to find the inverse Fourier transform.",
+        "Apply the method of partial fractions to break down the rational function.",
+        "Differentiate the function in the frequency domain.",
+        "Use numerical methods to approximate the inverse Fourier transform."
+      ],
+      "correct_answer": "Apply the method of partial fractions to break down the rational function.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 136
+    },
+    {
+      "question": "What is the impulse response h(t) of the LTI system described in the examples?",
+      "choices": [
+        "h(t) = 1/2 e^t u(t) + 1/2 e^3t u(t)",
+        "h(t) = 1/2 e^2t u(t) + 1/6 e^t u(t)",
+        "h(t) = 1/2 e^t u(t) + 1/6 e^4t u(t)",
+        "h(t) = 1/2 e^2t u(t) + 1/4 e^t u(t)"
+      ],
+      "correct_answer": "h(t) = 1/2 e^t u(t) + 1/2 e^3t u(t)",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 137
+    },
+    {
+      "question": "What is the significance of using partial fraction expansion in the context of the given text?",
+      "choices": [
+        "It simplifies the analysis and inverse transformation of rational functions in the frequency domain.",
+        "It allows for the computation of Fourier series coefficients directly.",
+        "It is primarily used for solving differential equations without any connection to frequency analysis.",
+        "It provides a method for converting time-domain signals into their frequency components."
+      ],
+      "correct_answer": "It simplifies the analysis and inverse transformation of rational functions in the frequency domain.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 138
+    },
+    {
+      "question": "What is the primary function of a filter in signal processing?",
+      "choices": [
+        "To amplify all frequency components equally",
+        "To selectively pass some frequency components and remove others",
+        "To generate new frequency components from an input signal",
+        "To store the input signal for later processing"
+      ],
+      "correct_answer": "To selectively pass some frequency components and remove others",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 139
+    },
+    {
+      "question": "What is a key property of the discrete-time Fourier transform (DTFT) regarding its periodicity?",
+      "choices": [
+        "The DTFT of any discrete-time signal is periodic with a period of 2π.",
+        "The DTFT is always non-periodic regardless of the signal.",
+        "The DTFT is periodic with a period of π.",
+        "The DTFT of a signal can have varying periods depending on the signal's characteristics."
+      ],
+      "correct_answer": "The DTFT of any discrete-time signal is periodic with a period of 2π.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 140
+    },
+    {
+      "question": "What is the result of the Discrete-Time Fourier Transform (DTFT) for the signal x[n] = a|n|?",
+      "choices": [
+        "X(ejω) = 1/(a^2) * (1 + a^2/(2a cos(ω)))",
+        "X(ejω) = 1/(2π) * (sin(ωc n)/n)",
+        "X(ejω) = e^(jωn0) * 2π * ε(ω - ω0)",
+        "X(ejω) = 1/(2π) * ∫[e^(jωn) * x[n]] dn"
+      ],
+      "correct_answer": "X(ejω) = 1/(a^2) * (1 + a^2/(2a cos(ω)))",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 141
+    },
+    {
+      "question": "What is the main difference between the operations applicable to discrete-time signals compared to continuous-time signals as mentioned in the text?",
+      "choices": [
+        "Discrete-time signals can be differentiated and integrated like continuous-time signals.",
+        "Discrete-time signals can only be summed and differenced, not differentiated.",
+        "The discrete-time Fourier transform is identical to the continuous-time Fourier transform.",
+        "Discrete-time signals cannot be represented in the frequency domain."
+      ],
+      "correct_answer": "Discrete-time signals can only be summed and differenced, not differentiated.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 142
+    },
+    {
+      "question": "Which of the following statements about the Fourier Transform of real signals is true?",
+      "choices": [
+        "If x[n] is real and even, then X(ejω) is real and even.",
+        "If x[n] is real and odd, then X(ejω) is real and even.",
+        "If x[n] is real, then the Fourier Transform X(ejω) is always purely imaginary.",
+        "If x[n] is real and even, then X(ejω) is purely imaginary and odd."
+      ],
+      "correct_answer": "If x[n] is real and even, then X(ejω) is real and even.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 143
+    },
+    {
+      "question": "What does the frequency response of a discrete-time LTI system represent?",
+      "choices": [
+        "The time-domain representation of the input signal.",
+        "The impulse response of the system in the time domain.",
+        "The DT Fourier transform of the impulse response.",
+        "The convolution of the input signal with the impulse response."
+      ],
+      "correct_answer": "The DT Fourier transform of the impulse response.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 144
+    },
+    {
+      "question": "What is the frequency response of an ideal Low Pass Filter (LPF) with cut-off frequency #c?",
+      "choices": [
+        "HLPF (ej!) = 1, 0 ↘|#| < #c; 0, #c ↘|#| < ϑ",
+        "HLPF (ej!) = 0, 0 ↘|#| < #c; 1, #c ↘|#| < ϑ",
+        "HLPF (ej!) = 1, #L ↘|#| < #H; 0, #H ↘|#| < ϑ",
+        "HLPF (ej!) = 1, #c ↘|#| < ϑ; 0, |#| < #c"
+      ],
+      "correct_answer": "HLPF (ej!) = 1, 0 ↘|#| < #c; 0, #c ↘|#| < ϑ",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 145
+    },
+    {
+      "question": "What does the Fourier transform of a signal help to analyze in the context of signal processing?",
+      "choices": [
+        "The time-domain representation of the signal",
+        "The frequency components and their amplitudes in the signal",
+        "The physical attributes of the signal such as amplitude and phase",
+        "The electrical properties of the signal such as resistance and capacitance"
+      ],
+      "correct_answer": "The frequency components and their amplitudes in the signal",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 146
+    },
+    {
+      "question": "In the context of LTI systems, if the impulse response h[n] = (1/3)^n cos(ϑn/2)u[n], what does the term 'u[n]' signify?",
+      "choices": [
+        "It represents an exponential decay function.",
+        "It indicates that the signal is defined for n < 0.",
+        "It is a unit step function that ensures the signal is causal.",
+        "It represents the Fourier transform of the impulse response."
+      ],
+      "correct_answer": "It is a unit step function that ensures the signal is causal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 147
+    },
+    {
+      "question": "In the context of LTI systems, what does the impulse response h[n] determine about the system's behavior?",
+      "choices": [
+        "It defines the system's output for any given input signal.",
+        "It specifies the system's frequency response only.",
+        "It represents the system's stability criteria.",
+        "It provides the initial conditions for the system's response."
+      ],
+      "correct_answer": "It defines the system's output for any given input signal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 148
+    },
+    {
+      "question": "What does it mean for a continuous time signal x(t) to be bandlimited?",
+      "choices": [
+        "It has non-zero Fourier transform for all frequencies.",
+        "It is non-periodic and has infinite energy.",
+        "Its Fourier transform X(jω) is zero for frequencies outside a specific range.",
+        "It can only be represented by sinusoidal functions."
+      ],
+      "correct_answer": "Its Fourier transform X(jω) is zero for frequencies outside a specific range.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 149
+    },
+    {
+      "question": "What does the Fourier transform of a periodic signal indicate about its frequency components?",
+      "choices": [
+        "It indicates that the signal contains continuous frequency components.",
+        "It indicates that the signal contains only discrete frequency components.",
+        "It cannot provide any information about the frequency components.",
+        "It indicates that the signal contains complex frequency components."
+      ],
+      "correct_answer": "It indicates that the signal contains only discrete frequency components.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 150
+    },
+    {
+      "question": "What condition must be met for a bandlimited signal to be uniquely reconstructed from its samples according to the Nyquist sampling theorem?",
+      "choices": [
+        "The sampling frequency must be greater than twice the maximum frequency present in the signal.",
+        "The signal must be continuous and not subject to any filtering.",
+        "The maximum frequency of the signal must be equal to the sampling rate.",
+        "The sampling frequency must be less than twice the maximum frequency present in the signal."
+      ],
+      "correct_answer": "The sampling frequency must be greater than twice the maximum frequency present in the signal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 151
+    },
+    {
+      "question": "Why is it sufficient to sample a continuous-time signal at 44.1 KHz according to the Nyquist theorem?",
+      "choices": [
+        "Because the sampling frequency must be greater than twice the maximum frequency present in the signal.",
+        "Because 44.1 KHz is the only frequency that can be used for all types of signals.",
+        "Because it allows for perfect reconstruction of the signal without any lowpass filtering.",
+        "Because it is the minimum frequency required for all digital audio formats."
+      ],
+      "correct_answer": "Because the sampling frequency must be greater than twice the maximum frequency present in the signal.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 152
+    },
+    {
+      "question": "What is the significance of using a sinc function for interpolation in signal reconstruction?",
+      "choices": [
+        "It allows for the reconstruction of any arbitrary function without loss of information.",
+        "It ensures that the reconstruction process is equivalent to low pass filtering, preserving the original signal if it is bandlimited.",
+        "It provides a faster method of signal reconstruction compared to polynomial interpolation.",
+        "It eliminates the need for sampling, allowing continuous signal processing."
+      ],
+      "correct_answer": "It ensures that the reconstruction process is equivalent to low pass filtering, preserving the original signal if it is bandlimited.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 153
+    },
+    {
+      "question": "What occurs when the sampling frequency ωs is less than twice the maximum frequency ωM of a signal during reconstruction?",
+      "choices": [
+        "The reconstructed signal will accurately represent the original signal without any distortion.",
+        "The reconstructed signal will exhibit aliasing, causing a misrepresentation of the original frequency.",
+        "The sampling theorem is violated, but the original signal remains unchanged.",
+        "The reconstruction will be perfect if a low-pass filter is applied correctly."
+      ],
+      "correct_answer": "The reconstructed signal will exhibit aliasing, causing a misrepresentation of the original frequency.",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 154
+    },
+    {
+      "question": "If a continuous-time signal is sampled at a frequency of 11025 Hz, what should be the cut-off frequency of the discrete-time low-pass filter to effectively filter out noise occupying the spectrum above 4400 Hz?",
+      "choices": [
+        "2200 Hz",
+        "4400 Hz",
+        "8800 Hz",
+        "8800 rad/s"
+      ],
+      "correct_answer": "8800 Hz",
+      "doc": "/content/notes.pdf",
+      "section": "Contents Mathematical Preliminaries 1.1 Trigonomet",
+      "chunk_index": 155
+    },
+    {
+      "question": "What defines a function of a complex variable f(z)?",
+      "choices": [
+        "f(z) must take multiple values for a given z.",
+        "f(z) takes a unique value for each given z.",
+        "f(z) can only be defined for real numbers.",
+        "f(z) must always be a polynomial function."
+      ],
+      "correct_answer": "f(z) takes a unique value for each given z.",
+      "doc": "/content/transcript_1.txt",
+      "section": "transcript",
+      "chunk_index": 0
+    },
+    {
+      "question": "What is the significance of defining the square root of a number as a positive value when discussing magnitudes?",
+      "choices": [
+        "It allows for multiple values of the square root.",
+        "It ensures the square root is unique and non-negative.",
+        "It simplifies calculations by ignoring negative values.",
+        "It is only applicable to integers."
+      ],
+      "correct_answer": "It ensures the square root is unique and non-negative.",
+      "doc": "/content/transcript_1.txt",
+      "section": "transcript",
+      "chunk_index": 1
+    },
+    {
+      "question": "Why is f(z) = z raised to n not a function when n is a non-integer?",
+      "choices": [
+        "Because non-integer powers can yield multiple values for a single input.",
+        "Because all powers of z define unique functions regardless of n.",
+        "Because non-integer powers are always undefined in mathematics.",
+        "Because integer powers are the only valid functions in complex analysis."
+      ],
+      "correct_answer": "Because non-integer powers can yield multiple values for a single input.",
+      "doc": "/content/transcript_1.txt",
+      "section": "transcript",
+      "chunk_index": 2
+    },
+    {
+      "question": "What is necessary to define the function for z raised to the power of 1/3 as a unique function?",
+      "choices": [
+        "We must define one of the three values as the principal value.",
+        "We must exclude all integer powers of 2 pi from the exponent.",
+        "We need to consider only real numbers for z.",
+        "We must use the imaginary part of z exclusively."
+      ],
+      "correct_answer": "We must define one of the three values as the principal value.",
+      "doc": "/content/transcript_1.txt",
+      "section": "transcript",
+      "chunk_index": 3
+    },
+    {
+      "question": "Given the function f(z) = e^z where z is expressed as sigma + j omega, what is the equivalent expression for f(z) in terms of sigma and omega?",
+      "choices": [
+        "e^sigma (cosine omega + j sine omega)",
+        "e^(sigma + j omega) = e^sigma + e^(j omega)",
+        "e^(sigma + omega) + j",
+        "e^(sigma) * e^(omega)"
+      ],
+      "correct_answer": "e^sigma (cosine omega + j sine omega)",
+      "doc": "/content/transcript_1.txt",
+      "section": "transcript",
+      "chunk_index": 4
+    },
+    {
+      "question": "What does Euler's formula relate to in the context of complex numbers?",
+      "choices": [
+        "The relationship between sine and cosine functions",
+        "The addition of complex numbers",
+        "The conversion of polar coordinates to Cartesian coordinates",
+        "The expression of a complex number in exponential form"
+      ],
+      "correct_answer": "The expression of a complex number in exponential form",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 0
+    },
+    {
+      "question": "What is the primary purpose of using Euler's formula in the context of complex numbers as described in the text?",
+      "choices": [
+        "To convert complex numbers into a form that allows for easier multiplication and division.",
+        "To establish a direct relationship between complex numbers and real numbers.",
+        "To simplify the process of adding two complex numbers together.",
+        "To provide a method for calculating the magnitude of complex numbers."
+      ],
+      "correct_answer": "To convert complex numbers into a form that allows for easier multiplication and division.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 1
+    },
+    {
+      "question": "According to Euler's formula, how can the multiplication of two complex numbers represented in polar form be simplified?",
+      "choices": [
+        "By adding their angles and multiplying their magnitudes.",
+        "By multiplying their angles and adding their magnitudes.",
+        "By taking the absolute value of each complex number.",
+        "By converting them to their rectangular form before multiplying."
+      ],
+      "correct_answer": "By adding their angles and multiplying their magnitudes.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 2
+    },
+    {
+      "question": "What does Euler's formula state about the multiplication of two complex numbers in exponential form?",
+      "choices": [
+        "The product of two complex numbers is the exponential of the sum of their angles.",
+        "The product of two complex numbers is the sum of their magnitudes.",
+        "The product of two complex numbers is the difference of their angles.",
+        "The product of two complex numbers is the sine of the sum of their angles."
+      ],
+      "correct_answer": "The product of two complex numbers is the exponential of the sum of their angles.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 3
+    },
+    {
+      "question": "What is the relationship derived from adding e^(jθ) and e^(-jθ)?",
+      "choices": [
+        "e^(jθ) + e^(-jθ) is equal to 2 times sine θ",
+        "e^(jθ) + e^(-jθ) is equal to 2 times cosine θ",
+        "e^(jθ) + e^(-jθ) is equal to sine θ",
+        "e^(jθ) + e^(-jθ) is equal to j times cosine θ"
+      ],
+      "correct_answer": "e^(jθ) + e^(-jθ) is equal to 2 times cosine θ",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 4
+    },
+    {
+      "question": "What is the significance of Euler's formula in simplifying expressions involving complex exponentials?",
+      "choices": [
+        "It allows the transformation of sine and cosine functions into exponential forms, facilitating simplification.",
+        "It states that sine and cosine functions cannot be expressed in terms of exponentials.",
+        "It only applies to real numbers and does not involve complex exponentials.",
+        "It provides a method for adding and subtracting real numbers."
+      ],
+      "correct_answer": "It allows the transformation of sine and cosine functions into exponential forms, facilitating simplification.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 5
+    },
+    {
+      "question": "What does Euler's formula express in relation to trigonometric functions?",
+      "choices": [
+        "Cosine theta plus j times sine theta can be expressed as e to the j times theta.",
+        "Cosine theta is equal to e to the theta.",
+        "Sine theta is equal to e to the j times theta.",
+        "The series expansion for cosine theta is identical to that of sine theta."
+      ],
+      "correct_answer": "Cosine theta plus j times sine theta can be expressed as e to the j times theta.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 6
+    },
+    {
+      "question": "What does the series expansion for e to the theta illustrate about irrational numbers like pi?",
+      "choices": [
+        "It shows that e to the power of any irrational number can be expressed as an infinite series.",
+        "It indicates that irrational numbers cannot be represented in a series expansion.",
+        "It suggests that e to the power of an irrational number always results in an integer.",
+        "It implies that the series expansion for e is only valid for rational numbers."
+      ],
+      "correct_answer": "It shows that e to the power of any irrational number can be expressed as an infinite series.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 7
+    },
+    {
+      "question": "What does the expression e^(j theta) represent in terms of power series?",
+      "choices": [
+        "It represents a power series obtained by replacing theta with j times theta.",
+        "It represents the sum of the first few terms of the power series for e^x.",
+        "It is equivalent to the cosine function evaluated at theta.",
+        "It can be simplified to a polynomial function of real numbers."
+      ],
+      "correct_answer": "It represents a power series obtained by replacing theta with j times theta.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 8
+    },
+    {
+      "question": "What is the significance of j squared in the context of the series expansion discussed in the text?",
+      "choices": [
+        "It represents the imaginary unit and equals 1.",
+        "It is used to convert the imaginary part into a real part.",
+        "It equals negative one, affecting the sign of the third term.",
+        "It simplifies the series by eliminating all imaginary terms."
+      ],
+      "correct_answer": "It equals negative one, affecting the sign of the third term.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 9
+    },
+    {
+      "question": "What does the series expansion for e^(jθ) represent in terms of trigonometric functions?",
+      "choices": [
+        "It represents the Taylor series expansion for sine and cosine functions.",
+        "It only represents the Taylor series for cosine functions.",
+        "It represents the product of sine and cosine functions.",
+        "It provides a numerical approximation for e^(jθ) without any relation to trigonometric functions."
+      ],
+      "correct_answer": "It represents the Taylor series expansion for sine and cosine functions.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 10
+    },
+    {
+      "question": "According to Euler's formula, what does e to the power of j theta represent?",
+      "choices": [
+        "The sum of e raised to the power of theta and j",
+        "A complex number represented as cosine theta plus j times sine theta",
+        "The product of cosine theta and sine theta",
+        "The logarithm of sine theta"
+      ],
+      "correct_answer": "A complex number represented as cosine theta plus j times sine theta",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 11
+    },
+    {
+      "question": "What is the significance of Euler's formula when theta is equal to pi?",
+      "choices": [
+        "It shows that e to the j pi equals zero.",
+        "It demonstrates that e to the j pi equals one.",
+        "It illustrates that e to the j pi equals negative one.",
+        "It indicates that e to the j pi represents a complex number with a modulus of one."
+      ],
+      "correct_answer": "It illustrates that e to the j pi equals negative one.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 12
+    },
+    {
+      "question": "What is the significance of Euler's identity in mathematics?",
+      "choices": [
+        "It combines fundamental constants e, π, 0, and 1 in a simple formula.",
+        "It proves the existence of imaginary numbers.",
+        "It serves as a foundation for calculus.",
+        "It is a formula used exclusively in physics."
+      ],
+      "correct_answer": "It combines fundamental constants e, π, 0, and 1 in a simple formula.",
+      "doc": "/content/transcript_2.txt",
+      "section": "transcript",
+      "chunk_index": 13
+    },
+    {
+      "question": "When adding two complex numbers in Cartesian form, what is the correct way to combine their components?",
+      "choices": [
+        "Add the magnitudes and angles of both complex numbers",
+        "Add the real parts and add the imaginary parts separately",
+        "Multiply the real parts and multiply the imaginary parts separately",
+        "Subtract the real part of the first complex number from the second"
+      ],
+      "correct_answer": "Add the real parts and add the imaginary parts separately",
+      "doc": "/content/transcript_3.txt",
+      "section": "transcript",
+      "chunk_index": 0
+    },
+    {
+      "question": "When multiplying two complex numbers in Cartesian form, what must be done with the imaginary unit 'j' in the product?",
+      "choices": [
+        "It is ignored during multiplication.",
+        "It is treated as a variable like any other.",
+        "It is squared, resulting in -1.",
+        "It is only considered in the final result."
+      ],
+      "correct_answer": "It is squared, resulting in -1.",
+      "doc": "/content/transcript_3.txt",
+      "section": "transcript",
+      "chunk_index": 1
+    },
+    {
+      "question": "What is the significance of using polar representation when multiplying two complex numbers?",
+      "choices": [
+        "It allows you to multiply the magnitudes and add the angles, simplifying the multiplication process.",
+        "It requires you to convert back to rectangular form after multiplication, making it more complex.",
+        "It changes the magnitudes of the complex numbers, leading to inaccuracies in calculations.",
+        "It separates the real and imaginary parts more clearly than rectangular representation."
+      ],
+      "correct_answer": "It allows you to multiply the magnitudes and add the angles, simplifying the multiplication process.",
+      "doc": "/content/transcript_3.txt",
+      "section": "transcript",
+      "chunk_index": 2
+    },
+    {
+      "question": "What is a key advantage of using polar forms when multiplying or dividing complex numbers?",
+      "choices": [
+        "It allows for easier addition of complex numbers.",
+        "It simplifies the multiplication and division of complex numbers by using magnitudes and angles.",
+        "It provides a direct way to convert complex numbers into Cartesian form.",
+        "It eliminates the need for imaginary numbers in calculations."
+      ],
+      "correct_answer": "It simplifies the multiplication and division of complex numbers by using magnitudes and angles.",
+      "doc": "/content/transcript_3.txt",
+      "section": "transcript",
+      "chunk_index": 3
+    },
+    {
+      "question": "What is the purpose of multiplying the numerator and denominator by the complex conjugate of z2 in the given context?",
+      "choices": [
+        "To eliminate the imaginary part and express the result as a real number plus an imaginary number.",
+        "To increase the magnitude of the complex number z2.",
+        "To simplify the expression into a polynomial form.",
+        "To find the inverse of the complex number z2."
+      ],
+      "correct_answer": "To eliminate the imaginary part and express the result as a real number plus an imaginary number.",
+      "doc": "/content/transcript_3.txt",
+      "section": "transcript",
+      "chunk_index": 4
+    },
+    {
+      "question": "What is the main advantage of using polar representations for complex numbers z1 and z2 as mentioned in the text?",
+      "choices": [
+        "It allows for easier multiplication of complex numbers.",
+        "It simplifies the division process of complex numbers by converting them to real numbers.",
+        "It avoids lengthy calculations in complex number arithmetic.",
+        "It provides a way to visualize complex numbers in a two-dimensional plane."
+      ],
+      "correct_answer": "It avoids lengthy calculations in complex number arithmetic.",
+      "doc": "/content/transcript_3.txt",
+      "section": "transcript",
+      "chunk_index": 5
+    },
+    {
+      "question": "What happens to the phase of the quotient of two complex numbers represented in polar form?",
+      "choices": [
+        "The phase becomes theta 1 plus theta 2",
+        "The phase becomes theta 1 minus theta 2",
+        "The phase becomes theta 1 times theta 2",
+        "The phase remains constant"
+      ],
+      "correct_answer": "The phase becomes theta 1 minus theta 2",
+      "doc": "/content/transcript_3.txt",
+      "section": "transcript",
+      "chunk_index": 6
+    },
+    {
+      "question": "In the context of complex numbers, if z1 and z2 have magnitudes r1 and r2 respectively, what is the relationship between the magnitudes of z1 and z2 when calculating z1 over z2?",
+      "choices": [
+        "The magnitude of z1 over z2 is the same as r1 multiplied by r2.",
+        "The magnitude of z1 over z2 is r1 divided by r2.",
+        "The magnitude of z1 over z2 is the square of r1 divided by r2.",
+        "The magnitude of z1 over z2 is r1 plus r2."
+      ],
+      "correct_answer": "The magnitude of z1 over z2 is r1 divided by r2.",
+      "doc": "/content/transcript_3.txt",
+      "section": "transcript",
+      "chunk_index": 7
+    },
+    {
+      "question": "Why do the roots of a quadratic equation with real coefficients occur in conjugate pairs?",
+      "choices": [
+        "Because the discriminant is always negative for real coefficients.",
+        "Because the roots are always real numbers.",
+        "Because complex roots must occur in pairs due to the nature of polynomial equations.",
+        "Because every polynomial can be factored into linear terms with real coefficients."
+      ],
+      "correct_answer": "Because complex roots must occur in pairs due to the nature of polynomial equations.",
+      "doc": "/content/transcript_4.txt",
+      "section": "transcript",
+      "chunk_index": 0
+    },
+    {
+      "question": "What can be concluded about the roots of a polynomial with real coefficients?",
+      "choices": [
+        "The roots will always be real numbers.",
+        "The roots can be any complex number.",
+        "The roots will occur in complex conjugate pairs.",
+        "The roots will always be integers."
+      ],
+      "correct_answer": "The roots will occur in complex conjugate pairs.",
+      "doc": "/content/transcript_4.txt",
+      "section": "transcript",
+      "chunk_index": 1
+    },
+    {
+      "question": "What is the significance of conjugating the polynomial equation when it is equal to zero?",
+      "choices": [
+        "It shows that the roots must also be real numbers.",
+        "It allows us to verify that the polynomial can be expressed as a product of its roots.",
+        "It proves that the coefficients of the polynomial are always positive.",
+        "It indicates that the polynomial has at least one real root."
+      ],
+      "correct_answer": "It allows us to verify that the polynomial can be expressed as a product of its roots.",
+      "doc": "/content/transcript_4.txt",
+      "section": "transcript",
+      "chunk_index": 2
+    },
+    {
+      "question": "What happens to the coefficients of a polynomial when its complex conjugate is taken?",
+      "choices": [
+        "The coefficients become imaginary numbers.",
+        "The coefficients remain the same since they are real numbers.",
+        "The coefficients change into their negatives.",
+        "The coefficients are doubled in value."
+      ],
+      "correct_answer": "The coefficients remain the same since they are real numbers.",
+      "doc": "/content/transcript_4.txt",
+      "section": "transcript",
+      "chunk_index": 3
+    },
+    {
+      "question": "What can be inferred about the conjugate of real coefficients in the context of the equations discussed?",
+      "choices": [
+        "The conjugate of a real number is always a different number.",
+        "The conjugate of a real number is the same as the real number itself.",
+        "Conjugates of coefficients must be removed from equations for simplification.",
+        "The substitution of variables does not affect the equality of equations."
+      ],
+      "correct_answer": "The conjugate of a real number is the same as the real number itself.",
+      "doc": "/content/transcript_4.txt",
+      "section": "transcript",
+      "chunk_index": 4
+    },
+    {
+      "question": "What does the similarity of the two equations suggest about the roots of the equations?",
+      "choices": [
+        "The roots are identical and do not include conjugates.",
+        "The roots occur in complex conjugate pairs.",
+        "The equations have no roots.",
+        "The roots are always real numbers."
+      ],
+      "correct_answer": "The roots occur in complex conjugate pairs.",
+      "doc": "/content/transcript_4.txt",
+      "section": "transcript",
+      "chunk_index": 5
+    },
+    {
+      "question": "What is the significance of conjugates in the context of electrical engineering and finite fields?",
+      "choices": [
+        "Conjugates are primarily used to simplify electrical circuit equations.",
+        "Understanding conjugates can enhance comprehension of finite fields in advanced studies.",
+        "Conjugates are only relevant in high-level mathematics and have no application in engineering.",
+        "Conjugates represent the relationship between different electrical components in a circuit."
+      ],
+      "correct_answer": "Understanding conjugates can enhance comprehension of finite fields in advanced studies.",
+      "doc": "/content/transcript_4.txt",
+      "section": "transcript",
+      "chunk_index": 6
+    },
+    {
+      "question": "What is the primary topic of discussion in the lecture mentioned in the text?",
+      "choices": [
+        "The differences between Fourier transform and Fourier series",
+        "The applications of frozen RNNs in machine learning",
+        "The fundamentals of reinforcement learning",
+        "The importance of keynote speakers at academic conferences"
+      ],
+      "correct_answer": "The differences between Fourier transform and Fourier series",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 0
+    },
+    {
+      "question": "What is the key distinction between the Fourier transform and the Fourier series?",
+      "choices": [
+        "The Fourier series can only be used for periodic signals, while the Fourier transform is applicable to both periodic and non-periodic signals.",
+        "The Fourier transform can only be used for discrete signals, while the Fourier series is for continuous signals.",
+        "The Fourier series and Fourier transform are identical and can be used interchangeably for all types of signals.",
+        "The Fourier transform is only applicable in the time domain, while the Fourier series operates in the frequency domain."
+      ],
+      "correct_answer": "The Fourier series can only be used for periodic signals, while the Fourier transform is applicable to both periodic and non-periodic signals.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 1
+    },
+    {
+      "question": "What is the Fourier transform of a delta function in the time domain?",
+      "choices": [
+        "It is a constant function across all frequencies.",
+        "It is zero for all frequencies except at omega equals zero.",
+        "It is a function that varies sinusoidally with frequency.",
+        "It is a function of omega that is equal to one for all values of omega."
+      ],
+      "correct_answer": "It is a function of omega that is equal to one for all values of omega.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 2
+    },
+    {
+      "question": "What does the Fourier transform of the delta function in time domain represent in the frequency domain?",
+      "choices": [
+        "A function that varies with omega.",
+        "A constant function across all frequencies.",
+        "A function that only has finite frequency components.",
+        "A function that diminishes to zero across all frequencies."
+      ],
+      "correct_answer": "A constant function across all frequencies.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 3
+    },
+    {
+      "question": "What is the implication of having a signal that is equal to one from minus infinity to plus infinity?",
+      "choices": [
+        "It represents a realistic signal that can be physically produced.",
+        "It has finite energy and can be easily analyzed.",
+        "It is a mathematical abstraction with infinite energy.",
+        "It satisfies Parseval's theorem in all cases."
+      ],
+      "correct_answer": "It is a mathematical abstraction with infinite energy.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 4
+    },
+    {
+      "question": "What is the role of the inverse Fourier transform in signal processing?",
+      "choices": [
+        "It converts time domain signals into frequency domain signals.",
+        "It provides a method to compute the original time domain signal from its frequency components.",
+        "It only works for continuous signals and not discrete signals.",
+        "It is used solely for analyzing periodic signals."
+      ],
+      "correct_answer": "It provides a method to compute the original time domain signal from its frequency components.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 5
+    },
+    {
+      "question": "In the context of integrating a function over frequency components, at which point is the function non-zero?",
+      "choices": [
+        "At omega equals zero",
+        "At omega equals one",
+        "At omega equals Omega naught",
+        "At omega equals infinity"
+      ],
+      "correct_answer": "At omega equals Omega naught",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 6
+    },
+    {
+      "question": "What does the complex signal e^(j omega naught t) represent in the frequency domain?",
+      "choices": [
+        "A single frequency component corresponding to the fundamental frequency omega naught",
+        "A combination of multiple frequency components",
+        "A time-domain signal with varying amplitudes",
+        "A signal that cannot be transformed into the frequency domain"
+      ],
+      "correct_answer": "A single frequency component corresponding to the fundamental frequency omega naught",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 7
+    },
+    {
+      "question": "What is the significance of the limits of integration in the Fourier transform as described in the text?",
+      "choices": [
+        "The limits of integration must always be from minus infinity to plus infinity regardless of the signal.",
+        "The integration limits can be adjusted since the signal is only non-zero in a specific interval.",
+        "The integral should only be computed for values of omega that are positive.",
+        "The Fourier transform can only be computed for periodic signals."
+      ],
+      "correct_answer": "The integration limits can be adjusted since the signal is only non-zero in a specific interval.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 8
+    },
+    {
+      "question": "What is the result of applying the limits to the integral of e^(-j omega t) from -T1 to T1?",
+      "choices": [
+        "j Omega (e^(j omega T1) - e^(-j omega T1))",
+        "1/j Omega (e^(j omega T1) - e^(-j omega T1))",
+        "1/j Omega (e^(-j omega T1) - e^(j omega T1))",
+        "j Omega (e^(-j omega T1) - e^(j omega T1))"
+      ],
+      "correct_answer": "j Omega (e^(j omega T1) - e^(-j omega T1))",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 9
+    },
+    {
+      "question": "What is the result of subtracting e^(jωt) from e^(-jωt)?",
+      "choices": [
+        "2j sin(ωt)",
+        "2j cos(ωt)",
+        "0",
+        "2j sin(2ωt)"
+      ],
+      "correct_answer": "2j sin(ωt)",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 10
+    },
+    {
+      "question": "What happens to the function described in the text as omega becomes very large?",
+      "choices": [
+        "The function approaches a constant value.",
+        "The function goes to zero.",
+        "The function becomes a linear function.",
+        "The function oscillates infinitely."
+      ],
+      "correct_answer": "The function goes to zero.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 11
+    },
+    {
+      "question": "How is the sinc function defined based on the text?",
+      "choices": [
+        "Sinc x is defined as sin(x) divided by x.",
+        "Sinc x is defined as sine pi x divided by x.",
+        "Sinc x is defined as cosine x divided by x.",
+        "Sinc x is defined as sine x multiplied by x."
+      ],
+      "correct_answer": "Sinc x is defined as sine pi x divided by x.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 12
+    },
+    {
+      "question": "What is the significance of the sinc function in the context of the provided text?",
+      "choices": [
+        "The sinc function is used to represent a sine wave in the frequency domain.",
+        "The sinc function is irrelevant to the discussion and can be ignored.",
+        "The sinc function is only applicable to discrete signals.",
+        "The sinc function describes the amplitude modulation of a signal."
+      ],
+      "correct_answer": "The sinc function is used to represent a sine wave in the frequency domain.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 13
+    },
+    {
+      "question": "What is the significance of converting the integral expression into a sinc function in the context of Fourier transforms?",
+      "choices": [
+        "It simplifies the computation of the Fourier transform.",
+        "It allows for easier plotting of the function.",
+        "It normalizes the amplitude of the signal.",
+        "It changes the nature of the signal from continuous to discrete."
+      ],
+      "correct_answer": "It simplifies the computation of the Fourier transform.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 14
+    },
+    {
+      "question": "What value of omega leads to the sinc function touching zero for the first time?",
+      "choices": [
+        "When omega is equal to Pi divided by T1",
+        "When omega is equal to zero",
+        "When omega is equal to 2 Pi divided by T1",
+        "When omega is equal to one"
+      ],
+      "correct_answer": "When omega is equal to Pi divided by T1",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 15
+    },
+    {
+      "question": "What happens to the Fourier transform of a rectangular signal if its magnitude is multiplied by a constant 'a'?",
+      "choices": [
+        "The shape of the Fourier transform will change significantly.",
+        "The Fourier transform will remain the same shape but will be scaled by 'a'.",
+        "The Fourier transform will become a delta function.",
+        "The Fourier transform will become a constant function."
+      ],
+      "correct_answer": "The Fourier transform will remain the same shape but will be scaled by 'a'.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 16
+    },
+    {
+      "question": "What happens to the shape of the Fourier transform when a signal is multiplied by a constant?",
+      "choices": [
+        "The shape changes significantly, altering the frequency components.",
+        "The shape remains the same, but the amplitude is scaled by the constant.",
+        "The shape becomes more complex with additional frequencies.",
+        "The shape is completely lost, resulting in a non-identifiable transform."
+      ],
+      "correct_answer": "The shape remains the same, but the amplitude is scaled by the constant.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 17
+    },
+    {
+      "question": "What happens to the frequency of a musical signal when its volume is increased?",
+      "choices": [
+        "The frequency increases proportionally with the volume",
+        "The frequency decreases as the volume goes up",
+        "The frequency remains the same regardless of the volume",
+        "The frequency becomes unrecognizable at high volumes"
+      ],
+      "correct_answer": "The frequency remains the same regardless of the volume",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 18
+    },
+    {
+      "question": "How is the energy of a signal computed according to the provided text?",
+      "choices": [
+        "By integrating the square of the signal over the interval where it is non-zero.",
+        "By summing the amplitude values of the signal over the entire time range.",
+        "By measuring the peak amplitude of the signal.",
+        "By multiplying the duration of the signal by its amplitude."
+      ],
+      "correct_answer": "By integrating the square of the signal over the interval where it is non-zero.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 19
+    },
+    {
+      "question": "What is the significance of computing the integral in the context of the given text?",
+      "choices": [
+        "It helps determine the value of the variable T.",
+        "It is used to analyze the energy of a rectangular signal.",
+        "It provides the Fourier transform of a constant signal.",
+        "It simplifies the calculation of limits in integration."
+      ],
+      "correct_answer": "It is used to analyze the energy of a rectangular signal.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 20
+    },
+    {
+      "question": "What is the primary reason for computing the Fourier transform of a signal in the context provided?",
+      "choices": [
+        "To understand how the signal can be stretched in the time domain.",
+        "To find the maximum value of the signal.",
+        "To determine the frequency of the signal's peak.",
+        "To compute the average value of the signal."
+      ],
+      "correct_answer": "To understand how the signal can be stretched in the time domain.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 21
+    },
+    {
+      "question": "What happens to the signal x(t) when T1 approaches zero, according to the text?",
+      "choices": [
+        "The signal x(t) becomes a continuous signal.",
+        "The signal x(t) approaches a delta function.",
+        "The signal x(t) becomes infinitely wide.",
+        "The signal x(t) is unaffected."
+      ],
+      "correct_answer": "The signal x(t) approaches a delta function.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 22
+    },
+    {
+      "question": "What happens to the signal as T1 approaches zero according to the text?",
+      "choices": [
+        "The signal becomes a flat signal.",
+        "The signal becomes increasingly complex.",
+        "The signal retains its original shape.",
+        "The signal frequency increases indefinitely."
+      ],
+      "correct_answer": "The signal becomes a flat signal.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 23
+    },
+    {
+      "question": "What is the relationship between a rectangular signal in the time domain and its corresponding Fourier transform?",
+      "choices": [
+        "The Fourier transform of a rectangular signal is a sinc function.",
+        "The Fourier transform of a rectangular signal is another rectangular signal.",
+        "The Fourier transform of a rectangular signal is a delta function.",
+        "The Fourier transform of a rectangular signal is a triangular function."
+      ],
+      "correct_answer": "The Fourier transform of a rectangular signal is a sinc function.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 24
+    },
+    {
+      "question": "What can be inferred about the relationship between a time domain signal and its Fourier transform based on the text?",
+      "choices": [
+        "There is a direct linear relationship between the time domain signal and its Fourier transform.",
+        "The time domain signal and its Fourier transform exhibit inherent symmetry.",
+        "The time domain signal can only be determined by the Fourier transform.",
+        "The Fourier transform is always a periodic function of time."
+      ],
+      "correct_answer": "The time domain signal and its Fourier transform exhibit inherent symmetry.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 25
+    },
+    {
+      "question": "What is the significance of integrating from minus w to plus w in the context of the given text?",
+      "choices": [
+        "It allows for the evaluation of the integral over a finite interval where x of j Omega is equal to one.",
+        "It simplifies the calculation by ignoring contributions outside the interval.",
+        "It changes the limits of integration to accommodate the behavior of e power j omega t.",
+        "It is necessary to include all possible values of omega for accurate results."
+      ],
+      "correct_answer": "It allows for the evaluation of the integral over a finite interval where x of j Omega is equal to one.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 26
+    },
+    {
+      "question": "What is the correct form of the sinc function derived from the expression discussed in the text?",
+      "choices": [
+        "w divided by Pi sinc function",
+        "w divided by 2 Pi sinc function",
+        "1 over pi sine w t divided by w",
+        "2 w divided by Pi sinc function"
+      ],
+      "correct_answer": "w divided by Pi sinc function",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 27
+    },
+    {
+      "question": "What is the significance of the sinc function in the context of the inverse Fourier transform discussed in the text?",
+      "choices": [
+        "It represents a time-domain signal derived from a rectangular signal.",
+        "It simplifies calculations by eliminating the need for complex numbers.",
+        "It indicates the frequency content of the original time-domain signal.",
+        "It is used solely for plotting purposes without any mathematical significance."
+      ],
+      "correct_answer": "It represents a time-domain signal derived from a rectangular signal.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 28
+    },
+    {
+      "question": "What is the significance of the value W over pi in the context of the signal discussed?",
+      "choices": [
+        "It represents the amplitude of the signal when t equals zero.",
+        "It indicates the frequency of the sinc function.",
+        "It is the time corresponding to the second crossing of the signal.",
+        "It is the value of the sinc function at its maximum."
+      ],
+      "correct_answer": "It represents the amplitude of the signal when t equals zero.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 29
+    },
+    {
+      "question": "What is the significance of the sinc function in the context of the Fourier transform discussed in the text?",
+      "choices": [
+        "It determines the values of t when the total argument of the sin function are integers.",
+        "It is used to compute the inverse Fourier transform directly without any modifications.",
+        "It provides a graphical representation of the Fourier transform that simplifies calculations.",
+        "It serves as a basic mathematical function that has no relevance to Fourier transforms."
+      ],
+      "correct_answer": "It determines the values of t when the total argument of the sin function are integers.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 30
+    },
+    {
+      "question": "What is one of the primary benefits of using the Fourier transform according to the text?",
+      "choices": [
+        "It allows for easy computation of all types of signals without integration.",
+        "It simplifies the computation of complicated integrals associated with signals.",
+        "It eliminates the need for any mathematical manipulation of signals.",
+        "It provides a method to visualize signals without needing a mathematical formula."
+      ],
+      "correct_answer": "It simplifies the computation of complicated integrals associated with signals.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 31
+    },
+    {
+      "question": "What is the relationship between the Fourier transforms of the signals z(t), x(t), and y(t)?",
+      "choices": [
+        "The Fourier transform of z(t) is the product of the Fourier transforms of x(t) and y(t).",
+        "The Fourier transform of z(t) is the sum of the Fourier transforms of x(t) and y(t).",
+        "The Fourier transform of z(t) is the difference of the Fourier transforms of x(t) and y(t).",
+        "The Fourier transform of z(t) is the average of the Fourier transforms of x(t) and y(t)."
+      ],
+      "correct_answer": "The Fourier transform of z(t) is the sum of the Fourier transforms of x(t) and y(t).",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 32
+    },
+    {
+      "question": "What is the relationship between the Fourier transforms of the signals x(t) and y(t) when combined to find z(t)?",
+      "choices": [
+        "The Fourier transform of z(t) is the product of the Fourier transforms of x(t) and y(t).",
+        "The Fourier transform of z(t) is the sum of the Fourier transforms of x(t) and y(t).",
+        "The Fourier transform of z(t) is the difference of the Fourier transforms of x(t) and y(t).",
+        "The Fourier transform of z(t) is the convolution of the Fourier transforms of x(t) and y(t)."
+      ],
+      "correct_answer": "The Fourier transform of z(t) is the sum of the Fourier transforms of x(t) and y(t).",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 33
+    },
+    {
+      "question": "What is a key challenge mentioned in computing the Fourier transform of the given signal?",
+      "choices": [
+        "The signal is a nice rectangular signal.",
+        "The signal is zero outside a specific interval.",
+        "The signal requires integration by parts due to its non-rectangular shape.",
+        "The signal is always non-zero."
+      ],
+      "correct_answer": "The signal requires integration by parts due to its non-rectangular shape.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 34
+    },
+    {
+      "question": "What property of Fourier transforms is discussed in the text regarding the sum of two signals?",
+      "choices": [
+        "The Fourier transform of the sum of two signals is equal to the product of their Fourier transforms.",
+        "The Fourier transform of the sum of two signals is equal to the sum of the Fourier transforms of each signal.",
+        "The Fourier transform of a signal is always zero.",
+        "The Fourier transform can only be applied to discrete signals."
+      ],
+      "correct_answer": "The Fourier transform of the sum of two signals is equal to the sum of the Fourier transforms of each signal.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 35
+    },
+    {
+      "question": "What does the Fourier transform of the combined signal Z of t represent in terms of its components?",
+      "choices": [
+        "The Fourier transform of Z of t is the sum of the Fourier transforms of x of t and phi of t.",
+        "The Fourier transform of Z of t is the product of the Fourier transforms of x of t and phi of t.",
+        "The Fourier transform of Z of t is only equal to the Fourier transform of x of t.",
+        "The Fourier transform of Z of t is unrelated to the Fourier transforms of its components."
+      ],
+      "correct_answer": "The Fourier transform of Z of t is the sum of the Fourier transforms of x of t and phi of t.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 36
+    },
+    {
+      "question": "What does the Fourier transform of a signal composed of two distinct components represent?",
+      "choices": [
+        "It is always a single sinc function regardless of the components.",
+        "It is the sum of the Fourier transforms of the individual signals.",
+        "It can only be computed for continuous signals.",
+        "It results in a phase shift of the original signal."
+      ],
+      "correct_answer": "It is the sum of the Fourier transforms of the individual signals.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 37
+    },
+    {
+      "question": "What is the Fourier transform of the signal x(t) = e^(jω₀t)?",
+      "choices": [
+        "two pi delta omega minus omega naught",
+        "two pi delta omega plus omega naught",
+        "two pi delta omega",
+        "zero"
+      ],
+      "correct_answer": "two pi delta omega minus omega naught",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 38
+    },
+    {
+      "question": "What is the significance of the Fourier transform of e^(j omega naught t) as mentioned in the text?",
+      "choices": [
+        "It results in a delta function at omega equal to omega naught with a magnitude of two pi.",
+        "It results in a sine wave with varying amplitude.",
+        "It produces a continuous spectrum across all frequencies.",
+        "It creates a periodic function with a period of 2 pi."
+      ],
+      "correct_answer": "It results in a delta function at omega equal to omega naught with a magnitude of two pi.",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 39
+    },
+    {
+      "question": "What does the Fourier transform of the signal e^(jω₀t) yield?",
+      "choices": [
+        "A delta function at frequency ω₀",
+        "A continuous sine wave",
+        "A complex exponential function",
+        "A delta function at frequency -ω₀"
+      ],
+      "correct_answer": "A delta function at frequency ω₀",
+      "doc": "/content/transcript_5.txt",
+      "section": "transcript",
+      "chunk_index": 40
+    }
+  ]
+}
