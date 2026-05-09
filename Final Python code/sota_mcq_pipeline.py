@@ -292,7 +292,7 @@ class LLM:
                     "question": "Mock: What is the purpose of the chunk?",
                     "choices": ["A", "B", "C", "D"],
                     "correct_answer": "A",
-                    "evidence_span": "mock evidence"
+                    "evidence_span": "mock evidence from source"
                 }
             ])
             self.cache.set(prompt_hash, content)
@@ -615,7 +615,10 @@ async def _run_async(input_paths: List[str], out_path: str, cfg: RunConfig) -> D
             "answerability_failed": ans_fail,
             "after_dedup": len(enriched),
         },
-        "difficulty_distribution": dict(pd.Series([m["difficulty"] for m in enriched]).value_counts()),
+        "difficulty_distribution": {
+            str(k): int(v)
+            for k, v in pd.Series([m["difficulty"] for m in enriched]).value_counts().items()
+        },
         "runtime_seconds": round(t1 - t0, 2),
         "errors": errors,
     }

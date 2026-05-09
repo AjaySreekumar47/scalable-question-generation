@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local/generated outputs
+outputs/
+*.sqlite
+*.db
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local repo inspection
+repo_tree.txt
+
+requirements_colab_full.txt

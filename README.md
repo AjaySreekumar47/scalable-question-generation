@@ -1,294 +1,355 @@
-## 1. Overview
+# Scalable Question Generation Pipeline
 
-This project implements a **Scalable Question Generation System** that automatically produces high-quality multiple-choice questions (MCQs) from large text documents. Inspired by the *Savaal* research paper, the system is designed not only to generate questions, but also to ensure **scalability, quality control, and structured outputs**.
+A modular pipeline for generating multiple-choice questions (MCQs) from PDF and plain-text documents using LLM-assisted generation, validation, deduplication, and metadata logging.
 
-The pipeline ingests **PDF and plain text documents**, performs preprocessing and semantic chunking, and uses a **large language model (LLM)** to generate conceptual questions with one correct answer and 3–4 plausible distractors. Each question is further validated for schema correctness, answerability, and difficulty level (easy/medium/hard).
+The project includes:
 
-Two complementary deliverables are provided:
+- a notebook version for step-by-step exploration,
+- a reusable Python pipeline,
+- a command-line wrapper for local runs,
+- an offline smoke test that works without an OpenAI API key,
+- intermediate and final generated-question artifacts from earlier experiments.
 
-* A **Jupyter/Colab notebook** that walks through the design in a step-by-step manner, showing the evolution from a simple baseline to more complex implementations.
-* A **stand-alone Python module (`sota_mcq_pipeline.py`)** that consolidates the final, production-style pipeline with caching, error handling, and manifest logging.
+---
 
-The final output is a **JSON file (`questions_sota_150.json`)** containing the generated questions along with metadata such as evidence spans, difficulty tags, and runtime statistics.
+## Project Summary
 
-## 2. Evolution: From Baseline → SOTA
+This project explores how large language models can be used to generate structured educational questions from long-form documents.
 
-This project was built iteratively, moving from a simple baseline implementation toward a robust, state-of-the-art (SOTA) pipeline. The **notebook** captures this evolution step by step, while the **final `.py` file** integrates all improvements into a single modular system.
+Given one or more `.txt` or `.pdf` files, the pipeline:
 
-### 🔹 Baseline Parsing & Input Handling
+1. loads and cleans the source documents,
+2. chunks the text into manageable segments,
+3. generates MCQs with four answer choices,
+4. validates the generated question schema,
+5. optionally checks answerability against the source chunk,
+6. removes near-duplicate questions using embeddings,
+7. assigns difficulty labels,
+8. exports questions and run metadata to JSON.
 
-* Started with loading text from **PDFs and transcripts** using simple extractors.
-* Applied **basic cleaning** (removing page numbers, fixing line breaks) to normalize raw content.
-* Established a foundation where documents could be reliably ingested into the pipeline.
+The implementation is designed to be runnable both with an OpenAI API key and in offline/mock mode for local testing.
 
-### 🔹 Chunking & Scalability
+---
 
-* Introduced **sliding window segmentation** to address context length limits in LLMs.
-* For transcripts, implemented **fine-grained segmentation** (max words per segment) to preserve speaker intent.
-* For PDFs, leveraged **section-aware splitting** based on headings and structure.
-* This step ensured the system could process large documents without memory or context loss.
+## Repository Structure
 
-### 🔹 Initial Question Generation
+```text
+scalable-question-generation/
+├── Final Python code/
+│   └── sota_mcq_pipeline.py
+├── Colab Notebook (.ipynb)/
+│   └── Scalable_Question_Generation_System.ipynb
+├── scripts/
+│   ├── run_pipeline.py
+│   └── smoke_test.py
+├── sample_inputs/
+│   └── sample_text.txt
+├── Intermediate Questions/
+│   ├── questions.json
+│   ├── questions_enhanced.json
+│   └── questions_sota.json
+├── final Questions (after QC)/
+│   └── questions_sota_150.json
+├── Approach Walkthrough.mp4
+├── requirements.txt
+├── LICENSE
+└── README.md
+````
 
-* Built generation prompts to produce **MCQs with 1 correct + 3 distractors**.
-* Focused on **conceptual understanding** rather than verbatim recall.
-* Exported results into a JSON structure for easy inspection.
+---
 
-### 🔹 Quality Control & Validation
+## Core Capabilities
 
-* Added **schema validation** to enforce JSON correctness (4 choices, correct answer must match).
-* Implemented **answerability checks** by asking the LLM to solve the generated MCQs using the source chunk only — filtering out ungrounded questions.
-* Introduced **deduplication** via embeddings similarity to remove near-duplicate stems.
+| Capability               |      Status | Description                                                                            |
+| ------------------------ | ----------: | -------------------------------------------------------------------------------------- |
+| PDF and text loading     | Implemented | Supports `.pdf` and `.txt` inputs using PyMuPDF/pdfplumber/text readers                |
+| Text cleaning            | Implemented | Normalizes whitespace, Unicode artifacts, and common notation issues                   |
+| Chunking                 | Implemented | Uses transcript-style segmentation and sliding-window chunking                         |
+| LLM-based MCQ generation | Implemented | Generates structured MCQs with four options and one correct answer                     |
+| Mock/offline mode        | Implemented | Runs without an OpenAI API key for smoke testing                                       |
+| Schema validation        | Implemented | Enforces required fields, four choices, correct-answer consistency, and evidence spans |
+| Answerability checking   | Implemented | Can verify whether the source chunk supports the generated answer                      |
+| Deduplication            | Implemented | Uses embedding similarity to remove near-duplicate question stems                      |
+| Difficulty tagging       | Implemented | Labels questions as `easy`, `medium`, or `hard`                                        |
+| Manifest logging         | Implemented | Saves counts, runtime, config, input hashes, and error metadata                        |
+| CLI wrapper              | Implemented | Provides a cleaner local command-line entry point                                      |
+| Notebook walkthrough     |    Included | Shows the project evolution from exploratory notebook to final pipeline                |
 
-### 🔹 Difficulty Management
+---
 
-* Incorporated **Bloom’s Taxonomy–inspired labeling** into the pipeline.
-* Difficulty classification was handled via LLM tags, with a **heuristic fallback** for robustness.
-* Enabled stratification into **easy / medium / hard**, which was key for balanced outputs.
+## Setup
 
-### 🔹 Final SOTA Pipeline (`sota_mcq_pipeline.py`)
+Python 3.10+ is recommended.
 
-All of the above improvements were consolidated into a single, production-ready module with:
-
-* **Robust loaders** (PyMuPDF, pdfplumber, TXT) + normalization for math/notation.
-* **Asynchronous batching** with exponential backoff, caching (SQLite), and token budgeting.
-* **Pluggable LLM provider** with mock fallback for local testing.
-* **Strict prompts** enforcing JSON schema, evidence spans, and plausible distractors.
-* **Comprehensive validation**: schema, answerability, entailment, deduplication.
-* **Difficulty tagging + manifest logging**, including counts, runtime, and distribution of difficulty levels.
-* **Single JSON export** (`questions_sota_150.json`) with questions and full metadata.
-
-## 3. Final Architecture
-
-The final implementation (`sota_mcq_pipeline.py`) is organized into modular components, each responsible for a key part of the pipeline. Together, they form a robust end-to-end system for scalable MCQ generation .
-
-### 📂 Document Loading & Cleaning
-
-* **Supports**: PDF (via PyMuPDF, pdfplumber) and plain text.
-* **Normalization**: Fixes symbols, math notation, subscripts, and dotted leaders.
-* **Cleaning**: Removes page numbers, collapses whitespace, applies Unicode fixes.
-
-### ✂️ Segmentation & Chunking
-
-* **Transcript-aware segmentation**: Splits transcripts into small segments (≤ 25 words) to preserve coherence.
-* **PDF section splitting**: Detects numbered headings and all-caps lines to respect document structure.
-* **Sliding window chunking**: Creates overlapping windows of text (configurable size/stride) to manage LLM context.
-
-### 🤖 LLM Provider & Helpers
-
-* **Pluggable OpenAI client**: Defaults to GPT-4o-mini for generation, with mock fallback for offline runs.
-* **Async batching with retries**: Handles API rate limits, exponential backoff, and caching.
-* **SQLite cache**: Avoids redundant API calls by storing request–response pairs.
-
-### 📝 Prompt Templates
-
-* **Generation Prompt**: Produces conceptual MCQs with exactly 4 options, 1 correct answer, and an evidence span.
-* **Verification Prompt**: Ensures the correct answer is grounded in the source text (answerability check).
-* **Deduplication Prompt**: Optionally confirms near-duplicate questions via LLM.
-* **Difficulty Prompt**: Labels questions as easy / medium / hard using Bloom’s taxonomy.
-
-### ✅ Validation & Quality Control
-
-* **Schema validation**: Enforces JSON structure and ensures the correct answer matches one of the choices.
-* **Answerability check**: Discards ungrounded or unsupported questions.
-* **Entailment/contradiction checks**: Detects invalid distractors (if added).
-* **Deduplication**: Uses embeddings similarity (configurable threshold) to remove near-duplicate stems.
-
-### 🎚 Difficulty Tagging
-
-* **LLM-based**: Primary difficulty assignment using Bloom’s taxonomy.
-* **Heuristic fallback**: Keyword-based detection (e.g., “What is…” → easy, “Why…” → medium).
-
-### 📊 Orchestration & Manifest
-
-* **`run_all()`**: High-level function for Colab/Jupyter or scripts. Takes input file paths, runs the pipeline, and saves a JSON output.
-* **Manifest logging**: Records key metadata:
-
-  * Document count, chunk count, generated vs. filtered questions
-  * Difficulty distribution
-  * Runtime and cost estimates
-  * Input file hashes for reproducibility
-* **Single JSON export**: Outputs all validated questions and metadata into `questions_sota_150.json`.
-
-
-## 4. How to Run & Outputs
-
-The system can be executed either in **Colab/Jupyter notebooks** (recommended for interactive exploration) or as a **stand-alone Python module** for streamlined batch runs.
-
-### 🛠️ Installation
-
-Install the required dependencies:
+Create and activate a virtual environment:
 
 ```bash
-pip install pymupdf pdfplumber ftfy openai tiktoken numpy pandas scikit-learn
+python -m venv .venv
 ```
 
-Optional (for faster sentence segmentation):
+Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+macOS/Linux:
 
 ```bash
-pip install spacy
-python -m spacy download en_core_web_sm
+source .venv/bin/activate
 ```
 
-### 🔑 API Key Setup
-
-Set your OpenAI API key in your environment:
-
-```python
-import os
-os.environ["OPENAI_API_KEY"] = "sk-..."
-```
-
-### ▶ Run in Notebook / Colab
-
-```python
-from sota_mcq_pipeline import run_all
-
-res = run_all(
-    input_paths=["/content/notes.pdf", "/content/transcript_1.txt"],
-    out_path="/content/questions_sota.json"
-)
-
-print(res["counts"])
-print(res["difficulty_distribution"])
-```
-
-### 💻 Run as Script (CLI, quick smoke test)
-
-If executed directly, the module runs in dev-safe mode with a few chunks:
+Install dependencies:
 
 ```bash
-python sota_mcq_pipeline.py
+python -m pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt
 ```
 
-Sample output metrics:
+---
 
-```
-{
-  "counts": {
-    "documents": 6,
-    "chunks": 254,
-    "generated": 496,
-    "answerability_failed": 16,
-    "after_dedup": 468
-  },
-  "difficulty_distribution": {"easy": 94, "medium": 46, "hard": 10},
-  "runtime_seconds": 2.3
-}
+## Quick Offline Smoke Test
+
+The repository includes a small sample input and a smoke test that runs without an OpenAI API key.
+
+```bash
+python scripts/smoke_test.py
 ```
 
-### 📦 Output Files
-
-Running the pipeline produces a **single JSON file** (`questions_sota.json`) with:
-
-* **Question text**
-* **4 options** (1 correct, 3 distractors)
-* **Correct answer** (must match exactly one option)
-* **Evidence span** (≤ 25 words, justifying the correct answer)
-* **Difficulty label** (easy / medium / hard)
-* **Document source + chunk index** (for traceability)
-* **Manifest metadata**: input file hashes, counts, difficulty distribution, runtime, errors
-
-Example JSON entry:
+Expected output should look similar to:
 
 ```json
 {
-  "question": "What is the primary purpose of ...?",
-  "choices": ["A", "B", "C", "D"],
-  "correct_answer": "A",
-  "evidence_span": "short snippet from source text",
-  "difficulty": "medium",
-  "doc": "notes.pdf",
-  "chunk_index": 12
+  "counts": {
+    "documents": 1,
+    "chunks": 1,
+    "generated": 1,
+    "answerability_failed": 0,
+    "after_dedup": 1
+  },
+  "difficulty_distribution": {
+    "hard": 1
+  },
+  "runtime_seconds": 0.01,
+  "output_path": ".../outputs/smoke_questions.json"
 }
 ```
 
+This verifies that the local pipeline, mock LLM fallback, JSON export, and manifest generation are working.
 
-## 5. Metrics & Evaluation
+---
 
-The pipeline not only generates questions but also produces a **manifest** containing detailed metrics to help evaluate quality, scalability, and performance. This makes the system transparent and reproducible.
+## Run the Pipeline Locally
 
-### 📊 Metrics Captured
+Use the command-line wrapper:
 
-* **Document Count** – number of input files processed.
-* **Chunk Count** – total number of text chunks produced after segmentation.
-* **Generated Questions** – raw count of MCQs produced by the LLM before filtering.
-* **Answerability Failures** – number of questions discarded because they were ungrounded or unverifiable.
-* **After Deduplication** – final number of unique, validated questions in the JSON output.
-* **Difficulty Distribution** – easy / medium / hard counts, useful for stratification.
-* **Runtime (seconds)** – total execution time.
-* **Input Integrity** – SHA-256 hashes of input files to ensure reproducibility.
-* **Error Logs** – dictionary of errors encountered (e.g., parsing failures, schema mismatches).
+```bash
+python scripts/run_pipeline.py --input sample_inputs/sample_text.txt --output outputs/questions.json --skip-answerability
+```
 
-### 📝 Example Manifest Summary
+The `--skip-answerability` flag is useful for offline/mock testing because answerability verification is most meaningful when using a real LLM provider.
+
+Example with custom settings:
+
+```bash
+python scripts/run_pipeline.py \
+  --input sample_inputs/sample_text.txt \
+  --output outputs/questions.json \
+  --max-chunks 1 \
+  --questions-per-chunk 1 \
+  --skip-answerability
+```
+
+On Windows PowerShell:
+
+```powershell
+python scripts\run_pipeline.py --input sample_inputs\sample_text.txt --output outputs\questions.json --max-chunks 1 --questions-per-chunk 1 --skip-answerability
+```
+
+---
+
+## Run with OpenAI
+
+Set your OpenAI API key.
+
+Windows PowerShell:
+
+```powershell
+$env:OPENAI_API_KEY="your-api-key"
+```
+
+macOS/Linux:
+
+```bash
+export OPENAI_API_KEY="your-api-key"
+```
+
+Then run:
+
+```bash
+python scripts/run_pipeline.py --input path/to/document.pdf --output outputs/questions.json
+```
+
+When an API key is available, the pipeline uses the configured OpenAI models for generation, verification, embeddings, and difficulty labeling.
+
+---
+
+## Output Format
+
+The pipeline writes a JSON file containing both metadata and generated questions.
+
+Example structure:
 
 ```json
 {
   "assignment": "Scalable Question Generation System",
+  "generated_at": "2026-05-09T01:55:25.657321+00:00",
+  "models": {
+    "generation": "gpt-4o-mini",
+    "verifier": "gpt-4o-mini",
+    "embedding": "text-embedding-3-small"
+  },
+  "config": {},
+  "inputs": [
+    {
+      "path": "sample_inputs/sample_text.txt",
+      "sha256": "..."
+    }
+  ],
   "counts": {
-    "documents": 6,
-    "chunks": 254,
-    "generated": 496,
-    "answerability_failed": 16,
-    "after_dedup": 468
+    "documents": 1,
+    "chunks": 1,
+    "generated": 1,
+    "answerability_failed": 0,
+    "after_dedup": 1
   },
   "difficulty_distribution": {
-    "easy": 94,
-    "medium": 46,
-    "hard": 10
+    "hard": 1
   },
-  "runtime_seconds": 2.35
+  "runtime_seconds": 0.01,
+  "errors": {},
+  "questions": [
+    {
+      "question": "Mock: What is the purpose of the chunk?",
+      "choices": ["A", "B", "C", "D"],
+      "correct_answer": "A",
+      "evidence_span": "mock evidence from source",
+      "difficulty": "hard",
+      "doc": "sample_inputs/sample_text.txt",
+      "chunk_index": 0
+    }
+  ]
 }
 ```
 
-### ✅ Evaluation Criteria Alignment
+Each generated question includes:
 
-* **Functionality & Quality** – validated via schema enforcement, answerability checks, and difficulty labels.
-* **Scalability & Design** – handles large documents with sliding windows, async batching, and caching.
-* **Code Quality** – modular `.py` pipeline with guardrails + explanatory notebook.
-* **Communication** – metrics and manifest make results easy to interpret and verify.
+* question text,
+* four answer choices,
+* exact correct answer,
+* evidence span,
+* difficulty label,
+* source document,
+* chunk index.
 
 ---
 
-## 6. File Structure & Deliverables
+## Main Pipeline Module
 
-The submission package is organized as a single `.zip` file containing both the exploratory notebook and the final production pipeline. 
+The core implementation lives in:
 
-### 📂 Folder Layout
-
-```
-submission/
- ├── Scalable_Question_Generation_System.ipynb   # Notebook: step-by-step evolution (baseline → SOTA)
- ├── sota_mcq_pipeline.py                        # Final modular Python pipeline (production-ready)
- ├── questions_sota.json                         # Output: generated MCQs with metadata
- ├── README.md                                   # Project overview, evolution, usage instructions
- └── requirements.txt                            # (Optional) package list for reproducibility
+```text
+Final Python code/sota_mcq_pipeline.py
 ```
 
-### 📦 Contents Explained
+It includes:
 
-* **`Scalable_Question_Generation_System.ipynb`**
+* `RunConfig`: configuration object for chunking, model settings, caching, validation, and deduplication,
+* document loaders for PDF/TXT files,
+* cleaning and normalization utilities,
+* chunking functions,
+* prompt builders,
+* OpenAI/mock LLM provider,
+* SQLite prompt cache,
+* schema validation,
+* answerability verification,
+* embedding-based deduplication,
+* difficulty tagging,
+* `run_all()`: high-level orchestration function.
 
-  * Interactive Colab/Jupyter notebook.
-  * Documents the incremental design process, from simple parsing to advanced validation.
-  * Contains detailed markdown explanations, test runs, and intermediate outputs.
+The `scripts/run_pipeline.py` wrapper is provided so users can run the project without directly importing from a folder with spaces in its name.
 
-* **`sota_mcq_pipeline.py`**
+---
 
-  * Final, production-grade pipeline.
-  * Includes robust document loaders, semantic chunking, LLM integration, validation, deduplication, difficulty tagging, and manifest logging.
-  * Can be imported in notebooks or run directly as a script.
+## Existing Artifacts
 
-* **`questions_sota.json`**
+This repository also includes previous generated outputs:
 
-  * Single consolidated output file.
-  * Contains all validated MCQs, each with question, choices, correct answer, evidence span, difficulty label, and metadata.
+```text
+Intermediate Questions/
+├── questions.json
+├── questions_enhanced.json
+└── questions_sota.json
 
-* **`README.md`**
+final Questions (after QC)/
+└── questions_sota_150.json
+```
 
-  * Provides the project overview, system evolution, architecture breakdown, usage instructions, metrics, and file structure.
-  * Serves as the main guide for evaluators.
+These files represent earlier project outputs and quality-control stages. New local runs write to the ignored `outputs/` directory by default.
 
-* **`requirements.txt`** 
-  * Lists required dependencies (pymupdf, pdfplumber, ftfy, openai, tiktoken, numpy, pandas, scikit-learn, etc.).
-  * Ensures reproducibility in fresh environments.
+---
+
+## What This Project Demonstrates
+
+This project demonstrates:
+
+* LLM pipeline design for educational content generation,
+* document ingestion and preprocessing,
+* chunking strategies for long-context inputs,
+* structured JSON generation,
+* validation and quality-control checks,
+* answerability verification,
+* embedding-based deduplication,
+* difficulty labeling,
+* metadata/manifest logging,
+* local smoke testing with mock model fallback,
+* CLI wrapping for reproducible execution.
+
+---
+
+## Known Limitations
+
+* The repository includes legacy folder names from the original notebook/submission workflow, such as `Final Python code/`.
+* The offline/mock mode is intended for smoke testing, not question quality evaluation.
+* High-quality MCQ generation requires a real LLM API key and source documents with enough conceptual content.
+* Answerability verification is most useful with a real LLM provider.
+* No formal benchmark against human-authored questions is included.
+* The project does not claim benchmarked state-of-the-art performance; it is a modular, scalable MCQ generation pipeline inspired by research-style question-generation workflows.
+
+---
+
+## Suggested Commands
+
+Minimal local verification:
+
+```bash
+python scripts/smoke_test.py
+```
+
+Run on sample input:
+
+```bash
+python scripts/run_pipeline.py --input sample_inputs/sample_text.txt --output outputs/questions.json --skip-answerability
+```
+
+Run on your own document with OpenAI enabled:
+
+```bash
+python scripts/run_pipeline.py --input path/to/notes.pdf --output outputs/questions.json
+```
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
